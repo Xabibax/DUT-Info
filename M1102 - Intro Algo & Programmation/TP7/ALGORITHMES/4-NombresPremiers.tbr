@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>4-NombresPremiers</nom>
+  <date_creation>11/11/2015 09:36</date_creation>
+  <Elements>
+    <Action>
+      <Position>1607;136</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tableau
+tailleTab
+premier</PreAssertion>
+      <PostAssertion>premier</PostAssertion>
+      <Titre>determinerPremiers</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>1789.5;210.5</Position>
+          <StyleLien>0</StyleLien>
+          <Titre>pour i de
+0 à tailleTab-1</Titre>
+          <IterationFixe>1</IterationFixe>
+          <Enfants>
+            <Condition>
+              <Position>1716;293</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>tableau[i] == 2</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1649;357</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>premier[i] ← true</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Condition>
+                      <Position>1849;361</Position>
+                      <StyleLien>0</StyleLien>
+                      <estUnique>0</estUnique>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>tableau[i] % 2 == 0</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1805;426</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>premier[i] ← false</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>Sinon</Titre>
+                          <Enfants>
+                            <Iteration>
+                              <Position>1998.5;433.5</Position>
+                              <StyleLien>0</StyleLien>
+                              <Titre>pour d de
+2 à tableau[i]-1</Titre>
+                              <IterationFixe>1</IterationFixe>
+                              <Enfants>
+                                <Condition>
+                                  <Position>1915;511</Position>
+                                  <StyleLien>1</StyleLien>
+                                  <estUnique>0</estUnique>
+                                  <operationsLogiques>
+                                    <operation>
+                                      <Titre>tableau[i] % d == 0</Titre>
+                                      <Enfants>
+                                        <Action>
+                                          <Position>1728;596</Position>
+                                          <StyleLien>1</StyleLien>
+                                          <PreAssertion>?</PreAssertion>
+                                          <PostAssertion>?</PostAssertion>
+                                          <Titre>premier[i] ← false</Titre>
+                                          <DetailsVisible>1</DetailsVisible>
+                                          <DetailsVideVisible>0</DetailsVideVisible>
+                                          <Enfants/>
+                                        </Action>
+                                        <Sortie>
+                                          <Position>1938;605</Position>
+                                        </Sortie>
+                                      </Enfants>
+                                    </operation>
+                                    <operation>
+                                      <Titre>Sinon</Titre>
+                                      <Enfants>
+                                        <Action>
+                                          <Position>2023;593</Position>
+                                          <StyleLien>1</StyleLien>
+                                          <PreAssertion>?</PreAssertion>
+                                          <PostAssertion>?</PostAssertion>
+                                          <Titre>premier[i] ← true</Titre>
+                                          <DetailsVisible>1</DetailsVisible>
+                                          <DetailsVideVisible>0</DetailsVideVisible>
+                                          <Enfants/>
+                                        </Action>
+                                      </Enfants>
+                                    </operation>
+                                  </operationsLogiques>
+                                </Condition>
+                              </Enfants>
+                            </Iteration>
+                          </Enfants>
+                        </operation>
+                      </operationsLogiques>
+                    </Condition>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>1001;140</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Nombres Premiers</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>49;236</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tailleTab</PostAssertion>
+          <Titre>Saisir tailleTab</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>301;236</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>tableau
+premier
+tailleTab</PreAssertion>
+          <PostAssertion>tableau
+premier</PostAssertion>
+          <Titre>Initialiser les tableaux</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>444.5;307.5</Position>
+              <StyleLien>1</StyleLien>
+              <Titre>pour i de
+0 à tailleTab-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>348;397</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>tableau[i] ← i+1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+                <Action>
+                  <Position>473;396</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>premier[i] ← false</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Procedure>
+          <Position>701;234</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>tableau
+premier
+tailleTab</PreAssertion>
+          <PostAssertion>premier</PostAssertion>
+          <Titre>determinerPremiers(tableau, tailleTab, premier)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants/>
+        </Procedure>
+        <Action>
+          <Position>1190;239</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>premier
+tailleTab</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher les résultats</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>1332.5;313.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+0 à tailleTab-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Condition>
+                  <Position>1303;386</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>premier[i]</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1290;453</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>Afficher tableau[i]</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

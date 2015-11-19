@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>2-EchangeDeDeuxNombres</nom>
+  <date_creation>11/11/2015 09:29</date_creation>
+  <Elements>
+    <Action>
+      <Position>1500;98</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>nb1
+nb2
+nb3</PreAssertion>
+      <PostAssertion>nb1
+nb2</PostAssertion>
+      <Titre>echangerValeurs</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>1487;189</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>nb3 ← nb2</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>1580;189</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>nb2 ← nb1</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>1674;189</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>nb1 ← nb3</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>896;98</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Echange de deux nombres</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>176;183</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombre1
+nombre2</PostAssertion>
+          <Titre>Saisir nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>53;282</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nombre1</PostAssertion>
+              <Titre>Saisir nombre1</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>294;284</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nombre2</PostAssertion>
+              <Titre>Saisir nombre2</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Procedure>
+          <Position>496;187</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>nombre1
+nombre2
+nombre3</PreAssertion>
+          <PostAssertion>nombre1
+nombre2</PostAssertion>
+          <Titre>echangerValeurs(nombre1, nombre2, nombre3)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants/>
+        </Procedure>
+        <Action>
+          <Position>1022;189</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nombre1
+nombtr2</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>955;282</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Premier nombre : " nombre1</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>1179;282</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Second nombre : " nombre2</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

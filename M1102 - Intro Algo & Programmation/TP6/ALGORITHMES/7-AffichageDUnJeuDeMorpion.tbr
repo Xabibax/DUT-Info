@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>7-AffichageDUnJeuDeMorpion</nom>
+  <date_creation>11/11/2015 09:23</date_creation>
+  <Elements>
+    <Action>
+      <Position>566;121</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tableau
+tailleTab</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Affichage d'un jeu de Morpion</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>731.5;199.5</Position>
+          <StyleLien>0</StyleLien>
+          <Titre>pour x de
+0 à tailleTab-1</Titre>
+          <IterationFixe>1</IterationFixe>
+          <Enfants>
+            <Iteration>
+              <Position>731.5;296.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour y de
+0 à tailleTab-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>682;378</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Afficher tableau[x][y]</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

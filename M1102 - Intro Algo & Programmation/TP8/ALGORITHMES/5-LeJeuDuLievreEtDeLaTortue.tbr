@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>5-LeJeuDuLievreEtDeLaTortue</nom>
+  <date_creation>11/11/2015 09:44</date_creation>
+  <Elements>
+    <Action>
+      <Position>2625;58</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>nombreVictTortue
+nombreVictLievre</PreAssertion>
+      <PostAssertion>int</PostAssertion>
+      <Titre>course</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>2159;140</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>posTortue
+posLievre</PostAssertion>
+          <Titre>Initialiser les positions</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>2013;233</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>posTortue</PostAssertion>
+              <Titre>posTortue ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>2255;230</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>posLievre</PostAssertion>
+              <Titre>posLievre ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>2644;144</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>valDe
+posTortue
+posLievre</PreAssertion>
+          <PostAssertion>posTortue
+posLievre</PostAssertion>
+          <Titre>Calculer position</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>2780.5;226.5</Position>
+              <StyleLien>1</StyleLien>
+              <Titre>?</Titre>
+              <IterationFixe>0</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>2368;330</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>valDe</PreAssertion>
+                  <PostAssertion>valDe</PostAssertion>
+                  <Titre>valDe ← random(1, 7)</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>1</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+                <Condition>
+                  <Position>2737;336</Position>
+                  <StyleLien>0</StyleLien>
+                  <estUnique>0</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>valDe &lt; 6</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>2699;395</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>posTortue++</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>2836;394</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>posLievre ← 6</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+                <Condition>
+                  <Position>2995;336</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>posLievre == 6 OR posTortue == 6</Titre>
+                      <Enfants>
+                        <Sortie>
+                          <Position>3074;402</Position>
+                        </Sortie>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>3141;143</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>posLievre, posTortue
+nombreVictLievre
+nombreVictTortue</PreAssertion>
+          <PostAssertion>nombreVictLievre
+nombreVictTortue</PostAssertion>
+          <Titre>Calculer nombre victoire</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>3285;213</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>posLievre == 6</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>3231;279</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>nombreVictLievre++</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>3414;281</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>nombreVictTortue++</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>3730;72</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>min
+max</PreAssertion>
+      <PostAssertion>int</PostAssertion>
+      <Titre>random</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>3724;137</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Retourner rand() % (max-min) + min</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>819;144</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Le Jeu du Lièvre et de la Tortue</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>169;246</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nbVictoiresTortue
+nbVictoiresLievre</PostAssertion>
+          <Titre>Initialiser le nombre de victoire</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>334;344</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nbVictoiresLievre</PostAssertion>
+              <Titre>nbVictoiresLievre ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>15;344</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nbVictoiresTortue</PostAssertion>
+              <Titre>nbVictoiresTortue ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>554;247</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nbCoursesASimuler</PostAssertion>
+          <Titre>Saisir nbCoursesASimuler</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>945;243</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nbCoursesASimuler
+nbVictoiresLievre
+nbVictoiresTortue</PreAssertion>
+          <PostAssertion>nbVictoiresLievre
+nbVictoiresTortue</PostAssertion>
+          <Titre>Determiner le gagant</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>1147.5;318.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+1 à nbCoursesASimuler</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>1059;397</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>course(nbVictoiresTortue, nbVictoiresLievre)</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1491;245</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nbVictoiresTortue
+nbVictoiresLievre</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher résultat</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1361;337</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Sur " nbCoursesASimuler " courses, les resultats sont les suivants :"</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>1583;337</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Nombre de victoires de la tortue : " nbVictoiresTortue</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>1806;337</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Nombre de victoires du lievre : " nbVictoiresLievre</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP5">
+		<Project filename="RepresentationEtManipulationDeDate/RepresentationEtManipulationDeDate.cbp" />
+		<Project filename="RepresentationEtManipulationDeFractions/RepresentationEtManipulationDeFractions.cbp" />
+		<Project filename="RepresentationEtManipulationDeCartesAJouer/RepresentationEtManipulationDeCartesAJouer.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

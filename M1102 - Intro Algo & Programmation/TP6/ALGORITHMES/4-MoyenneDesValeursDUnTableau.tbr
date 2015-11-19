@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>4-MoyenneDesValeursDUnTableau</nom>
+  <date_creation>11/11/2015 09:06</date_creation>
+  <Elements>
+    <Action>
+      <Position>956;127</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Moyenne des valeurs d'un tableau</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>833;231</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>tableau
+tailleTab
+somme</PreAssertion>
+          <PostAssertion>somme</PostAssertion>
+          <Titre>Déterminer somme</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>819;333</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>somme</PostAssertion>
+              <Titre>Initialiser somme</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants>
+                <Action>
+                  <Position>832;403</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>somme ← 0</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Action>
+            <Iteration>
+              <Position>1076.5;339.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+0 à tailleTab-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>1006;426</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>somme ← somme + tableau[i]</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1296;231</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>somme
+tailleTab</PreAssertion>
+          <PostAssertion>moyenne</PostAssertion>
+          <Titre>Calculer moyenne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1353;297</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>moyenne ← somme / tailleTab</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1705;235</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>moyene</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher moyenne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1753;299</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Moyenne = " moyenne</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>327;241</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tableau</PostAssertion>
+          <Titre>Saisir tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>64;342</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>tailleTab</PostAssertion>
+              <Titre>Saisir la taille du tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>453;341</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>tableau
+tailletab</PreAssertion>
+              <PostAssertion>tableau</PostAssertion>
+              <Titre>Remplir tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>1</DetailsVideVisible>
+              <Enfants>
+                <Iteration>
+                  <Position>574.5;414.5</Position>
+                  <StyleLien>0</StyleLien>
+                  <Titre>pour i de
+0 à tailleTab-1</Titre>
+                  <IterationFixe>1</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>540;492</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Saisir tableau[i]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </Iteration>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>4-ProblemeToursDeRoue</nom>
+  <date_creation>9/11/2015 20:46</date_creation>
+  <Elements>
+    <Action>
+      <Position>608;78</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Probème Tours de Roue</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>135;177</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>distance
+rayon</PostAssertion>
+          <Titre>Saisir données</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>19;277</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>distance</PostAssertion>
+              <Titre>SaisirDIstance</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>259;278</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>rayon</PostAssertion>
+              <Titre>SaisirRayon</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>487;178</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>PI</PostAssertion>
+          <Titre>InitialiserPi</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>490;245</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>PI ← 3.14</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>719;181</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>distance
+rayon
+PI</PreAssertion>
+          <PostAssertion>tours</PostAssertion>
+          <Titre>CalculerTours</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>752;250</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>tours ← 
+(distance*1000)/(2*PI*rayon*0.01)</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1060;186</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>tours</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher "Nombres de tours a parcourir : " tours</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>1-PrixReduit</nom>
+  <date_creation>11/11/2015 09:29</date_creation>
+  <Elements>
+    <Action>
+      <Position>1535;128</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>prixInit
+reduc</PreAssertion>
+      <PostAssertion>prixFinal</PostAssertion>
+      <Titre>calculerPrixReduit</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>1576;200</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>prixFinal = prixInit - (prixInit*reduc)/100</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>987;135</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Calculer prix final</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>235;225</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>prixInitial
+reduction</PostAssertion>
+          <Titre>Saisir</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>86;318</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>prixInitial</PostAssertion>
+              <Titre>Saisir prixInitial</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>342;321</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>reduction</PostAssertion>
+              <Titre>Saisir reduction</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Procedure>
+          <Position>618;230</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>prixInitial
+reduction</PreAssertion>
+          <PostAssertion>prixFinal</PostAssertion>
+          <Titre>calculerPrixReduit (prixInitial, reduction, prixFinal)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants/>
+        </Procedure>
+        <Action>
+          <Position>1109;230</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>prixFinal</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher prixFinal</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1190;298</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>"Prix final : " prixFinal</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

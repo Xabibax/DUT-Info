@@ -1,0 +1,66 @@
+<?xml version="1.1"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>2-SaisieEtVerificationDUneNoteAvecMessageDErreur</nom>
+  <date_creation>28/10/2015 08:45</date_creation>
+  <Elements>
+    <Action>
+      <Position>452;189</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Saisie et verification d'une note avec message d'erreur</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>541.5;263.5</Position>
+          <StyleLien>1</StyleLien>
+          <Titre>?</Titre>
+          <IterationFixe>0</IterationFixe>
+          <Enfants>
+            <Action>
+              <Position>239;365</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>note</PostAssertion>
+              <Titre>Saisir note</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Condition>
+              <Position>474;370</Position>
+              <StyleLien>1</StyleLien>
+              <estUnique>1</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>note >= 0 ET note &lt;= 20</Titre>
+                  <Enfants>
+                    <Sortie>
+                      <Position>547;447</Position>
+                    </Sortie>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants/>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+            <Action>
+              <Position>717;367</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Erreur: la note saisie n'est pas compise entre 0 et 20."</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

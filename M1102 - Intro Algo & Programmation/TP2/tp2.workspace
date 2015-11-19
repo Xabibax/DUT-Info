@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP2">
+		<Project filename="ProfitonsDesSoldes/ProfitonsDesSoldes.cbp" />
+		<Project filename="EchangeDeDeuxNombres/EchangeDeDeuxNombres.cbp" />
+		<Project filename="ConversionEnSecondes/ConversionEnSecondes.cbp" />
+		<Project filename="ProblemeTorsRoue/ProblemeTorsRoue.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

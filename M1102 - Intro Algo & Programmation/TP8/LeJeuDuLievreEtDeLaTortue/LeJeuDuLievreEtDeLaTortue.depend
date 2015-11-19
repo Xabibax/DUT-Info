@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1446763066 source:/home/valentin/partage-windows/DUT-Info-S1/M1102 - Intro Algo & Programmation/TP8/LeJeuDuLievreEtDeLaTortue/main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+

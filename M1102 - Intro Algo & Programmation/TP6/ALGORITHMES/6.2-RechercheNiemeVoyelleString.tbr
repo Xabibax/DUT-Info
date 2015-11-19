@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>6.2-RechercheNiemeVoyelleString</nom>
+  <date_creation>11/11/2015 09:21</date_creation>
+  <Elements>
+    <Action>
+      <Position>1331;160</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Recherche de la dernière voyelle d'une chaîne de caractères</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>1092;270</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>tableau
+tailleTab</PreAssertion>
+          <PostAssertion>trouve
+position</PostAssertion>
+          <Titre>Rechercher la première voyelle</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>1442.5;358.5</Position>
+              <StyleLien>1</StyleLien>
+              <Titre>?</Titre>
+              <IterationFixe>0</IterationFixe>
+              <Enfants>
+                <Condition>
+                  <Position>1230;459</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>i == -1</Titre>
+                      <Enfants>
+                        <Sortie>
+                          <Position>1259;539</Position>
+                        </Sortie>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+                <Condition>
+                  <Position>1425;459</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>((tableau[i] == 'a') || (tableau[i] == 'e') || (tableau[i] == 'i') || (tableau[i] == 'o') || (tableau[i] == 'u') || (tableau[i] == 'y'))</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1336;539</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>trouve ← vrai</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                        <Action>
+                          <Position>1474;540</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>position ← i</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                        <Sortie>
+                          <Position>1607;552</Position>
+                        </Sortie>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+                <Action>
+                  <Position>1673;453</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>i ← i-1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+            <Action>
+              <Position>984;367</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>trouve
+i</PostAssertion>
+              <Titre>Initialiser la recherche</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants>
+                <Action>
+                  <Position>946;456</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>i ← tailleTab-1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+                <Action>
+                  <Position>1054;454</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>trouve ← faux</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1892;252</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>trouve
+position</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher position ou non</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>1967;328</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>trouve == vrai</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1840;392</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Position de la premiere voyelle : i=" position</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>2061;390</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Aucune voyelle trouvee.</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>420;282</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tableau</PostAssertion>
+          <Titre>Saisir tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>157;383</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>tailleTab</PostAssertion>
+              <Titre>Saisir la taille du tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>546;382</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>tableau
+tailletab</PreAssertion>
+              <PostAssertion>tableau</PostAssertion>
+              <Titre>Remplir tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>1</DetailsVideVisible>
+              <Enfants>
+                <Iteration>
+                  <Position>667.5;455.5</Position>
+                  <StyleLien>0</StyleLien>
+                  <Titre>pour caseASaisir de
+0 à tailleTab-1</Titre>
+                  <IterationFixe>1</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>602;526</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Saisir tableau[caseASaisir]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </Iteration>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

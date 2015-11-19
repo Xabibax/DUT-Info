@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>2-SigneDUnNombre</nom>
+  <date_creation>9/11/2015 20:48</date_creation>
+  <Elements>
+    <Action>
+      <Position>432;145</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Signe d'un nombre</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>62;235</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombre</PostAssertion>
+          <Titre>SaisirNombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>352;239</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nombre</PreAssertion>
+          <PostAssertion>signe</PostAssertion>
+          <Titre>DeterminerSigne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>368;314</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>nombre &lt; 0</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>350;384</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>signe ← "-"</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>nombre > 0</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>462;385</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>signe ← "+"</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>581;385</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>signe ← "nul"</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>748;234</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>signe</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>AfficherSigne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>819;301</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher
+"Signe : " signe</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

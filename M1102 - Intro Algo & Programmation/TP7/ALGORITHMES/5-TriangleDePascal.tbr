@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>5-TriangleDePascal</nom>
+  <date_creation>11/11/2015 09:37</date_creation>
+  <Elements>
+    <Action>
+      <Position>1389;99</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>trianglePascal
+nbCases</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>determinerTriangle</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>1073;187</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>trianglePascal
+nbCases</PreAssertion>
+          <PostAssertion>trianglePascal</PostAssertion>
+          <Titre>Calculer triangle</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>1228.5;272.5</Position>
+              <StyleLien>1</StyleLien>
+              <Titre>pour ligne de
+0 à nbCases-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>960;380</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>trianglePascal[ligne][ligne] ← 1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+                <Action>
+                  <Position>1168;379</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>trianglePascal[ligne][0] ← 1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+                <Iteration>
+                  <Position>1393.5;380.5</Position>
+                  <StyleLien>0</StyleLien>
+                  <Titre>pour colonne de
+1 à ligne</Titre>
+                  <IterationFixe>1</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>1306;454</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>trianglePascal[ligne][colonne] ← triangle[ligne-1][colonne] + trianglePascal[ligne-1][colonne-1]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </Iteration>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1677;210</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>trianglePascal
+nbCases</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher le triangle de Pascal</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1618;304</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Triangle de Pascal de degre " nbCases " : "</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Iteration>
+              <Position>2117.5;309.5</Position>
+              <StyleLien>1</StyleLien>
+              <Titre>pour ligne de
+0 à nbCases-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Condition>
+                  <Position>1947;399</Position>
+                  <StyleLien>0</StyleLien>
+                  <estUnique>0</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>ligne &lt;= 9</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1860;460</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>Afficher " N= " ligne</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>2029;461</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>Afficher " N=" ligne</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+                <Action>
+                  <Position>2200;393</Position>
+                  <StyleLien>2</StyleLien>
+                  <PreAssertion>trianglePascal</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Déterminer l'affichage</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants>
+                    <Iteration>
+                      <Position>2372.5;477.5</Position>
+                      <StyleLien>0</StyleLien>
+                      <Titre>pour colonne de
+0 à ligne</Titre>
+                      <IterationFixe>1</IterationFixe>
+                      <Enfants>
+                        <Condition>
+                          <Position>2269;578</Position>
+                          <StyleLien>0</StyleLien>
+                          <estUnique>0</estUnique>
+                          <operationsLogiques>
+                            <operation>
+                              <Titre>trianglePascal[ligne][colonne] &lt; 10</Titre>
+                              <Enfants>
+                                <Action>
+                                  <Position>2126;662</Position>
+                                  <StyleLien>1</StyleLien>
+                                  <PreAssertion>?</PreAssertion>
+                                  <PostAssertion>?</PostAssertion>
+                                  <Titre>Afficher "    " trianglePascal[ligne][colonne]</Titre>
+                                  <DetailsVisible>1</DetailsVisible>
+                                  <DetailsVideVisible>0</DetailsVideVisible>
+                                  <Enfants/>
+                                </Action>
+                              </Enfants>
+                            </operation>
+                            <operation>
+                              <Titre>Sinon</Titre>
+                              <Enfants>
+                                <Condition>
+                                  <Position>2447;663</Position>
+                                  <StyleLien>0</StyleLien>
+                                  <estUnique>0</estUnique>
+                                  <operationsLogiques>
+                                    <operation>
+                                      <Titre>trianglePascal[ligne][colonne] >= 10 ET trianglePascal[ligne][colonne] &lt; 100</Titre>
+                                      <Enfants>
+                                        <Action>
+                                          <Position>2364;756</Position>
+                                          <StyleLien>1</StyleLien>
+                                          <PreAssertion>?</PreAssertion>
+                                          <PostAssertion>?</PostAssertion>
+                                          <Titre>Afficher "   " trianglePascal[ligne][colonne]</Titre>
+                                          <DetailsVisible>1</DetailsVisible>
+                                          <DetailsVideVisible>0</DetailsVideVisible>
+                                          <Enfants/>
+                                        </Action>
+                                      </Enfants>
+                                    </operation>
+                                    <operation>
+                                      <Titre>Sinon</Titre>
+                                      <Enfants>
+                                        <Condition>
+                                          <Position>2663;761</Position>
+                                          <StyleLien>0</StyleLien>
+                                          <estUnique>0</estUnique>
+                                          <operationsLogiques>
+                                            <operation>
+                                              <Titre>trianglePascal[ligne][colonne] >= 100 ET trianglePascal[ligne][colonne] &lt; 1000</Titre>
+                                              <Enfants>
+                                                <Action>
+                                                  <Position>2578;848</Position>
+                                                  <StyleLien>1</StyleLien>
+                                                  <PreAssertion>?</PreAssertion>
+                                                  <PostAssertion>?</PostAssertion>
+                                                  <Titre>Afficher "  " trianglePascal[ligne][colonne]</Titre>
+                                                  <DetailsVisible>1</DetailsVisible>
+                                                  <DetailsVideVisible>0</DetailsVideVisible>
+                                                  <Enfants/>
+                                                </Action>
+                                              </Enfants>
+                                            </operation>
+                                            <operation>
+                                              <Titre>Sinon</Titre>
+                                              <Enfants>
+                                                <Action>
+                                                  <Position>2839;849</Position>
+                                                  <StyleLien>1</StyleLien>
+                                                  <PreAssertion>?</PreAssertion>
+                                                  <PostAssertion>?</PostAssertion>
+                                                  <Titre>Afficher " " trianglePascal[ligne][colonne]</Titre>
+                                                  <DetailsVisible>1</DetailsVisible>
+                                                  <DetailsVideVisible>0</DetailsVideVisible>
+                                                  <Enfants/>
+                                                </Action>
+                                              </Enfants>
+                                            </operation>
+                                          </operationsLogiques>
+                                        </Condition>
+                                      </Enfants>
+                                    </operation>
+                                  </operationsLogiques>
+                                </Condition>
+                              </Enfants>
+                            </operation>
+                          </operationsLogiques>
+                        </Condition>
+                      </Enfants>
+                    </Iteration>
+                  </Enfants>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>470;84</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Triangle de Pascal</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>187;204</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tailleTab</PostAssertion>
+          <Titre>Saisir la taille du tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>246.5;276.5</Position>
+              <StyleLien>1</StyleLien>
+              <Titre>?</Titre>
+              <IterationFixe>0</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>60;367</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>tailleTab</PostAssertion>
+                  <Titre>Saisir taileTab</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+                <Condition>
+                  <Position>318;376</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>tailleTab > 0 ET tailleTab &lt; 12</Titre>
+                      <Enfants>
+                        <Sortie>
+                          <Position>399;452</Position>
+                        </Sortie>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Procedure>
+          <Position>558;205</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>tailleTab</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>determinerTriangle(tailleTab)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Procedure>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

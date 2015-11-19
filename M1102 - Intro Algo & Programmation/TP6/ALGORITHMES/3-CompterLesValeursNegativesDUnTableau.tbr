@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>3-CompterLesValeursNegativesDUnTableau</nom>
+  <date_creation>11/11/2015 09:04</date_creation>
+  <Elements>
+    <Action>
+      <Position>856;158</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Compter les valeurs négatives d'un tableau</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>854;255</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>tableau
+tailleTab</PreAssertion>
+          <PostAssertion>compteur</PostAssertion>
+          <Titre>Déterminer le nombre de valeurs négatives du tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>1142.5;351.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+0 à tailleTab-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Condition>
+                  <Position>1102;439</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>tableau[i] &lt; 0</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1080;507</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>compteur ← compteur +1</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+              </Enfants>
+            </Iteration>
+            <Action>
+              <Position>904;371</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Initialiser compteur</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants>
+                <Action>
+                  <Position>918;443</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>compteur ← 0</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1355;254</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>compteur</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher le nombre de valeurs négatives</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1451;324</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Il y a " compteur " valeur(s) négative(s)."</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>404;256</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tableau</PostAssertion>
+          <Titre>Saisir tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>141;357</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>tailleTab</PostAssertion>
+              <Titre>Saisir la taille du tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>530;356</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>tableau
+tailletab</PreAssertion>
+              <PostAssertion>tableau</PostAssertion>
+              <Titre>Remplir tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>1</DetailsVideVisible>
+              <Enfants>
+                <Iteration>
+                  <Position>651.5;429.5</Position>
+                  <StyleLien>0</StyleLien>
+                  <Titre>pour i de
+0 à tailleTab-1</Titre>
+                  <IterationFixe>1</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>617;507</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Saisir tableau[i]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </Iteration>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

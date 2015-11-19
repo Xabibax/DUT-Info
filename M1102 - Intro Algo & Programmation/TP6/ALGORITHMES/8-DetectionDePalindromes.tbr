@@ -1,0 +1,249 @@
+<?xml version="1.1"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>8-DetectionDePalindromes</nom>
+  <date_creation>11/11/2015 11:12</date_creation>
+  <Elements>
+    <Action>
+      <Position>1150;160</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Détection de palindrome</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>801;264</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>tailleTab</PreAssertion>
+          <PostAssertion>borneFin</PostAssertion>
+          <Titre>Déterminer borneFin</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>858;341</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>tailleTab % 2 == 0</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>789;432</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>borneFin = tailleTab / 2</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>985;430</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>borneFin = (tailleTab / 2) + 0.5</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1295;267</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>tableau
+tailleTab</PreAssertion>
+          <PostAssertion>palindrome</PostAssertion>
+          <Titre>Déterminer si tableau est un palindrome ou pas</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1290;385</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>palindrome</PostAssertion>
+              <Titre>Initialiser palindrome</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants>
+                <Action>
+                  <Position>1295;453</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>palindrome ← false</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Action>
+            <Iteration>
+              <Position>1627.5;387.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+0 à borneFin-1</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Condition>
+                  <Position>1524;469</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>0</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>tableau[i] == tableau[tailleTab -1 -i]</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1459;553</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>palindrome ← true</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1620;547</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>palindrome ← false</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                        <Sortie>
+                          <Position>1767;557</Position>
+                        </Sortie>
+                      </Enfants>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1920;267</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>palindrome</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher palindrome</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>2010;346</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>palindrome</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1887;430</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Le mot saisi est un palindrome."</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>2124;431</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Le mot saisi n'est pas un palindrome."</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>296;260</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tableau</PostAssertion>
+          <Titre>Saisir tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>33;361</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>tailleTab</PostAssertion>
+              <Titre>Saisir la taille du tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>422;360</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>tableau
+tailletab</PreAssertion>
+              <PostAssertion>tableau</PostAssertion>
+              <Titre>Remplir tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>1</DetailsVideVisible>
+              <Enfants>
+                <Iteration>
+                  <Position>543.5;433.5</Position>
+                  <StyleLien>0</StyleLien>
+                  <Titre>pour i de
+0 à tailleTab-1</Titre>
+                  <IterationFixe>1</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>510;505</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Saisir tableau[i]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </Iteration>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

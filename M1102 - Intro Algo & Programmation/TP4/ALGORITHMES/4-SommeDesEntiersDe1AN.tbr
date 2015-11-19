@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>4-SommeDesEntiersDe1AN</nom>
+  <date_creation>9/11/2015 20:55</date_creation>
+  <Elements>
+    <Action>
+      <Position>394;142</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Somme des Entiers de 1 à N</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>55;234</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombre</PostAssertion>
+          <Titre>Saisir nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>334;234</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nombre</PreAssertion>
+          <PostAssertion>somme</PostAssertion>
+          <Titre>Calculer la somme</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>460.5;313.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+1 à nombre</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>414;395</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>somme ← somme + 1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>736;235</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>somme</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher "La somme des entiers de 1 a " nombre " est egale a " somme  "."</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

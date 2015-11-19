@@ -1,0 +1,59 @@
+<?xml version="1.1"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>5-LesCinqNombresSuivants</nom>
+  <date_creation>28/10/2015 08:49</date_creation>
+  <Elements>
+    <Action>
+      <Position>249;155</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Les 5 nombres suivants</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>76;246</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombre</PostAssertion>
+          <Titre>Saisir nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>357;246</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nombre</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher les 5 nombres suivants</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Iteration>
+              <Position>519.5;326.5</Position>
+              <StyleLien>0</StyleLien>
+              <Titre>pour i de
+nombre+1 à nombre+6</Titre>
+              <IterationFixe>1</IterationFixe>
+              <Enfants>
+                <Action>
+                  <Position>452;408</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>i</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Afficher i</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </Iteration>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    unsigned int tailleTab;
+
+    cout << "Saisir la taille du tableau : ";
+    cin >> tailleTab;
+
+    int tableau[tailleTab];
+    int i;
+
+    for (i=0; i<=tailleTab-1; i++)
+    {
+        cout << "Saisissez la valeur de t[" << i << "] : ";
+        cin >> tableau[i];
+    }
+
+    int compteur = 0;
+
+    for (i=0; i <= tailleTab-1; i++)
+    {
+        if (tableau[i] < 0)
+        {
+            compteur++;
+        }
+    }
+
+    cout << endl << "Il y a " << compteur << " valeur(s) negative(s)." << endl;
+    return 0;
+}

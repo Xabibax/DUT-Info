@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>1-ConversionEurosVersDollars</nom>
+  <date_creation>9/11/2015 20:40</date_creation>
+  <Elements>
+    <Action>
+      <Position>774;173</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>ConversionEurosVersDollars</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>66;276</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>sommeEuros</PostAssertion>
+          <Titre>SaisirSommeEuros</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>404;274</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>tauxEurosVersDollars</PostAssertion>
+          <Titre>Initialiser tauxEurosVersDollars</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>402;335</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>tauxEurosVersDollars ← 1.3383</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1411;268</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>sommeDollars</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>AfficherSommeDollars</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>825;271</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>sommeEuros
+tauxEurosVersDollars</PreAssertion>
+          <PostAssertion>sommeDollars</PostAssertion>
+          <Titre>CalculerSommeDollars</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>956;333</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>sommeDollars ← sommeEuros * tauxEurosVersDollars</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

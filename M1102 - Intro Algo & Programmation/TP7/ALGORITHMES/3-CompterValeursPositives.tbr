@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>3-CompterValeursPositives</nom>
+  <date_creation>11/11/2015 09:31</date_creation>
+  <Elements>
+    <Action>
+      <Position>1229;135</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tab
+TAILLETAB
+compteur</PreAssertion>
+      <PostAssertion>compteur</PostAssertion>
+      <Titre>compterValeursPositives</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>1406.5;209.5</Position>
+          <StyleLien>0</StyleLien>
+          <Titre>pour i de
+0 à TAILLETAB-1</Titre>
+          <IterationFixe>1</IterationFixe>
+          <Enfants>
+            <Condition>
+              <Position>1376;288</Position>
+              <StyleLien>1</StyleLien>
+              <estUnique>1</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>tab[i] > 0</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1377;358</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>compteur ++</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants/>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>636;135</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tableau
+TAILLETAB</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Compter les valeurs positives</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Procedure>
+          <Position>365;236</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>tableau
+TAILLETAB
+compteur</PreAssertion>
+          <PostAssertion>compteur</PostAssertion>
+          <Titre>compterValeursPositives(tableau, TAILLETAB, compteur)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants/>
+        </Procedure>
+        <Action>
+          <Position>59;235</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>compteur</PostAssertion>
+          <Titre>Initialiser le compteur</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>81;303</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>compteur ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>886;235</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>compteur</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher compteur</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>935;306</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Il y a " compteur " valeur(s) positive(s)."</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

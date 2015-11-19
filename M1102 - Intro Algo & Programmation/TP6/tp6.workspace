@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP6">
+		<Project filename="SaisirUnTableau/SaisirUnTableau.cbp" />
+		<Project filename="IncrementerDesValeursNegativesDUnTableau/IncrementerDesValeursNegativesDUnTableau.cbp" />
+		<Project filename="CompterLesValeursNegativesDUnTableau/CompterLesValeursNegativesDUnTableau.cbp" />
+		<Project filename="MoyenneDesValeursDUnTableau/MoyenneDesValeursDUnTableau.cbp" />
+		<Project filename="InversionTableau/InversionTableau.cbp" />
+		<Project filename="Recherche1ereVoyelleString/Recherche1ereVoyelleString.cbp" />
+		<Project filename="RechercheNiemeVoyelleString/RechercheNiemeVoyelleString.cbp" />
+		<Project filename="RechercheAllVoyellesString/RechercheAllVoyellesString.cbp" />
+		<Project filename="AffichageDUnJeuDeMorpion/AffichageDUnJeuDeMorpion.cbp" />
+		<Project filename="DetectionDePalindromes/DetectionDePalindromes.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

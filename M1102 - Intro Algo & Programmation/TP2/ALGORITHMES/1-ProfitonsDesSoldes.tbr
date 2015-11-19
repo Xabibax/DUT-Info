@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>1-ProfitonsDesSoldes</nom>
+  <date_creation>9/11/2015 20:41</date_creation>
+  <Elements>
+    <Action>
+      <Position>634;68</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Profitons des Soldes</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>216;158</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>prixInitial
+reduction</PostAssertion>
+          <Titre>Saisir</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>21;251</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>prixInitial</PostAssertion>
+              <Titre>SaisirPrixInitial</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>270;251</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>reduction</PostAssertion>
+              <Titre>SaisirReduction</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>578;161</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>prixInitial
+reduction</PreAssertion>
+          <PostAssertion>prixAPayer</PostAssertion>
+          <Titre>CalculerPrixAPayer</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>643;227</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>prixAPayer  ←  
+prixInitial*(100-reduction) / 100</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1033;160</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>prixAPayer</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>AfficherPrixAPayer</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

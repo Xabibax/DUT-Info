@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>1-RepresentationEtManipulationDeDate</nom>
+  <date_creation>9/11/2015 20:57</date_creation>
+  <Elements>
+    <Action>
+      <Position>596;78</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>date1
+date2
+egal</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Représentation et Manipulation de Date</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>140;171</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>date1
+date2</PreAssertion>
+          <PostAssertion>datePlusAncienne</PostAssertion>
+          <Titre>Determiner datePlusAncienne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>101;247</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>date1.annee &lt; date2.annee</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>-7;313</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>datePlusAncienne ← date1</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>date2.annee &lt; date1.annee</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>179;314</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>datePlusAncienne ← date2</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Condition>
+                      <Position>389;320</Position>
+                      <StyleLien>0</StyleLien>
+                      <estUnique>0</estUnique>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>date1.mois &lt; date2.mois</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>317;399</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>datePlusAncienne ← date1</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>date2.mois &lt; date1.mois</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>505;400</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>datePlusAncienne ← date2</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>Sinon</Titre>
+                          <Enfants>
+                            <Condition>
+                              <Position>711;403</Position>
+                              <StyleLien>0</StyleLien>
+                              <estUnique>0</estUnique>
+                              <operationsLogiques>
+                                <operation>
+                                  <Titre>date1.jour &lt; date2.jour</Titre>
+                                  <Enfants>
+                                    <Action>
+                                      <Position>659;475</Position>
+                                      <StyleLien>1</StyleLien>
+                                      <PreAssertion>?</PreAssertion>
+                                      <PostAssertion>?</PostAssertion>
+                                      <Titre>datePlusAncienne ← date1</Titre>
+                                      <DetailsVisible>1</DetailsVisible>
+                                      <DetailsVideVisible>0</DetailsVideVisible>
+                                      <Enfants/>
+                                    </Action>
+                                  </Enfants>
+                                </operation>
+                                <operation>
+                                  <Titre>date2.jour &lt; date1.jour</Titre>
+                                  <Enfants>
+                                    <Action>
+                                      <Position>837;476</Position>
+                                      <StyleLien>1</StyleLien>
+                                      <PreAssertion>?</PreAssertion>
+                                      <PostAssertion>?</PostAssertion>
+                                      <Titre>datePlusAncienne ← date2</Titre>
+                                      <DetailsVisible>1</DetailsVisible>
+                                      <DetailsVideVisible>0</DetailsVideVisible>
+                                      <Enfants/>
+                                    </Action>
+                                  </Enfants>
+                                </operation>
+                                <operation>
+                                  <Titre>Sinon</Titre>
+                                  <Enfants>
+                                    <Action>
+                                      <Position>1012;475</Position>
+                                      <StyleLien>1</StyleLien>
+                                      <PreAssertion>?</PreAssertion>
+                                      <PostAssertion>?</PostAssertion>
+                                      <Titre>egal ← vrai</Titre>
+                                      <DetailsVisible>1</DetailsVisible>
+                                      <DetailsVideVisible>0</DetailsVideVisible>
+                                      <Enfants/>
+                                    </Action>
+                                  </Enfants>
+                                </operation>
+                              </operationsLogiques>
+                            </Condition>
+                          </Enfants>
+                        </operation>
+                      </operationsLogiques>
+                    </Condition>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1043;165</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>datePlusAncienne
+egal</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Determiner l'affichage</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>1170;243</Position>
+              <StyleLien>1</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>egal == vrai</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1040;331</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Dates egales."</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1200;331</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Date la plus ancienne : "</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>1398;331</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>datePlusAncienne.jour</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>1536;331</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>"/"</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>1592;331</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>datePlusAncienne.mois</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>1790;330</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>datePlusAncienne.jour</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>1734;331</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>"/"</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

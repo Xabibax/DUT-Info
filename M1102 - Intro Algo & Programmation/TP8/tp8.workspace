@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP8">
+		<Project filename="ValeurAbsolue/ValeurAbsolue.cbp" />
+		<Project filename="PariteDUnNombre/PariteDUnNombre.cbp" />
+		<Project filename="MoyenneDesValeursDUnTableauDeNombre/MoyenneDesValeursDUnTableauDeNombre.cbp" />
+		<Project filename="PgdcParLaMethodeDEuclide/PgdcParLaMethodeDEuclide.cbp" />
+		<Project filename="LeJeuDuLievreEtDeLaTortue/LeJeuDuLievreEtDeLaTortue.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

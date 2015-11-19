@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>4-PgcdParLaMethodeDEuclide</nom>
+  <date_creation>11/11/2015 09:41</date_creation>
+  <Elements>
+    <Action>
+      <Position>987;155</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>nombre1
+nombre2</PreAssertion>
+      <PostAssertion>int</PostAssertion>
+      <Titre>pgcd</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>811;279</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombre3</PostAssertion>
+          <Titre>Initialiser la variable intermédiaire</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>865;350</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>nombre3 ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Condition>
+          <Position>1204;287</Position>
+          <StyleLien>1</StyleLien>
+          <estUnique>0</estUnique>
+          <operationsLogiques>
+            <operation>
+              <Titre>nombre1 == 0 OU
+nombre2 == 0</Titre>
+              <Enfants>
+                <Action>
+                  <Position>1160;375</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Retourner 0</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </operation>
+            <operation>
+              <Titre>Sinon</Titre>
+              <Enfants>
+                <Condition>
+                  <Position>1293;396</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>nombre1 &lt; 0</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1282;461</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>nombre1 = -nombre1</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+                <Condition>
+                  <Position>1489;395</Position>
+                  <StyleLien>1</StyleLien>
+                  <estUnique>1</estUnique>
+                  <operationsLogiques>
+                    <operation>
+                      <Titre>nombre2 &lt; 0</Titre>
+                      <Enfants>
+                        <Action>
+                          <Position>1478;465</Position>
+                          <StyleLien>1</StyleLien>
+                          <PreAssertion>?</PreAssertion>
+                          <PostAssertion>?</PostAssertion>
+                          <Titre>nombre2 = -nombre2</Titre>
+                          <DetailsVisible>1</DetailsVisible>
+                          <DetailsVideVisible>0</DetailsVideVisible>
+                          <Enfants/>
+                        </Action>
+                      </Enfants>
+                    </operation>
+                    <operation>
+                      <Titre>Sinon</Titre>
+                      <Enfants/>
+                    </operation>
+                  </operationsLogiques>
+                </Condition>
+                <Iteration>
+                  <Position>1900.5;390.5</Position>
+                  <StyleLien>1</StyleLien>
+                  <Titre>?</Titre>
+                  <IterationFixe>0</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>1678;485</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>nombre3 ← nombre2</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>1826;484</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>nombre2 ← nombre1 % nombre3</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Action>
+                      <Position>2046;485</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>nombre1 ← nombre3</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                    <Condition>
+                      <Position>2241;492</Position>
+                      <StyleLien>1</StyleLien>
+                      <estUnique>1</estUnique>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>nombre2 == 0</Titre>
+                          <Enfants>
+                            <Sortie>
+                              <Position>2290;559</Position>
+                            </Sortie>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>Sinon</Titre>
+                          <Enfants/>
+                        </operation>
+                      </operationsLogiques>
+                    </Condition>
+                  </Enfants>
+                </Iteration>
+                <Action>
+                  <Position>2411;384</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Retourner nombre1</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </operation>
+          </operationsLogiques>
+        </Condition>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>337;175</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>PGCD par la méthode d'Euclide</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>195;271</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nb1
+nb2</PostAssertion>
+          <Titre>Saisir nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>96;356</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nb1</PostAssertion>
+              <Titre>Saisir nb1</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>262;357</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nb2</PostAssertion>
+              <Titre>Saisir nb2</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>456;267</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>nb1
+nb2</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher "Le PGCD de nb1 et nb2 est egal a " pgcd(nb1, nb2)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

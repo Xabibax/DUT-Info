@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>3-MoyenneDesValeursDUnTableauDeNombre</nom>
+  <date_creation>11/11/2015 09:40</date_creation>
+  <Elements>
+    <Action>
+      <Position>1346;116</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tab
+tailleTab</PreAssertion>
+      <PostAssertion>double</PostAssertion>
+      <Titre>moyenneTableau</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>997;218</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>somme</PostAssertion>
+          <Titre>Initialiser somme</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1011;292</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>somme ← 0</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Iteration>
+          <Position>1328.5;222.5</Position>
+          <StyleLien>0</StyleLien>
+          <Titre>pour i de
+0 à tailleTab-1</Titre>
+          <IterationFixe>1</IterationFixe>
+          <Enfants>
+            <Action>
+              <Position>1264;292</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>somme ← somme + tab[i]</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Iteration>
+        <Action>
+          <Position>1569;218</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>somme
+tailleTab</PreAssertion>
+          <PostAssertion>moyenne</PostAssertion>
+          <Titre>Calculer moyenne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1628;293</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>moyenne ← somme / tailleTab</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1954;222</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Retourner moyenne</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>429;124</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Moyenne des valeurs d'un tableau de nombre</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>212;223</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>notes
+nbCases</PostAssertion>
+          <Titre>Saisir tableau</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>33;314</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nbCases</PostAssertion>
+              <Titre>Saisir nbCases</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>289;315</Position>
+              <StyleLien>2</StyleLien>
+              <PreAssertion>nbCases</PreAssertion>
+              <PostAssertion>notes</PostAssertion>
+              <Titre>Remplir tableau</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>1</DetailsVideVisible>
+              <Enfants>
+                <Iteration>
+                  <Position>413.5;391.5</Position>
+                  <StyleLien>0</StyleLien>
+                  <Titre>pour i de
+0 à nbCases-1</Titre>
+                  <IterationFixe>1</IterationFixe>
+                  <Enfants>
+                    <Action>
+                      <Position>382;466</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Saisir notes[i]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </Iteration>
+              </Enfants>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>599;229</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>notes
+nbCases</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher "La moyenne du tableau notes est egale a " moyenneTableau(notes, nbCases)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

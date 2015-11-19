@@ -1,0 +1,9 @@
+INSERT INTO equipe
+VALUES (1, 'Equipe1', 80000, 25000);
+INSERT INTO equipe
+VALUES (2, 'Equipe2', 45000, 37500);
+INSERT INTO equipe
+VALUES (3, 'Equipe3', 65000, 50000);
+INSERT INTO equipe
+VALUES (4, 'Equipe4', 75000, 80000);
+

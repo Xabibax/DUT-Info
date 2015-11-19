@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>2-PariteDUnNombre</nom>
+  <date_creation>11/11/2015 09:38</date_creation>
+  <Elements>
+    <Action>
+      <Position>963;182</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>nombre</PreAssertion>
+      <PostAssertion>string</PostAssertion>
+      <Titre>nombrePair</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Condition>
+          <Position>994;254</Position>
+          <StyleLien>0</StyleLien>
+          <estUnique>0</estUnique>
+          <operationsLogiques>
+            <operation>
+              <Titre>nombre % 2 == 0</Titre>
+              <Enfants>
+                <Action>
+                  <Position>939;328</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Retourner "nombre pair"</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </operation>
+            <operation>
+              <Titre>Sinon</Titre>
+              <Enfants>
+                <Action>
+                  <Position>1129;327</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Retourner "nombre impair"</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </operation>
+          </operationsLogiques>
+        </Condition>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>381;178</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Parité d'un nombre</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>138;273</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nomreASaisir</PostAssertion>
+          <Titre>Saisir nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>421;275</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>nombreASaisir</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher nombreASaisir " est un " nombrePair(nombreASaisir)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

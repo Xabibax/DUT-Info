@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>1-SaisieEtVerificationDUneNote</nom>
+  <date_creation>9/11/2015 20:54</date_creation>
+  <Elements>
+    <Action>
+      <Position>424;56</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Saisie et vérification d'une note</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>499.5;130.5</Position>
+          <StyleLien>1</StyleLien>
+          <Titre>?</Titre>
+          <IterationFixe>0</IterationFixe>
+          <Enfants>
+            <Action>
+              <Position>321;243</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>note</PostAssertion>
+              <Titre>Saisir note</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Condition>
+              <Position>557;248</Position>
+              <StyleLien>1</StyleLien>
+              <estUnique>1</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>note >= 0 ET note &lt;= 20</Titre>
+                  <Enfants>
+                    <Sortie>
+                      <Position>618;339</Position>
+                    </Sortie>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants/>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

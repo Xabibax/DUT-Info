@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>5-MaxDeTroisNombres</nom>
+  <date_creation>9/11/2015 20:52</date_creation>
+  <Elements>
+    <Action>
+      <Position>825;113</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>egal</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Maximum de trois nombres</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>216;215</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombre1
+nombre2
+nombre3</PostAssertion>
+          <Titre>Saisir les nombres</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>241;298</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nombre2</PostAssertion>
+              <Titre>nombre2</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>30;294</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nombre1</PostAssertion>
+              <Titre>nombre1</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+            <Action>
+              <Position>453;300</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>nombre3</PostAssertion>
+              <Titre>nombre3</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1756;224</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher le maximum</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>1757;294</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>egal</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1610;354</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Les trois nombres sont egaux."</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>1834;354</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Le maximum est " maximum</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>851;213</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>nombre1
+nombre2
+nombre3</PreAssertion>
+          <PostAssertion>maximum
+egal</PostAssertion>
+          <Titre>Calculer</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>806;283</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>nombre1 &lt; nombre2</Titre>
+                  <Enfants>
+                    <Condition>
+                      <Position>654;360</Position>
+                      <StyleLien>0</StyleLien>
+                      <estUnique>0</estUnique>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>nombre3 &lt; nombre2</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>589;422</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>maximum ← nombre2</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>Sinon</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>726;421</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>maximum ← nombre3</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                      </operationsLogiques>
+                    </Condition>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>nombre2 &lt; nombre1</Titre>
+                  <Enfants>
+                    <Condition>
+                      <Position>906;361</Position>
+                      <StyleLien>0</StyleLien>
+                      <estUnique>0</estUnique>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>nombre3 &lt; nombre1</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>863;419</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>maximum ← nombre1</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>Sinon</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1004;420</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>maximum ← nombre3</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                      </operationsLogiques>
+                    </Condition>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <Condition>
+                      <Position>1146;360</Position>
+                      <StyleLien>0</StyleLien>
+                      <estUnique>0</estUnique>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>nombre3 &lt; nombre1</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1141;419</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>maximum ← nombre1</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>nombre1 &lt; nombre3</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1290;419</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>maximum ← nombre3</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>Sinon</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1431;419</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>egal ← vrai</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                      </operationsLogiques>
+                    </Condition>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

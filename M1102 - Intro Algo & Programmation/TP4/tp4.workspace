@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP4">
+		<Project filename="SaisieEtVerificationDUneNote/SaisieEtVerificationDUneNote.cbp" />
+		<Project filename="SaisieEtVerificationDUneNoteAvecMessageDErreur/SaisieEtVerificationDUneNoteAvecMessageDErreur.cbp" />
+		<Project filename="RechercheDesDiviseurs/RechercheDesDiviseurs.cbp" />
+		<Project filename="SommeDesEntiersDe1AN/SommeDesEntiersDe1AN.cbp" />
+		<Project filename="LesCinqNombresSuivants/LesCinqNombresSuivants.cbp" />
+		<Project filename="DivisionEntiere/DivisionEntiere.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>3-NumeroDeGroupeDeTD</nom>
+  <date_creation>9/11/2015 20:49</date_creation>
+  <Elements>
+    <Action>
+      <Position>570;97</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Numero de Groupe de TD</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>20;189</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>numeroGroupeTP</PostAssertion>
+          <Titre>Saisir numeroGroupeTP</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>403;189</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>numeroGroupeTP</PreAssertion>
+          <PostAssertion>numeroGroupeTD</PostAssertion>
+          <Titre>Detecter si le groupe de TP saisi est valide ou non</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>1</DetailsVideVisible>
+          <Enfants>
+            <Condition>
+              <Position>538;265</Position>
+              <StyleLien>0</StyleLien>
+              <estUnique>0</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>numeroGroupeTP &lt;= 0
+OU
+numeroGroupeTP > 6</Titre>
+                  <Enfants>
+                    <Action>
+                      <Position>349;389</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>Afficher "Erreur: le numero de TP saisi est invalide"</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Action>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants>
+                    <ConditionMultiple>
+                      <Position>731;399</Position>
+                      <StyleLien>0</StyleLien>
+                      <Titre>numeroGroupeTP</Titre>
+                      <operationsLogiques>
+                        <operation>
+                          <Titre>1</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>510;475</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>numeroGroupeTD ← 1</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>2</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>554;546</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>numeroGroupeTD ← 2</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>3</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>703;546</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>numeroGroupeTD ← 3</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>4</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>854;545</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>numeroGroupeTD ← 4</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>5</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1006;544</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>numeroGroupeTD ← 5</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                        <operation>
+                          <Titre>6</Titre>
+                          <Enfants>
+                            <Action>
+                              <Position>1039;469</Position>
+                              <StyleLien>1</StyleLien>
+                              <PreAssertion>?</PreAssertion>
+                              <PostAssertion>?</PostAssertion>
+                              <Titre>numeroGroupeTD ← 6</Titre>
+                              <DetailsVisible>1</DetailsVisible>
+                              <DetailsVideVisible>0</DetailsVideVisible>
+                              <Enfants/>
+                            </Action>
+                          </Enfants>
+                        </operation>
+                      </operationsLogiques>
+                    </ConditionMultiple>
+                  </Enfants>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Action>
+        <Action>
+          <Position>1022;189</Position>
+          <StyleLien>2</StyleLien>
+          <PreAssertion>numeroGroupeTD</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher le numero de TD</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants>
+            <Action>
+              <Position>1136;261</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>Afficher "Vous etes dans le TD " numeroGroupeTD</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Action>
+          </Enfants>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

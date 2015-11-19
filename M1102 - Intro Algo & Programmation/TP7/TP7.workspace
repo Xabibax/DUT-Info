@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP7">
+		<Project filename="PrixReduit/PrixReduit.cbp" />
+		<Project filename="EchangeDeDeuxNombres/EchangeDeDeuxNombres.cbp" />
+		<Project filename="CompterValeursPositives/CompterValeursPositives.cbp" />
+		<Project filename="NombresPremiers/NombresPremiers.cbp" />
+		<Project filename="TriangleDePascal/TriangleDePascal.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

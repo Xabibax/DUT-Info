@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1447929337 source:z:\dut-info-s1\m1103 - structures de données et algo\tp1\testrecherchesequentielleplus\main.cpp
+	<iostream>
+	"recherchePremiereOcc.h"
+
+1447929244 z:\dut-info-s1\m1103 - structures de données et algo\tp1\testrecherchesequentielleplus\recherchepremiereocc.h
+
+1447929243 source:z:\dut-info-s1\m1103 - structures de données et algo\tp1\testrecherchesequentielleplus\recherchepremiereocc.cpp
+	"recherchePremiereOcc.h"
+

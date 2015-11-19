@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>1-ValeurAbsolue</nom>
+  <date_creation>11/11/2015 09:38</date_creation>
+  <Elements>
+    <Action>
+      <Position>896;152</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>nombre</PreAssertion>
+      <PostAssertion>double</PostAssertion>
+      <Titre>valeurAbsolue</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Condition>
+          <Position>947;229</Position>
+          <StyleLien>0</StyleLien>
+          <estUnique>0</estUnique>
+          <operationsLogiques>
+            <operation>
+              <Titre>nombre >= 0</Titre>
+              <Enfants>
+                <Action>
+                  <Position>898;303</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Retourner nombre</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </operation>
+            <operation>
+              <Titre>Sinon</Titre>
+              <Enfants>
+                <Action>
+                  <Position>1078;304</Position>
+                  <StyleLien>1</StyleLien>
+                  <PreAssertion>?</PreAssertion>
+                  <PostAssertion>?</PostAssertion>
+                  <Titre>Retourner -nombre</Titre>
+                  <DetailsVisible>1</DetailsVisible>
+                  <DetailsVideVisible>0</DetailsVideVisible>
+                  <Enfants/>
+                </Action>
+              </Enfants>
+            </operation>
+          </operationsLogiques>
+        </Condition>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>307;155</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>Valeur absolue</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>49;255</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>nombreASaisir</PostAssertion>
+          <Titre>Saisir nombre</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>360;258</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>nombreASaisir</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>Afficher "La valeur absolue de " nombreASaisir " est : " valeurAbsolue(nombreASaisir)</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>
