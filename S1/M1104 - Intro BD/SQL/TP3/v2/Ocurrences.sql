@@ -13,6 +13,9 @@ INSERT INTO JOUEUR VALUES(7, 'DIABATE', 'Cheik', 'Francais', 14, 3);
 INSERT INTO JOUEUR VALUES(8, 'GOURKUFF', 'Yoann', 'Francais', 10, 3);
 INSERT INTO JOUEUR VALUES(9, 'RAMOS', 'Sergio', 'Espagnol', 7, 4);
 INSERT INTO JOUEUR VALUES(10, 'TOULALAN', 'Jeremy', 'Francais', 12, 1);
+INSERT INTO JOUEUR VALUES(11, 'OBANDO', 'Gustavo', 'Costa Rica', 5, 2);
+INSERT INTO JOUEUR VALUES(12, 'OBILO', 'Felix', 'Etats-Unis', 4, 3);
+INSERT INTO JOUEUR VALUES(13, 'GARRO', 'Anthony', 'Trinite-et-Tobago', 7, 2);
 
 INSERT INTO COMPETITION VALUES(1, 'Ligue des Champions', 'Ligue');
 INSERT INTO COMPETITION VALUES(2, 'Coupe de France', 'Coupe');
