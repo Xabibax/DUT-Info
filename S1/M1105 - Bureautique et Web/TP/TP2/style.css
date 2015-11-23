@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#00FFFF;
+	color:black;
+}
+
+p
+{
+	background-color:#FFFFFF;
+	/*min-width: 400px;*/	
+	width: 350px;
+	margin: auto;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 20px;	
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0px;
+}
