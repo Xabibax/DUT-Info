@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{	
+	background-image: url("images/linux.jpg");
+	color:#00FFFF;
+}
+
+h1
+{
+	color: red;
+	font-style: bold;
+	font-family: "Times New Roman";
+}
+
+h2
+{
+	color: green;
+	font-style: bold;
+	font-family: "Times New Roman";
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0px;
+}
+
+a
+{
+	color: white;
+}
+
+a:hover
+{
+	color: maroon;
+}
+
+a:active
+{
+	color: yellow;
+}
+
+a:focus
+{
+	color: geen;
+}
+
+a:visited
+{
+	color: gray;
+}
+
+#mot1
+{	
+	text-decoration: underline;
+}
+
+#mot3
+{
+	text-decoration: blink;
+}
+
+#mot2
+{
+	text-decoration: line-through;
+}
+
+.imageflottante
+{
+	float: right;
+}
