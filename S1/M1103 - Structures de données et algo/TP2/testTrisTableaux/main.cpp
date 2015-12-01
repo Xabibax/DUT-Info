@@ -15,11 +15,26 @@ int main()
 
 
     // TRAITEMENTS
-    triBulle(monTab, TAILLE);
-
+    cout << "AVANT : ";
     for (int i=0; i<TAILLE; i++)
     {
-        cout << "tab[" << i << "] = " << monTab[i] << endl;
+        cout << monTab[i] << " ";
+    }
+
+    triBulle(monTab, TAILLE);
+
+    cout << endl << "APRES Tri de la bulle : ";
+    for (int i=0; i<TAILLE; i++)
+    {
+        cout << monTab[i] << " ";
+    }
+
+    triParSelectionDePlace(monTab, TAILLE);
+
+    cout << endl << "APRES Tri par selection de place : ";
+    for (int i=0; i<TAILLE; i++)
+    {
+        cout << monTab[i] << " ";
     }
 
     return 0;

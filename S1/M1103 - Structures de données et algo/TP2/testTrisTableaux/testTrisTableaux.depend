@@ -88,3 +88,32 @@
 	"triParSelectionDePlace.h"
 	"echanger.h"
 
+1448537280 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\tridelabulle.cpp
+	"triDeLaBulle.h"
+	"echanger.h"
+	<iostream>
+
+1448533696 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\tridelabulle.h
+
+1448534176 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\echanger.h
+
+1448533790 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparinsertion.cpp
+	"triParInsertion.h"
+
+1448533722 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparinsertion.h
+
+1448534433 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparselectiondeplace.cpp
+	"triParSelectionDePlace.h"
+	"echanger.h"
+
+1448533723 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparselectiondeplace.h
+
+1448545313 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\echanger.cpp
+	"echanger.h"
+
+1448545622 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\main.cpp
+	<iostream>
+	"triDeLaBulle.h"
+	"triParSelectionDePlace.h"
+	"triParInsertion.h"
+
