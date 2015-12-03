@@ -28,7 +28,7 @@ int main()
     {
         cout << monTab[i] << " ";
     }
-*/
+
     triParSelectionDePlace(monTab, TAILLE);
 
     cout << endl << "APRES Tri par selection de place : ";
@@ -36,7 +36,7 @@ int main()
     {
         cout << monTab[i] << " ";
     }
-/*
+*/
     triParInsertion(monTab, TAILLE);
 
     cout << endl << "APRES Tri par insertion : ";
@@ -44,6 +44,6 @@ int main()
     {
         cout << monTab[i] << " ";
     }
-*/
+
     return 0;
 }
