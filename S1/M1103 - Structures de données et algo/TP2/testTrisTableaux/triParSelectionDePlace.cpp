@@ -1,9 +1,6 @@
 #include "triParSelectionDePlace.h"
 #include "echanger.h"
 
-#include <iostream>
-using namespace std;
-
 void triParSelectionDePlace(int tab[], unsigned short int nbCases)
 {
     unsigned short int posMax = 0;
