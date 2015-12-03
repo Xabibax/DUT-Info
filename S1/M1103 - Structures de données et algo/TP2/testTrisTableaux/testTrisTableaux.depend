@@ -102,17 +102,17 @@
 
 1448533722 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparinsertion.h
 
-1449004653 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparselectiondeplace.cpp
+1449166017 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparselectiondeplace.cpp
 	"triParSelectionDePlace.h"
 	"echanger.h"
 	<iostream>
 
-1448533723 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparselectiondeplace.h
+1449149045 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\triparselectiondeplace.h
 
 1449006273 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\echanger.cpp
 	"echanger.h"
 
-1449006665 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\main.cpp
+1449152971 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103 - structures de données et algo\tp2\testtristableaux\main.cpp
 	<iostream>
 	"triDeLaBulle.h"
 	"triParSelectionDePlace.h"

@@ -6,29 +6,34 @@ using namespace std;
 
 void triParSelectionDePlace(int tab[], unsigned short int nbCases)
 {
-    int position = nbCases-1;
-    int maximum = tab[0];
-    int save;
-    int positionMaximum;
+    unsigned short int posMax = 0;
+    unsigned short int ici = nbCases;
 
-    while(!(position == 0))
+    for(unsigned short int ici=nbCases-1; ici>0; ici--)
     {
-        maximum = tab[0];
+        posMax = 0;
+        posMax = posLePlusGrand(tab, ici, posMax);
 
-        // Déterminer maximum*/
-        for(int i=0; i<position; i++)
+        if(posMax == ici)
         {
-            if(maximum < tab[i])
-            {
-                maximum = tab[i];
-                positionMaximum = i;
-            }
+            ici--;
         }
+        else
+        {
+            echanger(tab[posMax], tab[ici]);
+        }
+    }
+}
 
-        save = tab[position];
-        tab[position] = maximum;
-        tab[positionMaximum] = save;
+unsigned int posLePlusGrand(int tab[], unsigned short int ici, unsigned short int posMax)
+{
+    for(int i=1; i<=ici; i++)
+    {
+        if(tab[posMax] < tab[i])
+        {
+            posMax = i;
+        }
+    }
 
-        position--;
-   }
+    return posMax;
 }
