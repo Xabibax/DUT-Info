@@ -1,0 +1,30 @@
+/*
+ Programme : SaisirUnTableau
+ But :  Saisir la taille d'un tableau et remplir chaque cellule.
+ Date de dernière modification : 16/10/15
+ Auteur : V. GRAGLIA
+ Remarques :
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    unsigned int tailleTab;
+
+    cout << "Saisir la taille du tableau : ";
+    cin >> tailleTab;
+
+    int tableau[tailleTab];
+    int i;
+
+    for (i=0; i<=tailleTab-1; i++)
+    {
+        cout << "Saisissez la valeur de t[" << i << "] : ";
+        cin >> tableau[i];
+    }
+
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1443565130 source:c:\users\valentin\desktop\partage-linux\dut\m1102 - intro algo & programmation\tp4\recherchedesdiviseurs\main.cpp
+	<iostream>
+	<cmath>
+

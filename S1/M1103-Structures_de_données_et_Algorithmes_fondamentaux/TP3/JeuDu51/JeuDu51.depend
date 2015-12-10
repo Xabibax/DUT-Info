@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1449737493 source:z:\dut-info\s1\m1103-structures_de_données_et_algo\tp3\jeudu51\file.cpp
+	"file.h"
+	<iostream>
+
+1449737493 z:\dut-info\s1\m1103-structures_de_données_et_algo\tp3\jeudu51\file.h
+	<queue>
+	"leFichierOuEstDefiniLeType.h"
+	"jeuDeCartes.h"
+
+1449737492 z:\dut-info\s1\m1103-structures_de_données_et_algo\tp3\jeudu51\jeudecartes.h
+
+1449734085 source:z:\dut-info\s1\m1103-structures_de_données_et_algo\tp3\jeudu51\main.cpp
+	<iostream>
+	"stdlib.h"
+	"jeuDeCartes.h"
+	"file.h"
+
+1449737405 source:z:\dut-info\s1\m1103-structures_de_données_et_algo\tp3\jeudu51\jeudecartes.cpp
+	<iostream>
+	"jeuDeCartes.h"
+	"file.h"
+	<stdlib.h>
+	<time.h>
+
