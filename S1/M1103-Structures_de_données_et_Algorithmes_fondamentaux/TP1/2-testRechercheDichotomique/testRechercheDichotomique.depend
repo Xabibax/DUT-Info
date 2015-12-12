@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1449959143 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp1\2-testrecherchedichotomique\main.cpp
+	<iostream>
+	"recherchePremierDernier.h"
+
+1449959143 c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp1\2-testrecherchedichotomique\recherchepremierdernier.h
+
+1449959143 source:c:\users\valentin\desktop\partage-linux\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp1\2-testrecherchedichotomique\recherchepremierdernier.cpp
+	"recherchePremierDernier.h"
+
