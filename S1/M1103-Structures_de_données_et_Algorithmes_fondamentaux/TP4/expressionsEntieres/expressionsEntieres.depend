@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1450351435 source:z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\main.cpp
+	<iostream>
+	"pile.h"
+	"sousProgrammes.h"
+
+1450351366 z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\pile.h
+	<stack>
+	"leFichierOuEstDefiniLeType.h"
+
+1450351339 z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\sousprogrammes.h
+
+1450351433 source:z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\pile.cpp
+	"pile.h"
+	<iostream>
+
