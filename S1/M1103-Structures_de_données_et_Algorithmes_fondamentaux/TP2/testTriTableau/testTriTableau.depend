@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1449143039 source:z:\m1103\tp2\testprixtableau\main.cpp
+	"moduleCommunsTri.h"
+	<iostream>
+
+1449135420 z:\m1103\tp2\testprixtableau\modulecommunstri.h
+
+1449143597 source:z:\m1103\tp2\testprixtableau\modulecommunstri.cpp
+	<iostream>
+	"moduleCommunsTri.h"
+

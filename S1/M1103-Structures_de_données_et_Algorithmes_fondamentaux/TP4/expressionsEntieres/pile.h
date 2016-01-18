@@ -38,7 +38,7 @@ typedef stack<UnElement> UnePile;
 
 
 void initialiser (UnePile& p);
-// Initialise ou ré-initialise une pile vide prête à l'emploi
+// Initialise ou rÃ©-initialise une pile vide prÃªte Ã  l'emploi
 
 unsigned int taille (const UnePile& p);
 // Retourne le nombre d'elements contenus dans la pile p
@@ -59,7 +59,7 @@ void depiler (UnePile& p);
 // Retire l'element situe au sommet de la pile p
 //   Genere l'exception "pileVide" si la pile p est vide
 
-void depiler(UnePile& p, UnElement& e);
+void depiler (UnePile& p, UnElement& e);
 // Retire l'element situe au sommet de la pile p et le stocke dans e
 //   Genere l'exception "pileVide" si la pile p est vide
 

@@ -23,13 +23,11 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="pile.cpp" />
 		<Unit filename="pile.h" />
-		<Unit filename="sousProgramme.cpp" />
-		<Unit filename="sousProgramme.h" />
+		<Unit filename="sousProgrammes.cpp" />
+		<Unit filename="sousProgrammes.h" />
 		<Extensions>
 			<code_completion />
-			<envvars />
 			<debugger />
-			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

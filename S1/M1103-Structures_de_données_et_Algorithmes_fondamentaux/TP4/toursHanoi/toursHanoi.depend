@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1450098792 source:z:\m1103\tp4\tourshanoi\main.cpp
+	<iostream>
+	"pile.h"
+	"sousProgrammes.h"
+
+1450098792 z:\m1103\tp4\tourshanoi\pile.h
+	<stack>
+	"leFichierOuEstDefiniLeType.h"
+
+1450098792 z:\m1103\tp4\tourshanoi\sousprogrammes.h
+	<iostream>
+	"pile.h"
+
+1450098792 source:z:\m1103\tp4\tourshanoi\pile.cpp
+	"pile.h"
+	<iostream>
+
+1450098792 source:z:\m1103\tp4\tourshanoi\sousprogrammes.cpp
+	<iostream>
+	"sousProgrammes.h"
+
+1421593867 source:c:\users\bruno\desktop\m1103\tp4\tourshanoi\main.cpp
+	<iostream>
+	"pile.h"
+	"sousProgrammes.h"
+
+1421593866 c:\users\bruno\desktop\m1103\tp4\tourshanoi\pile.h
+	<stack>
+	"leFichierOuEstDefiniLeType.h"
+
+1421593867 c:\users\bruno\desktop\m1103\tp4\tourshanoi\sousprogrammes.h
+	<iostream>
+	"pile.h"
+
+1421593868 source:c:\users\bruno\desktop\m1103\tp4\tourshanoi\pile.cpp
+	"pile.h"
+	<iostream>
+
+1421593868 source:c:\users\bruno\desktop\m1103\tp4\tourshanoi\sousprogrammes.cpp
+	<iostream>
+	"sousProgrammes.h"
+
+1450098791 source:z:\save\1s\m1103\tp4\tourshanoi\main.cpp
+	<iostream>
+	"pile.h"
+	"sousProgrammes.h"
+
+1450098791 z:\save\1s\m1103\tp4\tourshanoi\pile.h
+	<stack>
+	"leFichierOuEstDefiniLeType.h"
+
+1450098790 z:\save\1s\m1103\tp4\tourshanoi\sousprogrammes.h
+	<iostream>
+	"pile.h"
+
+1450098791 source:z:\save\1s\m1103\tp4\tourshanoi\pile.cpp
+	"pile.h"
+	<iostream>
+
+1450098791 source:z:\save\1s\m1103\tp4\tourshanoi\sousprogrammes.cpp
+	<iostream>
+	"sousProgrammes.h"
+

@@ -1,7 +1,7 @@
 /*
  Ce paquetage permet de manipuler un (et un seul) jeu de cartes dans un programme.
- Le paquetage gÃ¨re un paquet de 52 cartes comme le ferait le banquier d'un jeu de casino :
- il peut battre un nouveau paquet et vous donner une carte Ã  votre demande.
+ Le paquetage gère un paquet de 52 cartes comme le ferait le banquier d'un jeu de casino :
+ il peut battre un nouveau paquet et vous donner une carte à votre demande.
 */
 
 #ifndef JEUDECARTES_H
@@ -9,6 +9,7 @@
 
 using namespace std;
 
+// Définition du type UneCarte
 enum UneValeur {as=1, deux, trois, quatre, cinq, six, sept, huit, neuf, dix, valet, dame, roi};
 
 enum UneCouleur {coeur=3, carreau, trefle, pique};
@@ -21,18 +22,17 @@ typedef struct
 
 
 void nouveauPaquet (void);
-// mÃ©lange un nouveau jeu de 52 cartes
+// mélange un nouveau jeu de 52 cartes
 
 UneCarte nouvelleCarte (void);
 // pioche une nouvelle carte dans le paquet et la retourne.
-// gÃ©nÃ¨re l'exception 'paquetEpuise' si toutes les cartes du paquet ont dÃ©jÃ  Ã©tÃ© piochÃ©es.
+// génère l'exception 'paquetEpuise' si toutes les cartes du paquet ont déjà été piochées.
 
 void afficheCarte (UneCarte c);
-// affiche une carte Ã empty() qui renvoie true si le conteneur est vide et false sinon l'Ã©cran
+// affiche une carte à l'écran
 
-/*  Exceptions gÃ©nÃ©rÃ©es
-'paquetEpuise', par nouvelleCarte, si toutes les cartes du paquet ont dÃ©jÃ  Ã©tÃ© piochÃ©es.
+/*  Exceptions générées
+'paquetEpuise', par nouvelleCarte, si toutes les cartes du paquet ont déjà été piochées.
 
 */
-
 #endif // JEUDECARTES_H

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1450710213 source:z:\m1103\tp1\ex2recherchedichotomiquevaleur\main.cpp
+	<iostream>
+	"RechercheDichotomiqueValeur.h"
+
+1453121714 z:\m1103\tp1\ex2recherchedichotomiquevaleur\recherchedichotomiquevaleur.h
+
+1453121714 source:z:\m1103\tp1\ex2recherchedichotomiquevaleur\recherchedichotomiquevaleur.cpp
+	"RechercheDichotomiqueValeur.h"
+

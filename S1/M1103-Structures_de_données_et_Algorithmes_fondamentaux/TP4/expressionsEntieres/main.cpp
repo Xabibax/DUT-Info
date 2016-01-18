@@ -5,51 +5,57 @@
 using namespace std;
 int main()
 {
-    const unsigned int BORNE_INF = 'a' - 'a';   // indice INF du tableau contenant les valeurs des variables utilisées
-    const unsigned int BORNE_SUP = 'z' - 'a';   // indice SUP du tableau contenant les valeurs des variables utilisées
+const unsigned int BORNE_INF = 'a' - 'a';   // indice INF du tableau contenant les valeurs des variables utilisÃ©es
+const unsigned int BORNE_SUP = 'z' - 'a';   // indice SUP du tableau contenant les valeurs des variables utilisÃ©es
 
-    // pour mémoriser les valeurs des variables contenues dans l'expression
+    // pour mÃ©moriser les valeurs des variables contenues dans l'expression
 
-    const unsigned int lgTabVal = BORNE_SUP - BORNE_INF + 1; //on ne considère que les varibles minuscules
+const unsigned int lgTabVal = BORNE_SUP - BORNE_INF + 1; //on ne considÃ¨re que les varibles minuscules
 
-    int tabVal[lgTabVal] ; // valeurs des 26 variables potentielles pouvant être contenues dans l'expression entière
-    // pour gérer les expressions régulières
+int tabVal[lgTabVal] ; // valeurs des 26 variables potentielles pouvant Ãªtre contenues dans l'expression entiÃ¨re
+   // pour gÃ©rer les expressions rÃ©guliÃ¨res
 
-    string exprPost; // l'expression entière CORRECTE en notation postfixée
-    string exPar ;  // l'expression correcte entièrement parenthésée
+   string exPost; // l'expression entiÃ¨re CORRECTE en notation postfixÃ©e
+   string exPar ;  // l'expression correcte entiÃ¨rement parenthÃ©sÃ©e
 
-    // initialisation de toutes les variables à 0
-    initVariables(tabVal, lgTabVal);
+   // initialisation de toutes les variables Ã  0
+   initVariables(tabVal, lgTabVal);
 
-    // (clavier) >> saisie des valeurs des variables composant les expressions >> tabVal, lgTabVal
-    saisieVariables (tabVal, lgTabVal);
+   // (clavier) >> saisie des valeurs des variables composant les expressions >> tabVal, lgTabVal
+  // saisieVariables (tabVal, lgTabVal);
 
-    for (;;)
-    {
+  /* for (;;)
+      {
 
-        // tabVal, lgTabVal >> afficher variables >> (écran
+        // tabVal, lgTabVal >> afficher variables >> (Ã©cran
         afficheVariables(tabVal, lgTabVal);
 
-        //(clavier) >> saisie expression postFixee >> exprPost
+        //(clavier) >> saisie expression postFixee >> exPost
         cout << endl << "Saisir une expression postfixee CORRECTE puis <entree> \npour lancer l'evaluation.\n";
         cout << "Saisir ! puis <entrer> pour arreter le programme : " ;
-        cin >> exprPost;
+        cin >> exPost;
 
-        if (exprPost ==  "!")
+        if (exPost ==  "!")
+        break;
+
+         // calcul de l'expression
+         cout << "valeur ( " << exPost << " ) = " << evaluationExPostfixee (tabVal, exPost) << endl << endl;
+      }
+
+   return 0;
+}
+*/
+
+    while(true)
+    {
+         cout << "Entrer une expression infixee entierement parenthesee CORRECTE (! pour arreter) :  " ;
+         cin >> exPar;
+
+         if (exPar ==  "!")
             break;
 
-        // calcul de l'expression
-        cout << "valeur ( " << exprPost << " ) = " << exprEntPostFixee(tabVal, exprPost) << endl << endl;
+         exPost = exPostVersParenthesee (exPar);
+         cout << exPost;
     }
-
-    /*// NON DEMANDé
-    cout << "Entrer une expression infixee entierement parenthesee CORRECTE :  " ;
-    cin >> exPar;
-
-    exprPost = exParentheseVersPostF(exPar);
-    cout << exprPost;*/
-
-
-
-    return 0;
+   return 0;
 }

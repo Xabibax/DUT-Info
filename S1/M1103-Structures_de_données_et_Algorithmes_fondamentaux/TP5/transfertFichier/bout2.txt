@@ -1,0 +1,7 @@
+ligne 1/7 de bout2.txt
+
+ligne 3/7 de bout2.txt
+ligne 4/7 de bout2.txt
+
+
+ligne 7/7 de bout2.txt

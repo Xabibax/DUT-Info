@@ -1,16 +1,22 @@
 # depslib dependency file v1.0
-1450351435 source:z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\main.cpp
+1451320735 source:/home/sylvie/Bureau/CoursIUT/M1103/TP4/expressionsEntieres/main.cpp
 	<iostream>
 	"pile.h"
 	"sousProgrammes.h"
 
-1450351366 z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\pile.h
+1451322606 /home/sylvie/Bureau/CoursIUT/M1103/TP4/expressionsEntieres/pile.h
 	<stack>
 	"leFichierOuEstDefiniLeType.h"
 
-1450351339 z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\sousprogrammes.h
+1451390314 /home/sylvie/Bureau/CoursIUT/M1103/TP4/expressionsEntieres/sousProgrammes.h
 
-1450351433 source:z:\dut-info\s1\m1103-structures_de_données_et_algorithmes_fondamentaux\tp4\expressionsentieres\pile.cpp
+1451320957 source:/home/sylvie/Bureau/CoursIUT/M1103/TP4/expressionsEntieres/pile.cpp
 	"pile.h"
 	<iostream>
+
+1451400887 source:/home/sylvie/Bureau/CoursIUT/M1103/TP4/expressionsEntieres/sousProgrammes.cpp
+	<iostream>
+	<iomanip>
+	"pile.h"
+	"sousProgrammes.h"
 

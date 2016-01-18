@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="TP1">
+		<Project filename="1-testRechercheSequentiellePlus/testRechercheSequentiellePlus.cbp" />
+		<Project filename="2-testRechercheDichotomique/Ex2RechercheDichotomiqueValeur.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

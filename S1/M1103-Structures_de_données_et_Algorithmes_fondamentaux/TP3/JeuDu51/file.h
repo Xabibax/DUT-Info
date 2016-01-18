@@ -4,9 +4,7 @@
 
 #ifndef FILE_H
 #define FILE_H
-
 #include <queue>
-
 using namespace std;
 
 
@@ -41,7 +39,7 @@ typedef UneCarte UnElement;
 typedef queue<UnElement> UneFile;
 
 void initialiser (UneFile& f);
-// Initialise ou rÃ©-initialise une file vide prÃªte Ã  l'emploi
+// Initialise ou ré-initialise une file vide prête à l'emploi
 
 unsigned int taille (const UneFile& f);
 // Retourne le nombre d'elements stockes dans la file f
@@ -64,4 +62,5 @@ void defiler (UneFile& f, UnElement& e);
 /* Retire l'element situe en tete de la file f et le stocke dans e
    Genere l'exception "fileVide" si la file f est vide */
 
-#endif // FILE_H
+
+#endif

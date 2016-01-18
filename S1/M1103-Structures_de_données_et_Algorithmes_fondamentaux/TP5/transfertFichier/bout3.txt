@@ -1,0 +1,5 @@
+ligne 1/5 de bout3.txt
+    ligne 2/5 de bout3.txt
+        ligne 3/5 de bout3.txt
+            ligne 4/5 de bout3.txt
+                ligne 5/5 de bout3.txt

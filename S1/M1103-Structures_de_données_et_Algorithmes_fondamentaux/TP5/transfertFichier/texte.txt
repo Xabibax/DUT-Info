@@ -1,0 +1,4 @@
+ceci est la ligne 1
+ceci est la ligne 2
+ceci est la ligne 3
+ceci est la ligne 4        ligne 1/3 de bout1.txt    ligne 2/3 de bout1.txtligne 3/3 de bout1.txt        ligne 1/3 de bout1.txt    ligne 2/3 de bout1.txtligne 3/3 de bout1.txt

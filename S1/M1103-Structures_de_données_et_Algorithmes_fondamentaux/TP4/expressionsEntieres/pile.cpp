@@ -5,55 +5,56 @@ using namespace std;
 
 void initialiser (UnePile& p)
 {
-    while (!p.empty())
-        p.pop();
+  while (!p.empty())
+    p.pop();
 }
 
 
 unsigned int taille (const UnePile& p)
 {
-    return p.size();
+  return p.size();
 }
 
 bool estVide (const UnePile& p)
 {
-    return p.empty();
+  return p.empty();
 }
 
 
 UnElement sommet (const UnePile& p)
 {
 
-    if(!p.empty())
-        return p.top();
-    else
-        throw string("pileVide");
+  if(!p.empty())
+    return p.top();
+  else
+      throw string("pileVide");
 }
 
 
 void empiler (UnePile& p, UnElement e)
 {
-    p.push(e);
+  p.push(e);
 }
 
 
 void depiler (UnePile& p)
 {
-    if(!p.empty())
-        p.pop();
-    else
-        throw string("pileVide");
+  if(!p.empty())
+    p.pop();
+  else
+      throw string("pileVide");
 }
 
 
-void depiler(UnePile& p, UnElement& e)
+void depiler (UnePile& p, UnElement& e)
 {
-    if(!p.empty())
+  if(!p.empty())
     {
-        e = p.top();
-        p.pop();
+      e = p.top();
+      p.pop();
     }
-    else
-        throw string("pileVide");
+  else
+      throw string("pileVide");
 }
+
 

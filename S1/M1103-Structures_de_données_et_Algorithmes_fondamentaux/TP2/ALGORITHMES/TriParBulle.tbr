@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>TriParBulle</nom>
+  <date_creation>18/1/2016 12:43</date_creation>
+  <Elements>
+    <Action>
+      <Position>210;25</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tab
+nbCaseNonTrie</PreAssertion>
+      <PostAssertion>tab</PostAssertion>
+      <Titre>triParBulle</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>313.5;176.5</Position>
+          <StyleLien>1</StyleLien>
+          <Titre>pour i de nbCases-1 à 1</Titre>
+          <IterationFixe>1</IterationFixe>
+          <Enfants>
+            <Procedure>
+              <Position>252;341</Position>
+              <StyleLien>1</StyleLien>
+              <PreAssertion>?</PreAssertion>
+              <PostAssertion>?</PostAssertion>
+              <Titre>triUnElement(tab, nbCasesNonTrie)</Titre>
+              <DetailsVisible>1</DetailsVisible>
+              <DetailsVideVisible>0</DetailsVideVisible>
+              <Enfants/>
+            </Procedure>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>580;25</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>tab
+nbCasesNonTrie</PreAssertion>
+      <PostAssertion>tab</PostAssertion>
+      <Titre>triUnElement(tab, nbCasesNonTrie)</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Iteration>
+          <Position>806.5;172.5</Position>
+          <StyleLien>1</StyleLien>
+          <Titre>pour i de 0 à nbCasesNonTrie-2</Titre>
+          <IterationFixe>1</IterationFixe>
+          <Enfants>
+            <Condition>
+              <Position>770;294</Position>
+              <StyleLien>1</StyleLien>
+              <estUnique>1</estUnique>
+              <operationsLogiques>
+                <operation>
+                  <Titre>tab[i] > tab[i+1]</Titre>
+                  <Enfants>
+                    <Procedure>
+                      <Position>753;420</Position>
+                      <StyleLien>1</StyleLien>
+                      <PreAssertion>?</PreAssertion>
+                      <PostAssertion>?</PostAssertion>
+                      <Titre>echanger(tab[i], tab[i+1]</Titre>
+                      <DetailsVisible>1</DetailsVisible>
+                      <DetailsVideVisible>0</DetailsVideVisible>
+                      <Enfants/>
+                    </Procedure>
+                  </Enfants>
+                </operation>
+                <operation>
+                  <Titre>Sinon</Titre>
+                  <Enfants/>
+                </operation>
+              </operationsLogiques>
+            </Condition>
+          </Enfants>
+        </Iteration>
+      </Enfants>
+    </Action>
+    <Action>
+      <Position>1196;29</Position>
+      <StyleLien>2</StyleLien>
+      <PreAssertion>a
+b</PreAssertion>
+      <PostAssertion>a
+b</PostAssertion>
+      <Titre>echanger</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>1</DetailsVideVisible>
+      <Enfants>
+        <Action>
+          <Position>1180;147</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>c←a</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>1304;147</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>a←b</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+        <Action>
+          <Position>1406;145</Position>
+          <StyleLien>1</StyleLien>
+          <PreAssertion>?</PreAssertion>
+          <PostAssertion>?</PostAssertion>
+          <Titre>b←c</Titre>
+          <DetailsVisible>1</DetailsVisible>
+          <DetailsVideVisible>0</DetailsVideVisible>
+          <Enfants/>
+        </Action>
+      </Enfants>
+    </Action>
+  </Elements>
+</Algorithme>

@@ -1,0 +1,1 @@
+        ligne 1/3 de bout1.txt    ligne 2/3 de bout1.txtligne 3/3 de bout1.txt

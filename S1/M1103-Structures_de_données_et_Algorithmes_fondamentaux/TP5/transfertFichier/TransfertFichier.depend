@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1420525200 source:z:\m1103\tp5\ressourcestp5\fichiertexte.cpp
+	"fichiertexte.h"
+
+1420525200 z:\m1103\tp5\ressourcestp5\fichiertexte.h
+	<iostream>
+	<fstream>
+
+1452060726 source:z:\m1103\tp5\ressourcestp5\main.cpp
+	<iostream>
+	"fichierTexte.h"
+	"sousProgrammes.h"
+
+1452101808 z:\m1103\tp5\ressourcestp5\sousprogrammes.h
+
+1388939534 source:z:\m1103\tp5\ressourcestp5\pile.cpp
+	"pile.h"
+	<iostream>
+
+1452251506 z:\m1103\tp5\ressourcestp5\pile.h
+	<stack>
+	<iostream>
+	"leFichierOuEstDefiniLeType.h"
+
+1452251581 source:z:\m1103\tp5\ressourcestp5\sousprogrammes.cpp
+	<iostream>
+	"pile.h"
+	"fichierTexte.h"
+	"sousProgrammes.h"
+
+1420525200 source:c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\fichiertexte.cpp
+	"fichiertexte.h"
+
+1420525200 c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\fichiertexte.h
+	<iostream>
+	<fstream>
+
+1452060726 source:c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\main.cpp
+	<iostream>
+	"fichierTexte.h"
+	"sousProgrammes.h"
+
+1452101808 c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\sousprogrammes.h
+
+1388939534 source:c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\pile.cpp
+	"pile.h"
+	<iostream>
+
+1452251506 c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\pile.h
+	<stack>
+	<iostream>
+	"leFichierOuEstDefiniLeType.h"
+
+1452252363 source:c:\users\bastien\documents\devoir iut\m1103\tp5\ressourcestp5\sousprogrammes.cpp
+	<iostream>
+	"pile.h"
+	"fichierTexte.h"
+	"sousProgrammes.h"
+
