@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1421177438 source:z:\m1103\tp5\ressourcestp6 et tp7\fichiertexte.cpp
+	"fichiertexte.h"
+
+1421089664 z:\m1103\tp5\ressourcestp6 et tp7\fichiertexte.h
+	<iostream>
+	<fstream>
+
+1452147432 source:z:\m1103\tp5\ressourcestp6 et tp7\main.cpp
+	<iostream>
+	"fichierTexte.h"
+	"sousProgrammes.h"
+
+1452147670 z:\m1103\tp5\ressourcestp6 et tp7\sousprogrammes.h
+	<iostream>
+
+1452769460 source:z:\m1103\tp5\ressourcestp6 et tp7\sousprogrammes.cpp
+	<iostream>
+	"sousProgrammes.h"
+	"fichierTexte.h"
+
