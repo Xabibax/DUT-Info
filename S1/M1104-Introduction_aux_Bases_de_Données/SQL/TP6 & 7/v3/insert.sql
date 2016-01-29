@@ -1,279 +1,5299 @@
-/* LISTE DES JOUEURs */
 
-/* Joueurs de l'equipe nationale de France (1)*/
+/* ====================================================================================== */
+/* 				                       LISTE DES JOUEURS                                  */
+/* ====================================================================================== */
+
+/* Joueurs de l'equipe nationale du Bresil (1) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(101, 12, 'GROHE', 'Marcelo', 'Bresilien', 0, 1);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(102, 14, 'SILVA', 'Thiago', 'Bresilien', 52, 1);
+INSERT INTO JOUEUR
+VALUES(103, 4, 'LUIS', 'David', 'Bresilien', 47, 1);
+INSERT INTO JOUEUR
+VALUES(104, 3, 'MIRANDA', 'Joao', 'Bresilien', 13, 1);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(105, 21, 'COUTINHO', 'Philippe', 'Bresilien', 5, 1);
+INSERT INTO JOUEUR
+VALUES(106, 18, 'FIRMINO', 'Roberto', 'Bresilien', 2, 1);
+INSERT INTO JOUEUR
+VALUES(107, 17, 'GUSTAVO', 'Luiz', 'Bresilien', 30, 1);
+INSERT INTO JOUEUR
+VALUES(108, 8, 'MENDES TRINDADE', 'Elias', 'Bresilien', 17, 1);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(109, 9, 'TARDELLI', 'Diego', 'Bresilien', 9, 1);
+INSERT INTO JOUEUR
+VALUES(110, 7, 'COSTA', 'Douglas', 'Bresilien', 2, 1);
+INSERT INTO JOUEUR
+VALUES(111, 10, 'SILVA SANTOS JUNIOR', 'Neymar', 'Bresilien', 60, 1);
+
+/* ====================================================================================== */
+
+/* Joueurs de l'equipe nationale du Chili (2) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(201, 1, 'BRAVO', 'Claudio', 'Chilien', 78, 2);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(202, 3, 'JARA', 'Gonzales', 'Chilien', 63, 2);
+INSERT INTO JOUEUR
+VALUES(203, 5, 'MEDEL', 'Gary', 'Chilien', 58, 2);
+INSERT INTO JOUEUR
+VALUES(204, 7, 'ISLA', 'Mauricio', 'Chilien', 44, 2);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(205, 9, 'FERNANDEZ', 'Matias', 'Chilien', 59, 2);
+INSERT INTO JOUEUR
+VALUES(206, 11, 'VALDIVIA', 'Jorge', 'Chilien', 55, 2);
+INSERT INTO JOUEUR
+VALUES(207, 13, 'CARMONA', 'Carlos', 'Chilien', 42, 2);
+INSERT INTO JOUEUR
+VALUES(208, 15, 'FUENZALIDA', 'Jose Pedro', 'Chilien', 21, 2);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(209, 17, 'SANCHEZ', 'Alexis', 'Chilien', 64, 2);
+INSERT INTO JOUEUR
+VALUES(210, 19, 'BEAUSEJOUR', 'Jean', 'Chilien', 57, 2);
+INSERT INTO JOUEUR
+VALUES(211, 21, 'VARGAS', 'Eduardo', 'Chilien', 27, 2);
+
+/* ====================================================================================== */
+
+/* Joueurs de l'equipe nationale de Colombie (3) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(301, 1, 'VARGAS', 'Camilo', 'Colombien', 0, 3);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(302, 3, 'ARMENO', 'Pablo', 'Colombien', 49, 3);
+INSERT INTO JOUEUR
+VALUES(303, 5, 'ZAPATA', 'Cristian', 'Colombien', 20, 3);
+INSERT INTO JOUEUR
+VALUES(304, 7, 'VALDES', 'Carlos', 'Colombien', 12, 3);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(305, 9, 'GUARIN', 'Fredy', 'Colombien', 47, 3);
+INSERT INTO JOUEUR
+VALUES(306, 11, 'AGUILAR', 'Abel', 'Colombien', 46, 3);
+INSERT INTO JOUEUR
+VALUES(307, 13, 'SANCHEZ', 'Carlos', 'Colombien', 43, 3);
+INSERT INTO JOUEUR
+VALUES(308, 15, 'TORRES', 'Macnelly', 'Colombien', 38, 3);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(309, 17, 'FALCAO', 'Radamel', 'Colombien', 50, 3);
+INSERT INTO JOUEUR
+VALUES(310, 19, 'GUTIERREZ', 'Teofilo', 'Colombien', 27, 3);
+INSERT INTO JOUEUR
+VALUES(311, 21, 'MARTINEZ', 'Jackson', 'Colombien', 25, 3);
+
+/* ====================================================================================== */
+
+/* Joueurs de l'equipe nationale d'Uruguay (4) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(401, 1, 'MUSLERA', 'Fernando', 'Uruguay', 63, 4);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(402, 3, 'GODIN',  'Diego', 'Uruguay', 83, 4);
+INSERT INTO JOUEUR
+VALUES(403, 5, 'CORUJO', 'Mathias', 'Uruguay', 2, 4);
+INSERT INTO JOUEUR
+VALUES(404, 6, 'PEREIRA', 'Alvaro', 'Uruguay', 62, 4);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(405, 7, 'RODRIGUEZ', 'Cristian', 'Uruguay', 79, 4);
+INSERT INTO JOUEUR
+VALUES(406, 14, 'LODEIRO', 'Nicolas', 'Uruguay', 31, 4);
+INSERT INTO JOUEUR
+VALUES(407, 17, 'AREVALO', 'Egidio', 'Uruguay', 61, 4);
+INSERT INTO JOUEUR
+VALUES(408, 18, 'MAYADA', 'Camilo', 'Uruguay', 2, 4);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(409, 8, 'HERNANDEZ', 'Able', 'Uruguay', 16, 4);
+INSERT INTO JOUEUR
+VALUES(410, 9, 'ROLAN', 'Diego', 'Uruguay', 5, 4);
+INSERT INTO JOUEUR
+VALUES(411, 11, 'STUANI', 'Christian', 'Uruguay', 16, 4);
+
+/* ====================================================================================== */
+
+/* Joueurs de l'equipe nationale de France (5) */
 
 /* Gardien */
 INSERT INTO JOUEUR
-VALUES(101, 1, 'LLORIS', 'Hugo', 'Francais', 72, 1);
+VALUES(501, 1, 'LLORIS', 'Hugo', 'Francais', 72, 5);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(102, 15, 'SAGNA', 'Bacary', 'Francais', 54, 1);
+VALUES(502, 15, 'SAGNA', 'Bacary', 'Francais', 54, 5);
 INSERT INTO JOUEUR
-VALUES(103, 2, 'JALLET', 'Christophe', 'Francais', 10, 1);
+VALUES(503, 2, 'JALLET', 'Christophe', 'Francais', 10, 5);
 INSERT INTO JOUEUR
-VALUES(104, 4, 'VARANE', 'Raphael', 'Francais', 27, 1);
+VALUES(504, 4, 'VARANE', 'Raphael', 'Francais', 27, 5);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(105, 12, 'DIARRA', 'Lassana', 'Francais', 31, 1);
+VALUES(505, 12, 'DIARRA', 'Lassana', 'Francais', 31, 5);
 INSERT INTO JOUEUR
-VALUES(106, 22, 'SCHNEIDERLIN', 'Morgan', 'Francais', 15, 1);
+VALUES(506, 22, 'SCHNEIDERLIN', 'Morgan', 'Francais', 15, 5);
 INSERT INTO JOUEUR
-VALUES(107, 6, 'CABAYE', 'Yohan', 'Francais', 44, 1);
+VALUES(507, 6, 'CABAYE', 'Yohan', 'Francais', 44, 5);
 INSERT INTO JOUEUR
-VALUES(108, 14, 'MATUIDI', 'Blaise', 'Francais', 41, 1);
+VALUES(508, 14, 'MATUIDI', 'Blaise', 'Francais', 41, 5);
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(109, 7, 'GRIEZMANN', 'Antoine', 'Francais', 24, 1);
+VALUES(509, 7, 'GRIEZMANN', 'Antoine', 'Francais', 24, 5);
 INSERT INTO JOUEUR
-VALUES(110, 8, 'BEN ARFA', 'Hatem', 'Francais', 15, 1);
+VALUES(510, 8, 'BEN ARFA', 'Hatem', 'Francais', 15, 5);
 INSERT INTO JOUEUR
-VALUES(111, 11, 'MARTIAL', 'Anthony', 'Francais', 6, 1);
+VALUES(511, 11, 'MARTIAL', 'Anthony', 'Francais', 6, 5);
 
-/* ===================================================================================== */
+/* ====================================================================================== */
 
-/* Joueurs de l'equipe nationale d'Espagne (2) */
-
-/* Gardien */
-INSERT INTO JOUEUR
-VALUES(201, 1, 'CASILLAS', 'Iker', 'Espagnol', 161, 2);
-
-/* Defenseurs */
-INSERT INTO JOUEUR
-VALUES(202, 3, 'PIQUE', 'Gerard', 'Espagnol', 67, 2);
-INSERT INTO JOUEUR
-VALUES(203, 4, 'BARTRA', 'Marc', 'Espagnol', 4, 2);
-INSERT INTO JOUEUR
-VALUES(204, 18, 'ALBA', 'Jordi', 'Espagnol', 35, 2);
-
-/* Milieux */
-INSERT INTO JOUEUR
-VALUES(205, 6, 'INIESTA', 'Andres', 'Espagnol', 102, 2);
-INSERT INTO JOUEUR
-VALUES(206, 10, 'FABREGAS', 'Cesc', 'Espagnol', 94, 2);
-INSERT INTO JOUEUR
-VALUES(207, 14, 'SUAREZ', 'Mario', 'Espagnol', 3, 2);
-INSERT INTO JOUEUR
-VALUES(208, 16, 'BUSQUETS', 'Sergio', 'Espagnol', 72, 2);
-
-/* Attaquants */
-INSERT INTO JOUEUR
-VALUES(209, 7, 'MORATA', 'Alvaro', 'Espagnol', 4, 2);
-INSERT INTO JOUEUR
-VALUES(210, 9, 'JIMENEZ', 'Juanmi', 'Espagnol', 1, 2);
-INSERT INTO JOUEUR
-VALUES(211, 11, 'RODRIGUEZ', 'Pedro', 'Espagnol', 46, 2);
-
-/* ===================================================================================== */
-
-/* Joueurs de l'equipe nationale d'Allemagne (3) */
+/* Joueurs de l'equipe nationale du Nigeria (6) */
 
 /* Guardien */
 INSERT INTO JOUEUR
-VALUES(301, 1, 'NEUER', 'Manuel', 'Allemand', 58, 3);
+VALUES(601, 1, 'ENYEAMA', 'Vincent', 'Nigerian', 95, 6);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(302, 2, 'MUSTAFI', 'Shkodran', 'Allemand', 8, 3);
+VALUES(602, 2, 'OBOABONA', 'Godfrey', 'Nigerian', 37, 6);
 INSERT INTO JOUEUR
-VALUES(303, 3, 'HECTOR', 'Jonas', 'Allemand', 5, 3);
+VALUES(603, 4, 'OMERUO', 'Kenneth', 'Nigerian', 22, 6);
 INSERT INTO JOUEUR
-VALUES(304, 4, 'RUDY', 'Sebastian', 'Allemand', 9, 3);
+VALUES(604, 5, 'AMBROSE', 'Efe', 'Nigerian', 42, 6);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(305, 7, 'SCHWEINSTEIGER', 'Bastian', 'Allemand', 111, 3);
+VALUES(605, 8, 'IGIEBOR', 'Nosa', 'Nigerian', 13, 6);
 INSERT INTO JOUEUR
-VALUES(306, 10, 'PODOLOSKI', 'Lukas', 'Allemand', 125, 3);
+VALUES(606, 15, 'AZEEZ', 'Ramon', 'Nigerian', 4, 6);
 INSERT INTO JOUEUR
-VALUES(307, 16, 'BELLARABI', 'Karim', 'Allemand', 7, 3);
+VALUES(607, 17, 'ONAZI', 'Ogenyi', 'Nigerian', 26, 6);
 INSERT INTO JOUEUR
-VALUES(308, 18, 'KROOS', 'Toni', 'Allemand', 58, 3);
-INSERT INTO JOUEUR
+VALUES(608, 20, 'OBI', 'Joel', 'Nigerian', 12, 6);
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(309, 15, 'VOLLAND', 'Kevin', 'Allemand', 3, 3);
+VALUES(609, 7, 'MUSA', 'Ahmed', 'Nigerian', 42, 6);
 INSERT INTO JOUEUR
-VALUES(310, 19, 'GOTZE', 'Mario', 'Allemand', 45, 3);
+VALUES(610, 9, 'EMENIKE', 'Emmanuel', 'Nigerian', 28, 6);
 INSERT INTO JOUEUR
-VALUES(311, 23, 'KRUSE', 'Max', 'Allemand', 13, 3);
+VALUES(611, 11, 'ODUAMADI', 'Nnamdi', 'Nigerian', 14, 6);
 
-/* ===================================================================================== */
+/* ====================================================================================== */
 
-/* Joueurs de l'equipe nationale du Bresil (4) */
+/* Joueurs de l'equipe nationale d'Allemagne (7) */
 
 /* Guardien */
 INSERT INTO JOUEUR
-VALUES(401, 12, 'GROHE', 'Marcelo', 'Bresilien', 0, 4);
+VALUES(701, 1, 'NEUER', 'Manuel', 'Allemand', 58, 7);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(402, 14, 'SILVA', 'Thiago', 'Bresilien', 52, 4);
+VALUES(702, 2, 'MUSTAFI', 'Shkodran', 'Allemand', 8, 7);
 INSERT INTO JOUEUR
-VALUES(403, 4, 'LUIS', 'David', 'Bresilien', 47, 4);
+VALUES(703, 3, 'HECTOR', 'Jonas', 'Allemand', 5, 7);
 INSERT INTO JOUEUR
-VALUES(404, 3, 'MIRANDA', 'Joao', 'Bresilien', 13, 4);
+VALUES(704, 4, 'RUDY', 'Sebastian', 'Allemand', 9, 7);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(405, 21, 'COUTINHO', 'Philippe', 'Bresilien', 5, 4);
+VALUES(705, 7, 'SCHWEINSTEIGER', 'Bastian', 'Allemand', 111, 7);
 INSERT INTO JOUEUR
-VALUES(406, 18, 'FIRMINO', 'Roberto', 'Bresilien', 2, 4);
+VALUES(706, 10, 'PODOLOSKI', 'Lukas', 'Allemand', 125, 7);
 INSERT INTO JOUEUR
-VALUES(407, 17, 'GUSTAVO', 'Luiz', 'Bresilien', 30, 4);
+VALUES(707, 16, 'BELLARABI', 'Karim', 'Allemand', 7, 7);
 INSERT INTO JOUEUR
-VALUES(408, 8, 'MENDES TRINDADE', 'Elias', 'Bresilien', 17, 4);
+VALUES(708, 18, 'KROOS', 'Toni', 'Allemand', 58, 7);
+INSERT INTO JOUEUR
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(409, 9, 'TARDELLI', 'Diego', 'Bresilien', 9, 4);
+VALUES(709, 15, 'VOLLAND', 'Kevin', 'Allemand', 3, 7);
 INSERT INTO JOUEUR
-VALUES(410, 7, 'COSTA', 'Douglas', 'Bresilien', 2, 4);
+VALUES(710, 19, 'GOTZE', 'Mario', 'Allemand', 45, 7);
 INSERT INTO JOUEUR
-VALUES(411, 10, 'SILVA SANTOS JUNIOR', 'Neymar', 'Bresilien', 60, 4);
+VALUES(711, 23, 'KRUSE', 'Max', 'Allemand', 13, 7);
 
-/* ===================================================================================== */
+/* ====================================================================================== */
 
-/* Joueurs de l'equipe nationale d'Italie (5) */
+/* Liste des joueurs de l'equipe nationale d'Algerie (8) */
 
 /* Guardien */
 INSERT INTO JOUEUR
-VALUES(501, 1, 'BUFFON', 'Gianluigi', 'Italien', 153, 5);
+VALUES(801, 23, 'M BOLHI', 'Rais', 'Algerien', 32, 8);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(502, 3, 'CHIELLINI', 'Giorgio', 'Italien', 76, 5);
+VALUES(802, 2, 'BOUGHERRA', 'Madjid', 'Algerien', 65, 8);
 INSERT INTO JOUEUR
-VALUES(503, 15, 'BARZAGLI', 'Andrea', 'Italien', 51, 5);
+VALUES(803, 12, 'MEDJANI', 'Carl', 'Algerien', 29, 8);
 INSERT INTO JOUEUR
-VALUES(504, 19, 'BONUCCI', 'Leonardo', 'Italien', 45, 5);
+VALUES(804, 4, 'BELKALEM', 'Essaid', 'Algerien', 16, 8);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(505, 6, 'CANDREVA', 'Antonio', 'Italien', 27, 5);
+VALUES(805, 22, 'MOSTEFA', 'Mehdi', 'Algerien', 25, 8);
 INSERT INTO JOUEUR
-VALUES(506, 10, 'VERRATTI', 'Marco', 'Italien', 14, 5);
+VALUES(806, 7, 'YEBDA', 'Hassan', 'Algerien', 26, 8);
 INSERT INTO JOUEUR
-VALUES(507, 18, 'FLORENZI', 'Alessandro', 'Italien', 8, 5);
+VALUES(807, 8, 'LACEN', 'Medhi', 'Algerien', 33, 8);
 INSERT INTO JOUEUR
-VALUES(508, 14, 'VALDIFIORI', 'Mirko', 'Italien', 1, 5);
+VALUES(808, 19, 'TAIDER', 'Saphir', 'Algerien', 13, 8);
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(509, 7, 'ZAZA', 'Simone', 'Italien', 5, 5);
+VALUES(809, 13, 'SLIMANI', 'Islam', 'Algerien', 24, 8);
 INSERT INTO JOUEUR
-VALUES(510, 20, 'GIOVINCO', 'Sebastian', 'Italien', 21, 5);
+VALUES(810, 9, 'GHILAS', 'Nabil', 'Algerien', 8, 8);
 INSERT INTO JOUEUR
-VALUES(511, 9, 'PELLE', 'Graziono', 'Italien', 6, 5);
+VALUES(811, 15, 'HILLEL SOUDANI', 'El Arbi', 'Algerien', 24, 8);
 
-/* ===================================================================================== */
+/* ====================================================================================== */
 
-/* Joueurs de l'equipe nationale d'Angleterre (6) */
+/* Liste des joueurs de l'equipe nationale des Pays-Bas (9) */
 
 /* Guardien */
 INSERT INTO JOUEUR
-VALUES(601, 1, 'HART', 'Joe', 'Anglais', 56, 6);
+VALUES(901, 1, 'CILLESSEN', 'Jasper', 'Neerlandais', 4, 9);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(602, 3, 'CLYNE', 'Nathaniel', 'Anglais', 8, 6);
+VALUES(902, 2, 'VAN DER WIEL', 'Gregory', 'Neerlandais', 36, 9);
 INSERT INTO JOUEUR
-VALUES(603, 5, 'GIBBS', 'Kieran', 'Anglais', 9, 6);
+VALUES(903, 3, 'VELTMAN', 'Joel', 'Neerlandais', 1, 9);
 INSERT INTO JOUEUR
-VALUES(604, 7, 'CAHILL', 'Gary', 'Anglais', 39, 6);
+VALUES(904, 4, 'VLAAR', 'Ron', 'Neerlandais', 21, 9);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(605, 9, 'ALLI', 'Dele', 'Anglais', 3, 6);
+VALUES(905, 6, 'SCHAARS', 'Stijn', 'Neerlandais', 22, 9);
 INSERT INTO JOUEUR
-VALUES(606, 11, 'DELPH', 'Fabian', 'Anglais', 9, 6);
+VALUES(906, 8, 'STROOTMAN', 'Kevin', 'Neerlandais', 24, 9);
 INSERT INTO JOUEUR
-VALUES(607, 13, 'DIER', 'Eric', 'Anglais', 1, 6);
+VALUES(907, 10, 'VAN DER VAART', 'Rafael', 'Neerlandais', 109, 9);
 INSERT INTO JOUEUR
-VALUES(608, 15, 'STERLING', 'Raheem', 'Anglais', 19, 6);
+VALUES(908, 18, 'DE GUZMAN', 'Jonathan', 'Neerlandais', 8, 9);
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(609, 17, 'SHELVEY', 'Jonjo', 'Anglais', 5, 6);
+VALUES(909, 7, 'LENS', 'Jeremain', 'Neerlandais', 20, 9);
 INSERT INTO JOUEUR
-VALUES(610, 19, 'KANE', 'Harry', 'Anglais', 7, 6);
+VALUES(910, 11, 'DEPAY', 'Memphis', 'Neerlandais', 3, 9);
 INSERT INTO JOUEUR
-VALUES(611, 21, 'ROONEY', 'Wayne', 'Anglais', 108, 6);
+VALUES(911, 17, 'NARSINGH', 'Lucian', 'Neerlandais', 7, 9);
 
-/* ===================================================================================== */
+/* ====================================================================================== */
 
-/* Joueurs de l'equipe nationale d'Argentine (7) */
+/* Liste des joueurs de l'equipe nationale du Mexique (10) */
 
 /* Guardien */
 INSERT INTO JOUEUR
-VALUES(701, 1, 'ROMERO', 'Sergio', 'Argentin', 66, 7);
+VALUES(1001, 1, 'CORONA', 'Jose', 'Mexicain', 34, 10);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(702, 4, 'ZABALETA', 'Pablo', 'Argentin', 53, 7);
+VALUES(1002, 2, 'JAVIER RODRIGUEZ', 'Francisco', 'Mexicain', 95, 10);
 INSERT INTO JOUEUR
-VALUES(703, 16, 'ROJO', 'Marcos', 'Argentin', 40, 7);
+VALUES(1003, 3, 'SALCIDO', 'Carlos', 'Mexicain', 122, 10);
 INSERT INTO JOUEUR
-VALUES(704, 3, 'OTAMENDI', 'Nicolas', 'Argentin', 26, 7);
+VALUES(1004, 4, 'MARQUEZ', 'Rafael', 'Mexicain', 120, 10);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(705, 14, 'MASCHERANO', 'Javier', 'Argentin', 118, 7);
+VALUES(1005, 6, 'HERRERA', 'Hector', 'Mexicain', 13, 10);
 INSERT INTO JOUEUR
-VALUES(706, 7, 'DI MARIA', 'Angel', 'Argentin', 66, 7);
+VALUES(1006, 8, 'FABIAN', 'Marco', 'Mexicain', 15, 10);
 INSERT INTO JOUEUR
-VALUES(707, 15, 'BIGLIA', 'Lucas', 'Argentin', 35, 7);
+VALUES(1007, 17, 'BRIZUELA', 'Isaac', 'Mexicain', 7, 10);
 INSERT INTO JOUEUR
-VALUES(708, 19, 'BANEGA', 'Ever', 'Argentin', 36, 7);
+VALUES(1008, 20, 'AQUINO', 'Javier', 'Mexicain', 22, 10);
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(709, 10, 'MESSI', 'Lionel', 'Argentin', 105, 7);
+VALUES(1009, 9, 'JIMENEZ', 'Raul', 'Mexicain', 25, 10);
 INSERT INTO JOUEUR
-VALUES(710, 23, 'TEVEZ', 'Carlos', 'Argentin', 74, 7);
+VALUES(1010, 10, 'DOS SANTOS', 'Giovani', 'Mexicain', 76, 10);
 INSERT INTO JOUEUR
-VALUES(711, 11, 'AGUERO', 'Sergio', 'Argentin', 68, 7);
+VALUES(1011, 11, 'PULIDO', 'Alan', 'Mexicain', 6, 10);
 
-/* ===================================================================================== */
+/* ====================================================================================== */
 
-/* Joueurs de l'equipe nationale du Liban (8) */
+/* Liste des joueurs de l'equipe nationale du Costa Rica (11) */
 
 /* Guardien */
 INSERT INTO JOUEUR
-VALUES(801, 1, 'AL-SAMAD', 'Ziad', 'Libanais', 35, 8);
+VALUES(1101, 1, 'NAVAS', 'KEYLOR', 'Costaricien', 61, 11);
 
 /* Defenseurs */
 INSERT INTO JOUEUR
-VALUES(802, 2, 'AL-SAADI', 'Ali', 'Libanais', 33, 8);
+VALUES(1102, 2, 'DUARTE', 'Oscar', 'Costaricien', 21, 11);
 INSERT INTO JOUEUR
-VALUES(803, 3, 'MOHAMAD', 'Youssef', 'Libanais', 40, 8);
+VALUES(1103, 3, 'MYRIE', 'Dave', 'Costaricien', 18, 11);
 INSERT INTO JOUEUR
-VALUES(804, 4, 'JOUNAIDI', 'Mootaz', 'Libanais', 6, 8);
+VALUES(1104, 4, 'CALVO', 'Francisco', 'Costaricien', 4, 11);
 
 /* Milieux */
 INSERT INTO JOUEUR
-VALUES(805, 6, 'SHAMAS', 'Mohamad', 'Libanais', 15, 8);
+VALUES(1105, 5, 'BORGES', 'Celso', 'Costaricien', 75, 11);
 INSERT INTO JOUEUR
-VALUES(806, 8, 'CHAITO', 'Hassan', 'Libanais', 8, 8);
+VALUES(1106, 7, 'GUZMAN', 'David', 'Costaricien', 10, 11);
 INSERT INTO JOUEUR
-VALUES(807, 9, 'CHARARA', 'Zakaria', 'Libanais', 13, 8);
+VALUES(1107, 14, 'BOLANOS', 'Christian', 'Costaricien', 60, 11);
 INSERT INTO JOUEUR
-VALUES(808, 10, 'ATWI', 'Abbas', 'Libanais', 37, 8);
+VALUES(1108, 10, 'VENEGAS', 'Johan', 'Costaricien', 8, 11);
 
 /* Attaquants */
 INSERT INTO JOUEUR
-VALUES(809, 7, 'MAATOUK', 'Hassan', 'Libanais', 27, 8);
+VALUES(1109, 10, 'RUIZ', 'Bryan', 'Costaricien', 74, 11);
 INSERT INTO JOUEUR
-VALUES(810, 13, 'MOGHRABI', 'Akram', 'Libanais', 22, 8);
+VALUES(1110, 9, 'SABORIO', 'Alvaro', 'Costaricien', 98, 11);
 INSERT INTO JOUEUR
-VALUES(811, 17, 'AL-ALI', 'Mahmoud', 'Libanais', 30, 8);
+VALUES(1111, 12, 'CAMPBELL', 'Joel', 'Costaricien', 44, 11);
+
+/* ====================================================================================== */
+
+/* Liste des joueurs de l'equipe nationale de Grece (12) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(1201, 1, 'KARNEZIS', 'Orestis', 'Grec', 28, 12);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(1202, 3, 'FYTANIDIS', 'Sokratis', 'Grec', 0, 12);
+INSERT INTO JOUEUR
+VALUES(1203, 5, 'HOLEBAS', 'Jose', 'Grec', 13, 12);
+INSERT INTO JOUEUR
+VALUES(1204, 7, 'MANOLAS', 'Kostas', 'Grec', 2, 12);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(1205, 9, 'DIMOUTSOS', 'Elini', 'Grec', 1, 12);
+INSERT INTO JOUEUR
+VALUES(1206, 11, 'FETFATZIDIS', 'Ioannis', 'Grec', 13, 12);
+INSERT INTO JOUEUR
+VALUES(1207, 13, 'FORTOUNIS', 'Konstantinos', 'Grec', 11, 12);
+INSERT INTO JOUEUR
+VALUES(1208, 15, 'KATSOURANIS', 'Kostas', 'Grec', 103, 12);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(1209, 17, 'ATHANASIADIS', 'Stefanos', 'Grec', 4, 12);
+INSERT INTO JOUEUR
+VALUES(1210, 19, 'CHRISTODOULOPOULOS', 'Lazaros', 'Grec', 10, 12);
+INSERT INTO JOUEUR
+VALUES(1211, 21, 'MITROGLOU', 'Konstantinos', 'Grec', 38, 12);
+
+/* ====================================================================================== */
+
+/* Liste des joueurs de l'equipe nationale d'Argentine (13) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(1301, 1, 'ROMERO', 'Sergio', 'Argentin', 66, 13);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(1302, 4, 'ZABALETA', 'Pablo', 'Argentin', 53, 13);
+INSERT INTO JOUEUR
+VALUES(1303, 16, 'ROJO', 'Marcos', 'Argentin', 40, 13);
+INSERT INTO JOUEUR
+VALUES(1304, 3, 'OTAMENDI', 'Nicolas', 'Argentin', 26, 13);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(1305, 14, 'MASCHERANO', 'Javier', 'Argentin', 118, 13);
+INSERT INTO JOUEUR
+VALUES(1306, 7, 'DI MARIA', 'Angel', 'Argentin', 66, 13);
+INSERT INTO JOUEUR
+VALUES(1307, 15, 'BIGLIA', 'Lucas', 'Argentin', 35, 13);
+INSERT INTO JOUEUR
+VALUES(1308, 19, 'BANEGA', 'Ever', 'Argentin', 36, 13);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(1309, 10, 'MESSI', 'Lionel', 'Argentin', 105, 13);
+INSERT INTO JOUEUR
+VALUES(1310, 23, 'TEVEZ', 'Carlos', 'Argentin', 74, 13);
+INSERT INTO JOUEUR
+VALUES(1311, 11, 'AGUERO', 'Sergio', 'Argentin', 68, 13);
+
+/* ====================================================================================== */
+
+/* Liste des joueurs de l'equipe nationale de Suisse (14) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(1401, 1, 'SOMMER', 'Yann', 'Suisse', 15, 14);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(1402, 3, 'LICHSTEINER', 'Stephan', 'Suisse', 79, 14);
+INSERT INTO JOUEUR
+VALUES(1403, 5, 'MOUBANDJE', 'Francois', 'Suisse', 8, 14);
+INSERT INTO JOUEUR
+VALUES(1404, 7, 'KLOSE', 'Timm', 'Suisse', 12, 14);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(1405, 9, 'INLER', 'Gokhan', 'Suisse', 89, 14);
+INSERT INTO JOUEUR
+VALUES(1406, 11, 'ZUFFI', 'Luca', 'Suisse', 3, 14);
+INSERT INTO JOUEUR
+VALUES(1407, 13, 'BEHRAMI', 'Valon', 'Suisse', 63, 14);
+INSERT INTO JOUEUR
+VALUES(1408, 15, 'STOCKER', 'Valentin', 'Suisse', 33, 14);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(1409, 17, 'SEFEROVIC', 'Haris', 'Suisse', 27, 14);
+INSERT INTO JOUEUR
+VALUES(1410, 19, 'DERDIYOK', 'Eren', 'Suisse', 50, 14);
+INSERT INTO JOUEUR
+VALUES(1411, 21, 'MEHMEDI', 'Admir', 'Suisse', 38, 14);
+
+/* ====================================================================================== */
+
+/* Liste des joueurs de l'equipe nationale de Belgique (15) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(1501, 1, 'COURTOIS', 'Thibaut', 'Belge', 17, 15);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(1502, 2, 'ALDERWEIRELD', 'Toby', 'Belge', 34, 15);
+INSERT INTO JOUEUR
+VALUES(1503, 3, 'VERMAELEN', 'Thomas', 'Belge', 47, 15);
+INSERT INTO JOUEUR
+VALUES(1504, 4, 'KOMPANY', 'Vincent', 'Belge', 59, 15);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(1505, 6, 'WITSEL', 'Axel', 'Belge', 48, 15);
+INSERT INTO JOUEUR
+VALUES(1506, 7, 'DE BRUYNE', 'Kevin', 'Belge', 21, 15);
+INSERT INTO JOUEUR
+VALUES(1507, 8, 'FELLAINI', 'Marouane', 'Belge', 50, 15);
+INSERT INTO JOUEUR
+VALUES(1508, 16, 'DEFOUR', 'Steven', 'Belge', 43, 15);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(1509, 9, 'LUKAKU', 'Romelu', 'Belge', 29, 15);
+INSERT INTO JOUEUR
+VALUES(1510, 10, 'HAZARD', 'Eden', 'Belge', 45, 15);
+INSERT INTO JOUEUR
+VALUES(1511, 11, 'MIRALLAS', 'Kevin', 'Belge', 44, 15);
+
+/* ====================================================================================== */
+
+/* Liste des joueurs de l'equipe nationale des Etats-Unis (16) */
+
+/* Guardien */
+INSERT INTO JOUEUR
+VALUES(1601, 1, 'HOWARD', 'Tim', 'Americain', 104, 16);
+
+/* Defenseurs */
+INSERT INTO JOUEUR
+VALUES(1602, 2, 'YEDLIN', 'DeAndre', 'Americain', 7, 16);
+INSERT INTO JOUEUR
+VALUES(1603, 3, 'GONZALES', 'Omar', 'Americain', 23, 16);
+INSERT INTO JOUEUR
+VALUES(1604, 5, 'BESLER', 'Matt', 'Americain', 21, 16);
+
+/* Milieux */
+INSERT INTO JOUEUR
+VALUES(1605, 4, 'BARDLEY', 'Michael', 'Americain', 90, 16);
+INSERT INTO JOUEUR
+VALUES(1606, 10, 'DISKERUD', 'Mikkel', 'Americain', 20, 16);
+INSERT INTO JOUEUR
+VALUES(1607, 11, 'BEDOYA', 'Alejandro', 'Americain', 32, 16);
+INSERT INTO JOUEUR
+VALUES(1608, 13, 'JONES', 'Jermaine', 'Americain', 46, 16);
+
+/* Attaquants */
+INSERT INTO JOUEUR
+VALUES(1609, 8, 'DEMPSEY', 'Clint', 'Americain', 109, 16);
+INSERT INTO JOUEUR
+VALUES(1610, 9, 'JOHANNSSON', 'Aron', 'Americain', 9, 16);
+INSERT INTO JOUEUR
+VALUES(1611, 17, 'ALTIDORE', 'Jozy', 'Americain', 71, 16);
+
+/* ====================================================================================== */
 
 
 /* ====================================================================================== */
 /* 				       LISTE DES EQUIPES                                  */
 /* ====================================================================================== */
 
+INSERT INTO EQUIPE
+VALUES(1, 'Bresil', 80000, 192000000);
+INSERT INTO EQUIPE
+VALUES(2, 'Chili', 63649, 162000000);
+INSERT INTO EQUIPE
+VALUES(3, 'Colombie', 60000, 147000000);
+INSERT INTO EQUIPE
+VALUES(4, 'Uruguay', 65000, 178000000);
+INSERT INTO EQUIPE
+VALUES(5, 'France', 81338, 205000000);
+INSERT INTO EQUIPE
+VALUES(6, 'Nigeria', 60000, 153000000);
+INSERT INTO EQUIPE
+VALUES(7, 'Allemagne', 80645, 165000000);
+INSERT INTO EQUIPE
+VALUES(8, 'Algerie', 85000, 67000000);
+INSERT INTO EQUIPE
+VALUES(9, 'Pays-Bas', 53502, 145000000);
+INSERT INTO EQUIPE
+VALUES(10, 'Mexique', 105064, 193000000);
+INSERT INTO EQUIPE
+VALUES(11, 'Costa Rica', 35100, 134000000);
+INSERT INTO EQUIPE
+VALUES(12, 'Grece', 71030, 420000);
+INSERT INTO EQUIPE
+VALUES(13, 'Argentine', 65645, 187000000);
+INSERT INTO EQUIPE
+VALUES(14, 'Suisse', 31783, 142000000);
+INSERT INTO EQUIPE
+VALUES(15, 'Belgique', 50000, 154000000);
+INSERT INTO EQUIPE
+VALUES(16, 'Etats-Unis', 109801, 212000000);
 
+/* ====================================================================================== */
+
+
+/* ====================================================================================== */
+/*                                  LISTE DES COMPETITIONS                                */
+/* ====================================================================================== */
+
+/* Liste des Coupes du Monde */
+INSERT INTO COMPETITION
+VALUES(1, 'Coupe du Monde', 'Coupe', 2014, 7);
+INSERT INTO COMPETITION
+VALUES(2, 'Coupe du Monde', 'Coupe', 2010, 15);
+INSERT INTO COMPETITION
+VALUES(3, 'Coupe du Monde', 'Coupe', 1998, 3);
+
+/* Liste des Coupes de France */
+INSERT INTO COMPETITION
+VALUES(4, 'Coupe de France', 'Coupe', 2012, 10);
+INSERT INTO COMPETITION
+VALUES(5, 'Coupe de France', 'Coupe', 2008, 15);
+INSERT INTO COMPETITION
+VALUES(6, 'Coupe de France', 'Coupe', 2004, 4);
+
+/* Liste des Ligues des Champions */
+INSERT INTO COMPETITION
+VALUES(7, 'Ligue des Champions', 'Ligue', 2015, 12);
+INSERT INTO COMPETITION
+VALUES(8, 'Ligue des Champions', 'Ligue', 2013, 10);
+INSERT INTO COMPETITION
+VALUES(9, 'Ligue des Champions', 'Ligue', 2011, 8);
+
+/* Liste des Championnats */
+INSERT INTO COMPETITION
+VALUES(10, 'Championnat', 'Championnat', 2010, 1);
+INSERT INTO COMPETITION
+VALUES(11, 'Championnat', 'Championnat', 2006, 3);
+INSERT INTO COMPETITION
+VALUES(12, 'Championnat', 'Championnat', 2002, 6);
+
+
+/* ====================================================================================== */
+
+/* ====================================================================================== */
+/*									 LISTE DES PALMARESJ							      */
+/* ====================================================================================== */
+
+INSERT INTO PALMARESJ
+VALUES(101, 1);
+INSERT INTO PALMARESJ
+VALUES(102, 1);
+INSERT INTO PALMARESJ
+VALUES(103, 1);
+INSERT INTO PALMARESJ
+VALUES(104, 1);
+INSERT INTO PALMARESJ
+VALUES(105, 1);
+INSERT INTO PALMARESJ
+VALUES(106, 1);
+INSERT INTO PALMARESJ
+VALUES(107, 1);
+INSERT INTO PALMARESJ
+VALUES(108, 1);
+INSERT INTO PALMARESJ
+VALUES(109, 1);
+INSERT INTO PALMARESJ
+VALUES(110, 1);
+INSERT INTO PALMARESJ
+VALUES(111, 1);
+INSERT INTO PALMARESJ
+VALUES(101, 2);
+INSERT INTO PALMARESJ
+VALUES(102, 2);
+INSERT INTO PALMARESJ
+VALUES(103, 2);
+INSERT INTO PALMARESJ
+VALUES(104, 2);
+INSERT INTO PALMARESJ
+VALUES(105, 2);
+INSERT INTO PALMARESJ
+VALUES(106, 2);
+INSERT INTO PALMARESJ
+VALUES(107, 2);
+INSERT INTO PALMARESJ
+VALUES(108, 2);
+INSERT INTO PALMARESJ
+VALUES(109, 2);
+INSERT INTO PALMARESJ
+VALUES(110, 2);
+INSERT INTO PALMARESJ
+VALUES(111, 2);
+INSERT INTO PALMARESJ
+VALUES(101, 3);
+INSERT INTO PALMARESJ
+VALUES(102, 3);
+INSERT INTO PALMARESJ
+VALUES(103, 3);
+INSERT INTO PALMARESJ
+VALUES(104, 3);
+INSERT INTO PALMARESJ
+VALUES(105, 3);
+INSERT INTO PALMARESJ
+VALUES(106, 3);
+INSERT INTO PALMARESJ
+VALUES(107, 3);
+INSERT INTO PALMARESJ
+VALUES(108, 3);
+INSERT INTO PALMARESJ
+VALUES(109, 3);
+INSERT INTO PALMARESJ
+VALUES(110, 3);
+INSERT INTO PALMARESJ
+VALUES(111, 3);
+INSERT INTO PALMARESJ
+VALUES(101, 4);
+INSERT INTO PALMARESJ
+VALUES(102, 4);
+INSERT INTO PALMARESJ
+VALUES(103, 4);
+INSERT INTO PALMARESJ
+VALUES(104, 4);
+INSERT INTO PALMARESJ
+VALUES(105, 4);
+INSERT INTO PALMARESJ
+VALUES(106, 4);
+INSERT INTO PALMARESJ
+VALUES(107, 4);
+INSERT INTO PALMARESJ
+VALUES(108, 4);
+INSERT INTO PALMARESJ
+VALUES(109, 4);
+INSERT INTO PALMARESJ
+VALUES(110, 4);
+INSERT INTO PALMARESJ
+VALUES(111, 4);
+INSERT INTO PALMARESJ
+VALUES(101, 5);
+INSERT INTO PALMARESJ
+VALUES(102, 5);
+INSERT INTO PALMARESJ
+VALUES(103, 5);
+INSERT INTO PALMARESJ
+VALUES(104, 5);
+INSERT INTO PALMARESJ
+VALUES(105, 5);
+INSERT INTO PALMARESJ
+VALUES(106, 5);
+INSERT INTO PALMARESJ
+VALUES(107, 5);
+INSERT INTO PALMARESJ
+VALUES(108, 5);
+INSERT INTO PALMARESJ
+VALUES(109, 5);
+INSERT INTO PALMARESJ
+VALUES(110, 5);
+INSERT INTO PALMARESJ
+VALUES(111, 5);
+INSERT INTO PALMARESJ
+VALUES(101, 6);
+INSERT INTO PALMARESJ
+VALUES(102, 6);
+INSERT INTO PALMARESJ
+VALUES(103, 6);
+INSERT INTO PALMARESJ
+VALUES(104, 6);
+INSERT INTO PALMARESJ
+VALUES(105, 6);
+INSERT INTO PALMARESJ
+VALUES(106, 6);
+INSERT INTO PALMARESJ
+VALUES(107, 6);
+INSERT INTO PALMARESJ
+VALUES(108, 6);
+INSERT INTO PALMARESJ
+VALUES(109, 6);
+INSERT INTO PALMARESJ
+VALUES(110, 6);
+INSERT INTO PALMARESJ
+VALUES(111, 6);
+INSERT INTO PALMARESJ
+VALUES(101, 7);
+INSERT INTO PALMARESJ
+VALUES(102, 7);
+INSERT INTO PALMARESJ
+VALUES(103, 7);
+INSERT INTO PALMARESJ
+VALUES(104, 7);
+INSERT INTO PALMARESJ
+VALUES(105, 7);
+INSERT INTO PALMARESJ
+VALUES(106, 7);
+INSERT INTO PALMARESJ
+VALUES(107, 7);
+INSERT INTO PALMARESJ
+VALUES(108, 7);
+INSERT INTO PALMARESJ
+VALUES(109, 7);
+INSERT INTO PALMARESJ
+VALUES(110, 7);
+INSERT INTO PALMARESJ
+VALUES(111, 7);
+INSERT INTO PALMARESJ
+VALUES(101, 8);
+INSERT INTO PALMARESJ
+VALUES(102, 8);
+INSERT INTO PALMARESJ
+VALUES(103, 8);
+INSERT INTO PALMARESJ
+VALUES(104, 8);
+INSERT INTO PALMARESJ
+VALUES(105, 8);
+INSERT INTO PALMARESJ
+VALUES(106, 8);
+INSERT INTO PALMARESJ
+VALUES(107, 8);
+INSERT INTO PALMARESJ
+VALUES(108, 8);
+INSERT INTO PALMARESJ
+VALUES(109, 8);
+INSERT INTO PALMARESJ
+VALUES(110, 8);
+INSERT INTO PALMARESJ
+VALUES(111, 8);
+INSERT INTO PALMARESJ
+VALUES(101, 9);
+INSERT INTO PALMARESJ
+VALUES(102, 9);
+INSERT INTO PALMARESJ
+VALUES(103, 9);
+INSERT INTO PALMARESJ
+VALUES(104, 9);
+INSERT INTO PALMARESJ
+VALUES(105, 9);
+INSERT INTO PALMARESJ
+VALUES(106, 9);
+INSERT INTO PALMARESJ
+VALUES(107, 9);
+INSERT INTO PALMARESJ
+VALUES(108, 9);
+INSERT INTO PALMARESJ
+VALUES(109, 9);
+INSERT INTO PALMARESJ
+VALUES(110, 9);
+INSERT INTO PALMARESJ
+VALUES(111, 9);
+INSERT INTO PALMARESJ
+VALUES(101, 10);
+INSERT INTO PALMARESJ
+VALUES(102, 10);
+INSERT INTO PALMARESJ
+VALUES(103, 10);
+INSERT INTO PALMARESJ
+VALUES(104, 10);
+INSERT INTO PALMARESJ
+VALUES(105, 10);
+INSERT INTO PALMARESJ
+VALUES(106, 10);
+INSERT INTO PALMARESJ
+VALUES(107, 10);
+INSERT INTO PALMARESJ
+VALUES(108, 10);
+INSERT INTO PALMARESJ
+VALUES(109, 10);
+INSERT INTO PALMARESJ
+VALUES(110, 10);
+INSERT INTO PALMARESJ
+VALUES(111, 10);
+INSERT INTO PALMARESJ
+VALUES(101, 11);
+INSERT INTO PALMARESJ
+VALUES(102, 11);
+INSERT INTO PALMARESJ
+VALUES(103, 11);
+INSERT INTO PALMARESJ
+VALUES(104, 11);
+INSERT INTO PALMARESJ
+VALUES(105, 11);
+INSERT INTO PALMARESJ
+VALUES(106, 11);
+INSERT INTO PALMARESJ
+VALUES(107, 11);
+INSERT INTO PALMARESJ
+VALUES(108, 11);
+INSERT INTO PALMARESJ
+VALUES(109, 11);
+INSERT INTO PALMARESJ
+VALUES(110, 11);
+INSERT INTO PALMARESJ
+VALUES(111, 11);
+INSERT INTO PALMARESJ
+VALUES(101, 12);
+INSERT INTO PALMARESJ
+VALUES(102, 12);
+INSERT INTO PALMARESJ
+VALUES(103, 12);
+INSERT INTO PALMARESJ
+VALUES(104, 12);
+INSERT INTO PALMARESJ
+VALUES(105, 12);
+INSERT INTO PALMARESJ
+VALUES(106, 12);
+INSERT INTO PALMARESJ
+VALUES(107, 12);
+INSERT INTO PALMARESJ
+VALUES(108, 12);
+INSERT INTO PALMARESJ
+VALUES(109, 12);
+INSERT INTO PALMARESJ
+VALUES(110, 12);
+INSERT INTO PALMARESJ
+VALUES(111, 12);
+
+INSERT INTO PALMARESJ
+VALUES(201, 1);
+INSERT INTO PALMARESJ
+VALUES(202, 1);
+INSERT INTO PALMARESJ
+VALUES(203, 1);
+INSERT INTO PALMARESJ
+VALUES(204, 1);
+INSERT INTO PALMARESJ
+VALUES(205, 1);
+INSERT INTO PALMARESJ
+VALUES(206, 1);
+INSERT INTO PALMARESJ
+VALUES(207, 1);
+INSERT INTO PALMARESJ
+VALUES(208, 1);
+INSERT INTO PALMARESJ
+VALUES(209, 1);
+INSERT INTO PALMARESJ
+VALUES(210, 1);
+INSERT INTO PALMARESJ
+VALUES(211, 1);
+INSERT INTO PALMARESJ
+VALUES(201, 2);
+INSERT INTO PALMARESJ
+VALUES(202, 2);
+INSERT INTO PALMARESJ
+VALUES(203, 2);
+INSERT INTO PALMARESJ
+VALUES(204, 2);
+INSERT INTO PALMARESJ
+VALUES(205, 2);
+INSERT INTO PALMARESJ
+VALUES(206, 2);
+INSERT INTO PALMARESJ
+VALUES(207, 2);
+INSERT INTO PALMARESJ
+VALUES(208, 2);
+INSERT INTO PALMARESJ
+VALUES(209, 2);
+INSERT INTO PALMARESJ
+VALUES(210, 2);
+INSERT INTO PALMARESJ
+VALUES(211, 2);
+INSERT INTO PALMARESJ
+VALUES(201, 3);
+INSERT INTO PALMARESJ
+VALUES(202, 3);
+INSERT INTO PALMARESJ
+VALUES(203, 3);
+INSERT INTO PALMARESJ
+VALUES(204, 3);
+INSERT INTO PALMARESJ
+VALUES(205, 3);
+INSERT INTO PALMARESJ
+VALUES(206, 3);
+INSERT INTO PALMARESJ
+VALUES(207, 3);
+INSERT INTO PALMARESJ
+VALUES(208, 3);
+INSERT INTO PALMARESJ
+VALUES(209, 3);
+INSERT INTO PALMARESJ
+VALUES(210, 3);
+INSERT INTO PALMARESJ
+VALUES(211, 3);
+INSERT INTO PALMARESJ
+VALUES(201, 4);
+INSERT INTO PALMARESJ
+VALUES(202, 4);
+INSERT INTO PALMARESJ
+VALUES(203, 4);
+INSERT INTO PALMARESJ
+VALUES(204, 4);
+INSERT INTO PALMARESJ
+VALUES(205, 4);
+INSERT INTO PALMARESJ
+VALUES(206, 4);
+INSERT INTO PALMARESJ
+VALUES(207, 4);
+INSERT INTO PALMARESJ
+VALUES(208, 4);
+INSERT INTO PALMARESJ
+VALUES(209, 4);
+INSERT INTO PALMARESJ
+VALUES(210, 4);
+INSERT INTO PALMARESJ
+VALUES(211, 4);
+INSERT INTO PALMARESJ
+VALUES(201, 5);
+INSERT INTO PALMARESJ
+VALUES(202, 5);
+INSERT INTO PALMARESJ
+VALUES(203, 5);
+INSERT INTO PALMARESJ
+VALUES(204, 5);
+INSERT INTO PALMARESJ
+VALUES(205, 5);
+INSERT INTO PALMARESJ
+VALUES(206, 5);
+INSERT INTO PALMARESJ
+VALUES(207, 5);
+INSERT INTO PALMARESJ
+VALUES(208, 5);
+INSERT INTO PALMARESJ
+VALUES(209, 5);
+INSERT INTO PALMARESJ
+VALUES(210, 5);
+INSERT INTO PALMARESJ
+VALUES(211, 5);
+INSERT INTO PALMARESJ
+VALUES(201, 6);
+INSERT INTO PALMARESJ
+VALUES(202, 6);
+INSERT INTO PALMARESJ
+VALUES(203, 6);
+INSERT INTO PALMARESJ
+VALUES(204, 6);
+INSERT INTO PALMARESJ
+VALUES(205, 6);
+INSERT INTO PALMARESJ
+VALUES(206, 6);
+INSERT INTO PALMARESJ
+VALUES(207, 6);
+INSERT INTO PALMARESJ
+VALUES(208, 6);
+INSERT INTO PALMARESJ
+VALUES(209, 6);
+INSERT INTO PALMARESJ
+VALUES(210, 6);
+INSERT INTO PALMARESJ
+VALUES(211, 6);
+INSERT INTO PALMARESJ
+VALUES(201, 7);
+INSERT INTO PALMARESJ
+VALUES(202, 7);
+INSERT INTO PALMARESJ
+VALUES(203, 7);
+INSERT INTO PALMARESJ
+VALUES(204, 7);
+INSERT INTO PALMARESJ
+VALUES(205, 7);
+INSERT INTO PALMARESJ
+VALUES(206, 7);
+INSERT INTO PALMARESJ
+VALUES(207, 7);
+INSERT INTO PALMARESJ
+VALUES(208, 7);
+INSERT INTO PALMARESJ
+VALUES(209, 7);
+INSERT INTO PALMARESJ
+VALUES(210, 7);
+INSERT INTO PALMARESJ
+VALUES(211, 7);
+INSERT INTO PALMARESJ
+VALUES(201, 8);
+INSERT INTO PALMARESJ
+VALUES(202, 8);
+INSERT INTO PALMARESJ
+VALUES(203, 8);
+INSERT INTO PALMARESJ
+VALUES(204, 8);
+INSERT INTO PALMARESJ
+VALUES(205, 8);
+INSERT INTO PALMARESJ
+VALUES(206, 8);
+INSERT INTO PALMARESJ
+VALUES(207, 8);
+INSERT INTO PALMARESJ
+VALUES(208, 8);
+INSERT INTO PALMARESJ
+VALUES(209, 8);
+INSERT INTO PALMARESJ
+VALUES(210, 8);
+INSERT INTO PALMARESJ
+VALUES(211, 8);
+INSERT INTO PALMARESJ
+VALUES(201, 9);
+INSERT INTO PALMARESJ
+VALUES(202, 9);
+INSERT INTO PALMARESJ
+VALUES(203, 9);
+INSERT INTO PALMARESJ
+VALUES(204, 9);
+INSERT INTO PALMARESJ
+VALUES(205, 9);
+INSERT INTO PALMARESJ
+VALUES(206, 9);
+INSERT INTO PALMARESJ
+VALUES(207, 9);
+INSERT INTO PALMARESJ
+VALUES(208, 9);
+INSERT INTO PALMARESJ
+VALUES(209, 9);
+INSERT INTO PALMARESJ
+VALUES(210, 9);
+INSERT INTO PALMARESJ
+VALUES(211, 9);
+INSERT INTO PALMARESJ
+VALUES(201, 10);
+INSERT INTO PALMARESJ
+VALUES(202, 10);
+INSERT INTO PALMARESJ
+VALUES(203, 10);
+INSERT INTO PALMARESJ
+VALUES(204, 10);
+INSERT INTO PALMARESJ
+VALUES(205, 10);
+INSERT INTO PALMARESJ
+VALUES(206, 10);
+INSERT INTO PALMARESJ
+VALUES(207, 10);
+INSERT INTO PALMARESJ
+VALUES(208, 10);
+INSERT INTO PALMARESJ
+VALUES(209, 10);
+INSERT INTO PALMARESJ
+VALUES(210, 10);
+INSERT INTO PALMARESJ
+VALUES(211, 10);
+INSERT INTO PALMARESJ
+VALUES(201, 11);
+INSERT INTO PALMARESJ
+VALUES(202, 11);
+INSERT INTO PALMARESJ
+VALUES(203, 11);
+INSERT INTO PALMARESJ
+VALUES(204, 11);
+INSERT INTO PALMARESJ
+VALUES(205, 11);
+INSERT INTO PALMARESJ
+VALUES(206, 11);
+INSERT INTO PALMARESJ
+VALUES(207, 11);
+INSERT INTO PALMARESJ
+VALUES(208, 11);
+INSERT INTO PALMARESJ
+VALUES(209, 11);
+INSERT INTO PALMARESJ
+VALUES(210, 11);
+INSERT INTO PALMARESJ
+VALUES(211, 11);
+INSERT INTO PALMARESJ
+VALUES(201, 12);
+INSERT INTO PALMARESJ
+VALUES(202, 12);
+INSERT INTO PALMARESJ
+VALUES(203, 12);
+INSERT INTO PALMARESJ
+VALUES(204, 12);
+INSERT INTO PALMARESJ
+VALUES(205, 12);
+INSERT INTO PALMARESJ
+VALUES(206, 12);
+INSERT INTO PALMARESJ
+VALUES(207, 12);
+INSERT INTO PALMARESJ
+VALUES(208, 12);
+INSERT INTO PALMARESJ
+VALUES(209, 12);
+INSERT INTO PALMARESJ
+VALUES(210, 12);
+INSERT INTO PALMARESJ
+VALUES(211, 12);
+
+INSERT INTO PALMARESJ
+VALUES(301, 1);
+INSERT INTO PALMARESJ
+VALUES(302, 1);
+INSERT INTO PALMARESJ
+VALUES(303, 1);
+INSERT INTO PALMARESJ
+VALUES(304, 1);
+INSERT INTO PALMARESJ
+VALUES(305, 1);
+INSERT INTO PALMARESJ
+VALUES(306, 1);
+INSERT INTO PALMARESJ
+VALUES(307, 1);
+INSERT INTO PALMARESJ
+VALUES(308, 1);
+INSERT INTO PALMARESJ
+VALUES(309, 1);
+INSERT INTO PALMARESJ
+VALUES(310, 1);
+INSERT INTO PALMARESJ
+VALUES(311, 1);
+INSERT INTO PALMARESJ
+VALUES(301, 2);
+INSERT INTO PALMARESJ
+VALUES(302, 2);
+INSERT INTO PALMARESJ
+VALUES(303, 2);
+INSERT INTO PALMARESJ
+VALUES(304, 2);
+INSERT INTO PALMARESJ
+VALUES(305, 2);
+INSERT INTO PALMARESJ
+VALUES(306, 2);
+INSERT INTO PALMARESJ
+VALUES(307, 2);
+INSERT INTO PALMARESJ
+VALUES(308, 2);
+INSERT INTO PALMARESJ
+VALUES(309, 2);
+INSERT INTO PALMARESJ
+VALUES(310, 2);
+INSERT INTO PALMARESJ
+VALUES(311, 2);
+INSERT INTO PALMARESJ
+VALUES(301, 3);
+INSERT INTO PALMARESJ
+VALUES(302, 3);
+INSERT INTO PALMARESJ
+VALUES(303, 3);
+INSERT INTO PALMARESJ
+VALUES(304, 3);
+INSERT INTO PALMARESJ
+VALUES(305, 3);
+INSERT INTO PALMARESJ
+VALUES(306, 3);
+INSERT INTO PALMARESJ
+VALUES(307, 3);
+INSERT INTO PALMARESJ
+VALUES(308, 3);
+INSERT INTO PALMARESJ
+VALUES(309, 3);
+INSERT INTO PALMARESJ
+VALUES(310, 3);
+INSERT INTO PALMARESJ
+VALUES(311, 3);
+INSERT INTO PALMARESJ
+VALUES(301, 4);
+INSERT INTO PALMARESJ
+VALUES(302, 4);
+INSERT INTO PALMARESJ
+VALUES(303, 4);
+INSERT INTO PALMARESJ
+VALUES(304, 4);
+INSERT INTO PALMARESJ
+VALUES(305, 4);
+INSERT INTO PALMARESJ
+VALUES(306, 4);
+INSERT INTO PALMARESJ
+VALUES(307, 4);
+INSERT INTO PALMARESJ
+VALUES(308, 4);
+INSERT INTO PALMARESJ
+VALUES(309, 4);
+INSERT INTO PALMARESJ
+VALUES(310, 4);
+INSERT INTO PALMARESJ
+VALUES(311, 4);
+INSERT INTO PALMARESJ
+VALUES(301, 5);
+INSERT INTO PALMARESJ
+VALUES(302, 5);
+INSERT INTO PALMARESJ
+VALUES(303, 5);
+INSERT INTO PALMARESJ
+VALUES(304, 5);
+INSERT INTO PALMARESJ
+VALUES(305, 5);
+INSERT INTO PALMARESJ
+VALUES(306, 5);
+INSERT INTO PALMARESJ
+VALUES(307, 5);
+INSERT INTO PALMARESJ
+VALUES(308, 5);
+INSERT INTO PALMARESJ
+VALUES(309, 5);
+INSERT INTO PALMARESJ
+VALUES(310, 5);
+INSERT INTO PALMARESJ
+VALUES(311, 5);
+INSERT INTO PALMARESJ
+VALUES(301, 6);
+INSERT INTO PALMARESJ
+VALUES(302, 6);
+INSERT INTO PALMARESJ
+VALUES(303, 6);
+INSERT INTO PALMARESJ
+VALUES(304, 6);
+INSERT INTO PALMARESJ
+VALUES(305, 6);
+INSERT INTO PALMARESJ
+VALUES(306, 6);
+INSERT INTO PALMARESJ
+VALUES(307, 6);
+INSERT INTO PALMARESJ
+VALUES(308, 6);
+INSERT INTO PALMARESJ
+VALUES(309, 6);
+INSERT INTO PALMARESJ
+VALUES(310, 6);
+INSERT INTO PALMARESJ
+VALUES(311, 6);
+INSERT INTO PALMARESJ
+VALUES(301, 7);
+INSERT INTO PALMARESJ
+VALUES(302, 7);
+INSERT INTO PALMARESJ
+VALUES(303, 7);
+INSERT INTO PALMARESJ
+VALUES(304, 7);
+INSERT INTO PALMARESJ
+VALUES(305, 7);
+INSERT INTO PALMARESJ
+VALUES(306, 7);
+INSERT INTO PALMARESJ
+VALUES(307, 7);
+INSERT INTO PALMARESJ
+VALUES(308, 7);
+INSERT INTO PALMARESJ
+VALUES(309, 7);
+INSERT INTO PALMARESJ
+VALUES(310, 7);
+INSERT INTO PALMARESJ
+VALUES(311, 7);
+INSERT INTO PALMARESJ
+VALUES(301, 8);
+INSERT INTO PALMARESJ
+VALUES(302, 8);
+INSERT INTO PALMARESJ
+VALUES(303, 8);
+INSERT INTO PALMARESJ
+VALUES(304, 8);
+INSERT INTO PALMARESJ
+VALUES(305, 8);
+INSERT INTO PALMARESJ
+VALUES(306, 8);
+INSERT INTO PALMARESJ
+VALUES(307, 8);
+INSERT INTO PALMARESJ
+VALUES(308, 8);
+INSERT INTO PALMARESJ
+VALUES(309, 8);
+INSERT INTO PALMARESJ
+VALUES(310, 8);
+INSERT INTO PALMARESJ
+VALUES(311, 8);
+INSERT INTO PALMARESJ
+VALUES(301, 9);
+INSERT INTO PALMARESJ
+VALUES(302, 9);
+INSERT INTO PALMARESJ
+VALUES(303, 9);
+INSERT INTO PALMARESJ
+VALUES(304, 9);
+INSERT INTO PALMARESJ
+VALUES(305, 9);
+INSERT INTO PALMARESJ
+VALUES(306, 9);
+INSERT INTO PALMARESJ
+VALUES(307, 9);
+INSERT INTO PALMARESJ
+VALUES(308, 9);
+INSERT INTO PALMARESJ
+VALUES(309, 9);
+INSERT INTO PALMARESJ
+VALUES(310, 9);
+INSERT INTO PALMARESJ
+VALUES(311, 9);
+INSERT INTO PALMARESJ
+VALUES(301, 10);
+INSERT INTO PALMARESJ
+VALUES(302, 10);
+INSERT INTO PALMARESJ
+VALUES(303, 10);
+INSERT INTO PALMARESJ
+VALUES(304, 10);
+INSERT INTO PALMARESJ
+VALUES(305, 10);
+INSERT INTO PALMARESJ
+VALUES(306, 10);
+INSERT INTO PALMARESJ
+VALUES(307, 10);
+INSERT INTO PALMARESJ
+VALUES(308, 10);
+INSERT INTO PALMARESJ
+VALUES(309, 10);
+INSERT INTO PALMARESJ
+VALUES(310, 10);
+INSERT INTO PALMARESJ
+VALUES(311, 10);
+INSERT INTO PALMARESJ
+VALUES(301, 11);
+INSERT INTO PALMARESJ
+VALUES(302, 11);
+INSERT INTO PALMARESJ
+VALUES(303, 11);
+INSERT INTO PALMARESJ
+VALUES(304, 11);
+INSERT INTO PALMARESJ
+VALUES(305, 11);
+INSERT INTO PALMARESJ
+VALUES(306, 11);
+INSERT INTO PALMARESJ
+VALUES(307, 11);
+INSERT INTO PALMARESJ
+VALUES(308, 11);
+INSERT INTO PALMARESJ
+VALUES(309, 11);
+INSERT INTO PALMARESJ
+VALUES(310, 11);
+INSERT INTO PALMARESJ
+VALUES(311, 11);
+INSERT INTO PALMARESJ
+VALUES(301, 12);
+INSERT INTO PALMARESJ
+VALUES(302, 12);
+INSERT INTO PALMARESJ
+VALUES(303, 12);
+INSERT INTO PALMARESJ
+VALUES(304, 12);
+INSERT INTO PALMARESJ
+VALUES(305, 12);
+INSERT INTO PALMARESJ
+VALUES(306, 12);
+INSERT INTO PALMARESJ
+VALUES(307, 12);
+INSERT INTO PALMARESJ
+VALUES(308, 12);
+INSERT INTO PALMARESJ
+VALUES(309, 12);
+INSERT INTO PALMARESJ
+VALUES(310, 12);
+INSERT INTO PALMARESJ
+VALUES(311, 12);
+
+INSERT INTO PALMARESJ
+VALUES(401, 1);
+INSERT INTO PALMARESJ
+VALUES(402, 1);
+INSERT INTO PALMARESJ
+VALUES(403, 1);
+INSERT INTO PALMARESJ
+VALUES(404, 1);
+INSERT INTO PALMARESJ
+VALUES(405, 1);
+INSERT INTO PALMARESJ
+VALUES(406, 1);
+INSERT INTO PALMARESJ
+VALUES(407, 1);
+INSERT INTO PALMARESJ
+VALUES(408, 1);
+INSERT INTO PALMARESJ
+VALUES(409, 1);
+INSERT INTO PALMARESJ
+VALUES(410, 1);
+INSERT INTO PALMARESJ
+VALUES(411, 1);
+INSERT INTO PALMARESJ
+VALUES(401, 2);
+INSERT INTO PALMARESJ
+VALUES(402, 2);
+INSERT INTO PALMARESJ
+VALUES(403, 2);
+INSERT INTO PALMARESJ
+VALUES(404, 2);
+INSERT INTO PALMARESJ
+VALUES(405, 2);
+INSERT INTO PALMARESJ
+VALUES(406, 2);
+INSERT INTO PALMARESJ
+VALUES(407, 2);
+INSERT INTO PALMARESJ
+VALUES(408, 2);
+INSERT INTO PALMARESJ
+VALUES(409, 2);
+INSERT INTO PALMARESJ
+VALUES(410, 2);
+INSERT INTO PALMARESJ
+VALUES(411, 2);
+INSERT INTO PALMARESJ
+VALUES(401, 3);
+INSERT INTO PALMARESJ
+VALUES(402, 3);
+INSERT INTO PALMARESJ
+VALUES(403, 3);
+INSERT INTO PALMARESJ
+VALUES(404, 3);
+INSERT INTO PALMARESJ
+VALUES(405, 3);
+INSERT INTO PALMARESJ
+VALUES(406, 3);
+INSERT INTO PALMARESJ
+VALUES(407, 3);
+INSERT INTO PALMARESJ
+VALUES(408, 3);
+INSERT INTO PALMARESJ
+VALUES(409, 3);
+INSERT INTO PALMARESJ
+VALUES(410, 3);
+INSERT INTO PALMARESJ
+VALUES(411, 3);
+INSERT INTO PALMARESJ
+VALUES(401, 4);
+INSERT INTO PALMARESJ
+VALUES(402, 4);
+INSERT INTO PALMARESJ
+VALUES(403, 4);
+INSERT INTO PALMARESJ
+VALUES(404, 4);
+INSERT INTO PALMARESJ
+VALUES(405, 4);
+INSERT INTO PALMARESJ
+VALUES(406, 4);
+INSERT INTO PALMARESJ
+VALUES(407, 4);
+INSERT INTO PALMARESJ
+VALUES(408, 4);
+INSERT INTO PALMARESJ
+VALUES(409, 4);
+INSERT INTO PALMARESJ
+VALUES(410, 4);
+INSERT INTO PALMARESJ
+VALUES(411, 4);
+INSERT INTO PALMARESJ
+VALUES(401, 5);
+INSERT INTO PALMARESJ
+VALUES(402, 5);
+INSERT INTO PALMARESJ
+VALUES(403, 5);
+INSERT INTO PALMARESJ
+VALUES(404, 5);
+INSERT INTO PALMARESJ
+VALUES(405, 5);
+INSERT INTO PALMARESJ
+VALUES(406, 5);
+INSERT INTO PALMARESJ
+VALUES(407, 5);
+INSERT INTO PALMARESJ
+VALUES(408, 5);
+INSERT INTO PALMARESJ
+VALUES(409, 5);
+INSERT INTO PALMARESJ
+VALUES(410, 5);
+INSERT INTO PALMARESJ
+VALUES(411, 5);
+INSERT INTO PALMARESJ
+VALUES(401, 6);
+INSERT INTO PALMARESJ
+VALUES(402, 6);
+INSERT INTO PALMARESJ
+VALUES(403, 6);
+INSERT INTO PALMARESJ
+VALUES(404, 6);
+INSERT INTO PALMARESJ
+VALUES(405, 6);
+INSERT INTO PALMARESJ
+VALUES(406, 6);
+INSERT INTO PALMARESJ
+VALUES(407, 6);
+INSERT INTO PALMARESJ
+VALUES(408, 6);
+INSERT INTO PALMARESJ
+VALUES(409, 6);
+INSERT INTO PALMARESJ
+VALUES(410, 6);
+INSERT INTO PALMARESJ
+VALUES(411, 6);
+INSERT INTO PALMARESJ
+VALUES(401, 7);
+INSERT INTO PALMARESJ
+VALUES(402, 7);
+INSERT INTO PALMARESJ
+VALUES(403, 7);
+INSERT INTO PALMARESJ
+VALUES(404, 7);
+INSERT INTO PALMARESJ
+VALUES(405, 7);
+INSERT INTO PALMARESJ
+VALUES(406, 7);
+INSERT INTO PALMARESJ
+VALUES(407, 7);
+INSERT INTO PALMARESJ
+VALUES(408, 7);
+INSERT INTO PALMARESJ
+VALUES(409, 7);
+INSERT INTO PALMARESJ
+VALUES(410, 7);
+INSERT INTO PALMARESJ
+VALUES(411, 7);
+INSERT INTO PALMARESJ
+VALUES(401, 8);
+INSERT INTO PALMARESJ
+VALUES(402, 8);
+INSERT INTO PALMARESJ
+VALUES(403, 8);
+INSERT INTO PALMARESJ
+VALUES(404, 8);
+INSERT INTO PALMARESJ
+VALUES(405, 8);
+INSERT INTO PALMARESJ
+VALUES(406, 8);
+INSERT INTO PALMARESJ
+VALUES(407, 8);
+INSERT INTO PALMARESJ
+VALUES(408, 8);
+INSERT INTO PALMARESJ
+VALUES(409, 8);
+INSERT INTO PALMARESJ
+VALUES(410, 8);
+INSERT INTO PALMARESJ
+VALUES(411, 8);
+INSERT INTO PALMARESJ
+VALUES(401, 9);
+INSERT INTO PALMARESJ
+VALUES(402, 9);
+INSERT INTO PALMARESJ
+VALUES(403, 9);
+INSERT INTO PALMARESJ
+VALUES(404, 9);
+INSERT INTO PALMARESJ
+VALUES(405, 9);
+INSERT INTO PALMARESJ
+VALUES(406, 9);
+INSERT INTO PALMARESJ
+VALUES(407, 9);
+INSERT INTO PALMARESJ
+VALUES(408, 9);
+INSERT INTO PALMARESJ
+VALUES(409, 9);
+INSERT INTO PALMARESJ
+VALUES(410, 9);
+INSERT INTO PALMARESJ
+VALUES(411, 9);
+INSERT INTO PALMARESJ
+VALUES(401, 10);
+INSERT INTO PALMARESJ
+VALUES(402, 10);
+INSERT INTO PALMARESJ
+VALUES(403, 10);
+INSERT INTO PALMARESJ
+VALUES(404, 10);
+INSERT INTO PALMARESJ
+VALUES(405, 10);
+INSERT INTO PALMARESJ
+VALUES(406, 10);
+INSERT INTO PALMARESJ
+VALUES(407, 10);
+INSERT INTO PALMARESJ
+VALUES(408, 10);
+INSERT INTO PALMARESJ
+VALUES(409, 10);
+INSERT INTO PALMARESJ
+VALUES(410, 10);
+INSERT INTO PALMARESJ
+VALUES(411, 10);
+INSERT INTO PALMARESJ
+VALUES(401, 11);
+INSERT INTO PALMARESJ
+VALUES(402, 11);
+INSERT INTO PALMARESJ
+VALUES(403, 11);
+INSERT INTO PALMARESJ
+VALUES(404, 11);
+INSERT INTO PALMARESJ
+VALUES(405, 11);
+INSERT INTO PALMARESJ
+VALUES(406, 11);
+INSERT INTO PALMARESJ
+VALUES(407, 11);
+INSERT INTO PALMARESJ
+VALUES(408, 11);
+INSERT INTO PALMARESJ
+VALUES(409, 11);
+INSERT INTO PALMARESJ
+VALUES(410, 11);
+INSERT INTO PALMARESJ
+VALUES(411, 11);
+INSERT INTO PALMARESJ
+VALUES(401, 12);
+INSERT INTO PALMARESJ
+VALUES(402, 12);
+INSERT INTO PALMARESJ
+VALUES(403, 12);
+INSERT INTO PALMARESJ
+VALUES(404, 12);
+INSERT INTO PALMARESJ
+VALUES(405, 12);
+INSERT INTO PALMARESJ
+VALUES(406, 12);
+INSERT INTO PALMARESJ
+VALUES(407, 12);
+INSERT INTO PALMARESJ
+VALUES(408, 12);
+INSERT INTO PALMARESJ
+VALUES(409, 12);
+INSERT INTO PALMARESJ
+VALUES(410, 12);
+INSERT INTO PALMARESJ
+VALUES(411, 12);
+
+INSERT INTO PALMARESJ
+VALUES(501, 1);
+INSERT INTO PALMARESJ
+VALUES(502, 1);
+INSERT INTO PALMARESJ
+VALUES(503, 1);
+INSERT INTO PALMARESJ
+VALUES(504, 1);
+INSERT INTO PALMARESJ
+VALUES(505, 1);
+INSERT INTO PALMARESJ
+VALUES(506, 1);
+INSERT INTO PALMARESJ
+VALUES(507, 1);
+INSERT INTO PALMARESJ
+VALUES(508, 1);
+INSERT INTO PALMARESJ
+VALUES(509, 1);
+INSERT INTO PALMARESJ
+VALUES(510, 1);
+INSERT INTO PALMARESJ
+VALUES(511, 1);
+INSERT INTO PALMARESJ
+VALUES(501, 2);
+INSERT INTO PALMARESJ
+VALUES(502, 2);
+INSERT INTO PALMARESJ
+VALUES(503, 2);
+INSERT INTO PALMARESJ
+VALUES(504, 2);
+INSERT INTO PALMARESJ
+VALUES(505, 2);
+INSERT INTO PALMARESJ
+VALUES(506, 2);
+INSERT INTO PALMARESJ
+VALUES(507, 2);
+INSERT INTO PALMARESJ
+VALUES(508, 2);
+INSERT INTO PALMARESJ
+VALUES(509, 2);
+INSERT INTO PALMARESJ
+VALUES(510, 2);
+INSERT INTO PALMARESJ
+VALUES(511, 2);
+INSERT INTO PALMARESJ
+VALUES(501, 3);
+INSERT INTO PALMARESJ
+VALUES(502, 3);
+INSERT INTO PALMARESJ
+VALUES(503, 3);
+INSERT INTO PALMARESJ
+VALUES(504, 3);
+INSERT INTO PALMARESJ
+VALUES(505, 3);
+INSERT INTO PALMARESJ
+VALUES(506, 3);
+INSERT INTO PALMARESJ
+VALUES(507, 3);
+INSERT INTO PALMARESJ
+VALUES(508, 3);
+INSERT INTO PALMARESJ
+VALUES(509, 3);
+INSERT INTO PALMARESJ
+VALUES(510, 3);
+INSERT INTO PALMARESJ
+VALUES(511, 3);
+INSERT INTO PALMARESJ
+VALUES(501, 4);
+INSERT INTO PALMARESJ
+VALUES(502, 4);
+INSERT INTO PALMARESJ
+VALUES(503, 4);
+INSERT INTO PALMARESJ
+VALUES(504, 4);
+INSERT INTO PALMARESJ
+VALUES(505, 4);
+INSERT INTO PALMARESJ
+VALUES(506, 4);
+INSERT INTO PALMARESJ
+VALUES(507, 4);
+INSERT INTO PALMARESJ
+VALUES(508, 4);
+INSERT INTO PALMARESJ
+VALUES(509, 4);
+INSERT INTO PALMARESJ
+VALUES(510, 4);
+INSERT INTO PALMARESJ
+VALUES(511, 4);
+INSERT INTO PALMARESJ
+VALUES(501, 5);
+INSERT INTO PALMARESJ
+VALUES(502, 5);
+INSERT INTO PALMARESJ
+VALUES(503, 5);
+INSERT INTO PALMARESJ
+VALUES(504, 5);
+INSERT INTO PALMARESJ
+VALUES(505, 5);
+INSERT INTO PALMARESJ
+VALUES(506, 5);
+INSERT INTO PALMARESJ
+VALUES(507, 5);
+INSERT INTO PALMARESJ
+VALUES(508, 5);
+INSERT INTO PALMARESJ
+VALUES(509, 5);
+INSERT INTO PALMARESJ
+VALUES(510, 5);
+INSERT INTO PALMARESJ
+VALUES(511, 5);
+INSERT INTO PALMARESJ
+VALUES(501, 6);
+INSERT INTO PALMARESJ
+VALUES(502, 6);
+INSERT INTO PALMARESJ
+VALUES(503, 6);
+INSERT INTO PALMARESJ
+VALUES(504, 6);
+INSERT INTO PALMARESJ
+VALUES(505, 6);
+INSERT INTO PALMARESJ
+VALUES(506, 6);
+INSERT INTO PALMARESJ
+VALUES(507, 6);
+INSERT INTO PALMARESJ
+VALUES(508, 6);
+INSERT INTO PALMARESJ
+VALUES(509, 6);
+INSERT INTO PALMARESJ
+VALUES(510, 6);
+INSERT INTO PALMARESJ
+VALUES(511, 6);
+INSERT INTO PALMARESJ
+VALUES(501, 7);
+INSERT INTO PALMARESJ
+VALUES(502, 7);
+INSERT INTO PALMARESJ
+VALUES(503, 7);
+INSERT INTO PALMARESJ
+VALUES(504, 7);
+INSERT INTO PALMARESJ
+VALUES(505, 7);
+INSERT INTO PALMARESJ
+VALUES(506, 7);
+INSERT INTO PALMARESJ
+VALUES(507, 7);
+INSERT INTO PALMARESJ
+VALUES(508, 7);
+INSERT INTO PALMARESJ
+VALUES(509, 7);
+INSERT INTO PALMARESJ
+VALUES(510, 7);
+INSERT INTO PALMARESJ
+VALUES(511, 7);
+INSERT INTO PALMARESJ
+VALUES(501, 8);
+INSERT INTO PALMARESJ
+VALUES(502, 8);
+INSERT INTO PALMARESJ
+VALUES(503, 8);
+INSERT INTO PALMARESJ
+VALUES(504, 8);
+INSERT INTO PALMARESJ
+VALUES(505, 8);
+INSERT INTO PALMARESJ
+VALUES(506, 8);
+INSERT INTO PALMARESJ
+VALUES(507, 8);
+INSERT INTO PALMARESJ
+VALUES(508, 8);
+INSERT INTO PALMARESJ
+VALUES(509, 8);
+INSERT INTO PALMARESJ
+VALUES(510, 8);
+INSERT INTO PALMARESJ
+VALUES(511, 8);
+INSERT INTO PALMARESJ
+VALUES(501, 9);
+INSERT INTO PALMARESJ
+VALUES(502, 9);
+INSERT INTO PALMARESJ
+VALUES(503, 9);
+INSERT INTO PALMARESJ
+VALUES(504, 9);
+INSERT INTO PALMARESJ
+VALUES(505, 9);
+INSERT INTO PALMARESJ
+VALUES(506, 9);
+INSERT INTO PALMARESJ
+VALUES(507, 9);
+INSERT INTO PALMARESJ
+VALUES(508, 9);
+INSERT INTO PALMARESJ
+VALUES(509, 9);
+INSERT INTO PALMARESJ
+VALUES(510, 9);
+INSERT INTO PALMARESJ
+VALUES(511, 9);
+INSERT INTO PALMARESJ
+VALUES(501, 10);
+INSERT INTO PALMARESJ
+VALUES(502, 10);
+INSERT INTO PALMARESJ
+VALUES(503, 10);
+INSERT INTO PALMARESJ
+VALUES(504, 10);
+INSERT INTO PALMARESJ
+VALUES(505, 10);
+INSERT INTO PALMARESJ
+VALUES(506, 10);
+INSERT INTO PALMARESJ
+VALUES(507, 10);
+INSERT INTO PALMARESJ
+VALUES(508, 10);
+INSERT INTO PALMARESJ
+VALUES(509, 10);
+INSERT INTO PALMARESJ
+VALUES(510, 10);
+INSERT INTO PALMARESJ
+VALUES(511, 10);
+INSERT INTO PALMARESJ
+VALUES(501, 11);
+INSERT INTO PALMARESJ
+VALUES(502, 11);
+INSERT INTO PALMARESJ
+VALUES(503, 11);
+INSERT INTO PALMARESJ
+VALUES(504, 11);
+INSERT INTO PALMARESJ
+VALUES(505, 11);
+INSERT INTO PALMARESJ
+VALUES(506, 11);
+INSERT INTO PALMARESJ
+VALUES(507, 11);
+INSERT INTO PALMARESJ
+VALUES(508, 11);
+INSERT INTO PALMARESJ
+VALUES(509, 11);
+INSERT INTO PALMARESJ
+VALUES(510, 11);
+INSERT INTO PALMARESJ
+VALUES(511, 11);
+INSERT INTO PALMARESJ
+VALUES(501, 12);
+INSERT INTO PALMARESJ
+VALUES(502, 12);
+INSERT INTO PALMARESJ
+VALUES(503, 12);
+INSERT INTO PALMARESJ
+VALUES(504, 12);
+INSERT INTO PALMARESJ
+VALUES(505, 12);
+INSERT INTO PALMARESJ
+VALUES(506, 12);
+INSERT INTO PALMARESJ
+VALUES(507, 12);
+INSERT INTO PALMARESJ
+VALUES(508, 12);
+INSERT INTO PALMARESJ
+VALUES(509, 12);
+INSERT INTO PALMARESJ
+VALUES(510, 12);
+INSERT INTO PALMARESJ
+VALUES(511, 12);
+
+INSERT INTO PALMARESJ
+VALUES(601, 1);
+INSERT INTO PALMARESJ
+VALUES(602, 1);
+INSERT INTO PALMARESJ
+VALUES(603, 1);
+INSERT INTO PALMARESJ
+VALUES(604, 1);
+INSERT INTO PALMARESJ
+VALUES(605, 1);
+INSERT INTO PALMARESJ
+VALUES(606, 1);
+INSERT INTO PALMARESJ
+VALUES(607, 1);
+INSERT INTO PALMARESJ
+VALUES(608, 1);
+INSERT INTO PALMARESJ
+VALUES(609, 1);
+INSERT INTO PALMARESJ
+VALUES(610, 1);
+INSERT INTO PALMARESJ
+VALUES(611, 1);
+INSERT INTO PALMARESJ
+VALUES(601, 2);
+INSERT INTO PALMARESJ
+VALUES(602, 2);
+INSERT INTO PALMARESJ
+VALUES(603, 2);
+INSERT INTO PALMARESJ
+VALUES(604, 2);
+INSERT INTO PALMARESJ
+VALUES(605, 2);
+INSERT INTO PALMARESJ
+VALUES(606, 2);
+INSERT INTO PALMARESJ
+VALUES(607, 2);
+INSERT INTO PALMARESJ
+VALUES(608, 2);
+INSERT INTO PALMARESJ
+VALUES(609, 2);
+INSERT INTO PALMARESJ
+VALUES(610, 2);
+INSERT INTO PALMARESJ
+VALUES(611, 2);
+INSERT INTO PALMARESJ
+VALUES(601, 3);
+INSERT INTO PALMARESJ
+VALUES(602, 3);
+INSERT INTO PALMARESJ
+VALUES(603, 3);
+INSERT INTO PALMARESJ
+VALUES(604, 3);
+INSERT INTO PALMARESJ
+VALUES(605, 3);
+INSERT INTO PALMARESJ
+VALUES(606, 3);
+INSERT INTO PALMARESJ
+VALUES(607, 3);
+INSERT INTO PALMARESJ
+VALUES(608, 3);
+INSERT INTO PALMARESJ
+VALUES(609, 3);
+INSERT INTO PALMARESJ
+VALUES(610, 3);
+INSERT INTO PALMARESJ
+VALUES(611, 3);
+INSERT INTO PALMARESJ
+VALUES(601, 4);
+INSERT INTO PALMARESJ
+VALUES(602, 4);
+INSERT INTO PALMARESJ
+VALUES(603, 4);
+INSERT INTO PALMARESJ
+VALUES(604, 4);
+INSERT INTO PALMARESJ
+VALUES(605, 4);
+INSERT INTO PALMARESJ
+VALUES(606, 4);
+INSERT INTO PALMARESJ
+VALUES(607, 4);
+INSERT INTO PALMARESJ
+VALUES(608, 4);
+INSERT INTO PALMARESJ
+VALUES(609, 4);
+INSERT INTO PALMARESJ
+VALUES(610, 4);
+INSERT INTO PALMARESJ
+VALUES(611, 4);
+INSERT INTO PALMARESJ
+VALUES(601, 5);
+INSERT INTO PALMARESJ
+VALUES(602, 5);
+INSERT INTO PALMARESJ
+VALUES(603, 5);
+INSERT INTO PALMARESJ
+VALUES(604, 5);
+INSERT INTO PALMARESJ
+VALUES(605, 5);
+INSERT INTO PALMARESJ
+VALUES(606, 5);
+INSERT INTO PALMARESJ
+VALUES(607, 5);
+INSERT INTO PALMARESJ
+VALUES(608, 5);
+INSERT INTO PALMARESJ
+VALUES(609, 5);
+INSERT INTO PALMARESJ
+VALUES(610, 5);
+INSERT INTO PALMARESJ
+VALUES(611, 5);
+INSERT INTO PALMARESJ
+VALUES(601, 6);
+INSERT INTO PALMARESJ
+VALUES(602, 6);
+INSERT INTO PALMARESJ
+VALUES(603, 6);
+INSERT INTO PALMARESJ
+VALUES(604, 6);
+INSERT INTO PALMARESJ
+VALUES(605, 6);
+INSERT INTO PALMARESJ
+VALUES(606, 6);
+INSERT INTO PALMARESJ
+VALUES(607, 6);
+INSERT INTO PALMARESJ
+VALUES(608, 6);
+INSERT INTO PALMARESJ
+VALUES(609, 6);
+INSERT INTO PALMARESJ
+VALUES(610, 6);
+INSERT INTO PALMARESJ
+VALUES(611, 6);
+INSERT INTO PALMARESJ
+VALUES(601, 7);
+INSERT INTO PALMARESJ
+VALUES(602, 7);
+INSERT INTO PALMARESJ
+VALUES(603, 7);
+INSERT INTO PALMARESJ
+VALUES(604, 7);
+INSERT INTO PALMARESJ
+VALUES(605, 7);
+INSERT INTO PALMARESJ
+VALUES(606, 7);
+INSERT INTO PALMARESJ
+VALUES(607, 7);
+INSERT INTO PALMARESJ
+VALUES(608, 7);
+INSERT INTO PALMARESJ
+VALUES(609, 7);
+INSERT INTO PALMARESJ
+VALUES(610, 7);
+INSERT INTO PALMARESJ
+VALUES(611, 7);
+INSERT INTO PALMARESJ
+VALUES(601, 8);
+INSERT INTO PALMARESJ
+VALUES(602, 8);
+INSERT INTO PALMARESJ
+VALUES(603, 8);
+INSERT INTO PALMARESJ
+VALUES(604, 8);
+INSERT INTO PALMARESJ
+VALUES(605, 8);
+INSERT INTO PALMARESJ
+VALUES(606, 8);
+INSERT INTO PALMARESJ
+VALUES(607, 8);
+INSERT INTO PALMARESJ
+VALUES(608, 8);
+INSERT INTO PALMARESJ
+VALUES(609, 8);
+INSERT INTO PALMARESJ
+VALUES(610, 8);
+INSERT INTO PALMARESJ
+VALUES(611, 8);
+INSERT INTO PALMARESJ
+VALUES(601, 9);
+INSERT INTO PALMARESJ
+VALUES(602, 9);
+INSERT INTO PALMARESJ
+VALUES(603, 9);
+INSERT INTO PALMARESJ
+VALUES(604, 9);
+INSERT INTO PALMARESJ
+VALUES(605, 9);
+INSERT INTO PALMARESJ
+VALUES(606, 9);
+INSERT INTO PALMARESJ
+VALUES(607, 9);
+INSERT INTO PALMARESJ
+VALUES(608, 9);
+INSERT INTO PALMARESJ
+VALUES(609, 9);
+INSERT INTO PALMARESJ
+VALUES(610, 9);
+INSERT INTO PALMARESJ
+VALUES(611, 9);
+INSERT INTO PALMARESJ
+VALUES(601, 10);
+INSERT INTO PALMARESJ
+VALUES(602, 10);
+INSERT INTO PALMARESJ
+VALUES(603, 10);
+INSERT INTO PALMARESJ
+VALUES(604, 10);
+INSERT INTO PALMARESJ
+VALUES(605, 10);
+INSERT INTO PALMARESJ
+VALUES(606, 10);
+INSERT INTO PALMARESJ
+VALUES(607, 10);
+INSERT INTO PALMARESJ
+VALUES(608, 10);
+INSERT INTO PALMARESJ
+VALUES(609, 10);
+INSERT INTO PALMARESJ
+VALUES(610, 10);
+INSERT INTO PALMARESJ
+VALUES(611, 10);
+INSERT INTO PALMARESJ
+VALUES(601, 11);
+INSERT INTO PALMARESJ
+VALUES(602, 11);
+INSERT INTO PALMARESJ
+VALUES(603, 11);
+INSERT INTO PALMARESJ
+VALUES(604, 11);
+INSERT INTO PALMARESJ
+VALUES(605, 11);
+INSERT INTO PALMARESJ
+VALUES(606, 11);
+INSERT INTO PALMARESJ
+VALUES(607, 11);
+INSERT INTO PALMARESJ
+VALUES(608, 11);
+INSERT INTO PALMARESJ
+VALUES(609, 11);
+INSERT INTO PALMARESJ
+VALUES(610, 11);
+INSERT INTO PALMARESJ
+VALUES(611, 11);
+INSERT INTO PALMARESJ
+VALUES(601, 12);
+INSERT INTO PALMARESJ
+VALUES(602, 12);
+INSERT INTO PALMARESJ
+VALUES(603, 12);
+INSERT INTO PALMARESJ
+VALUES(604, 12);
+INSERT INTO PALMARESJ
+VALUES(605, 12);
+INSERT INTO PALMARESJ
+VALUES(606, 12);
+INSERT INTO PALMARESJ
+VALUES(607, 12);
+INSERT INTO PALMARESJ
+VALUES(608, 12);
+INSERT INTO PALMARESJ
+VALUES(609, 12);
+INSERT INTO PALMARESJ
+VALUES(610, 12);
+INSERT INTO PALMARESJ
+VALUES(611, 12);
+
+INSERT INTO PALMARESJ
+VALUES(701, 1);
+INSERT INTO PALMARESJ
+VALUES(702, 1);
+INSERT INTO PALMARESJ
+VALUES(703, 1);
+INSERT INTO PALMARESJ
+VALUES(704, 1);
+INSERT INTO PALMARESJ
+VALUES(705, 1);
+INSERT INTO PALMARESJ
+VALUES(706, 1);
+INSERT INTO PALMARESJ
+VALUES(707, 1);
+INSERT INTO PALMARESJ
+VALUES(708, 1);
+INSERT INTO PALMARESJ
+VALUES(709, 1);
+INSERT INTO PALMARESJ
+VALUES(710, 1);
+INSERT INTO PALMARESJ
+VALUES(711, 1);
+INSERT INTO PALMARESJ
+VALUES(701, 2);
+INSERT INTO PALMARESJ
+VALUES(702, 2);
+INSERT INTO PALMARESJ
+VALUES(703, 2);
+INSERT INTO PALMARESJ
+VALUES(704, 2);
+INSERT INTO PALMARESJ
+VALUES(705, 2);
+INSERT INTO PALMARESJ
+VALUES(706, 2);
+INSERT INTO PALMARESJ
+VALUES(707, 2);
+INSERT INTO PALMARESJ
+VALUES(708, 2);
+INSERT INTO PALMARESJ
+VALUES(709, 2);
+INSERT INTO PALMARESJ
+VALUES(710, 2);
+INSERT INTO PALMARESJ
+VALUES(711, 2);
+INSERT INTO PALMARESJ
+VALUES(701, 3);
+INSERT INTO PALMARESJ
+VALUES(702, 3);
+INSERT INTO PALMARESJ
+VALUES(703, 3);
+INSERT INTO PALMARESJ
+VALUES(704, 3);
+INSERT INTO PALMARESJ
+VALUES(705, 3);
+INSERT INTO PALMARESJ
+VALUES(706, 3);
+INSERT INTO PALMARESJ
+VALUES(707, 3);
+INSERT INTO PALMARESJ
+VALUES(708, 3);
+INSERT INTO PALMARESJ
+VALUES(709, 3);
+INSERT INTO PALMARESJ
+VALUES(710, 3);
+INSERT INTO PALMARESJ
+VALUES(711, 3);
+INSERT INTO PALMARESJ
+VALUES(701, 4);
+INSERT INTO PALMARESJ
+VALUES(702, 4);
+INSERT INTO PALMARESJ
+VALUES(703, 4);
+INSERT INTO PALMARESJ
+VALUES(704, 4);
+INSERT INTO PALMARESJ
+VALUES(705, 4);
+INSERT INTO PALMARESJ
+VALUES(706, 4);
+INSERT INTO PALMARESJ
+VALUES(707, 4);
+INSERT INTO PALMARESJ
+VALUES(708, 4);
+INSERT INTO PALMARESJ
+VALUES(709, 4);
+INSERT INTO PALMARESJ
+VALUES(710, 4);
+INSERT INTO PALMARESJ
+VALUES(711, 4);
+INSERT INTO PALMARESJ
+VALUES(701, 5);
+INSERT INTO PALMARESJ
+VALUES(702, 5);
+INSERT INTO PALMARESJ
+VALUES(703, 5);
+INSERT INTO PALMARESJ
+VALUES(704, 5);
+INSERT INTO PALMARESJ
+VALUES(705, 5);
+INSERT INTO PALMARESJ
+VALUES(706, 5);
+INSERT INTO PALMARESJ
+VALUES(707, 5);
+INSERT INTO PALMARESJ
+VALUES(708, 5);
+INSERT INTO PALMARESJ
+VALUES(709, 5);
+INSERT INTO PALMARESJ
+VALUES(710, 5);
+INSERT INTO PALMARESJ
+VALUES(711, 5);
+INSERT INTO PALMARESJ
+VALUES(701, 6);
+INSERT INTO PALMARESJ
+VALUES(702, 6);
+INSERT INTO PALMARESJ
+VALUES(703, 6);
+INSERT INTO PALMARESJ
+VALUES(704, 6);
+INSERT INTO PALMARESJ
+VALUES(705, 6);
+INSERT INTO PALMARESJ
+VALUES(706, 6);
+INSERT INTO PALMARESJ
+VALUES(707, 6);
+INSERT INTO PALMARESJ
+VALUES(708, 6);
+INSERT INTO PALMARESJ
+VALUES(709, 6);
+INSERT INTO PALMARESJ
+VALUES(710, 6);
+INSERT INTO PALMARESJ
+VALUES(711, 6);
+INSERT INTO PALMARESJ
+VALUES(701, 7);
+INSERT INTO PALMARESJ
+VALUES(702, 7);
+INSERT INTO PALMARESJ
+VALUES(703, 7);
+INSERT INTO PALMARESJ
+VALUES(704, 7);
+INSERT INTO PALMARESJ
+VALUES(705, 7);
+INSERT INTO PALMARESJ
+VALUES(706, 7);
+INSERT INTO PALMARESJ
+VALUES(707, 7);
+INSERT INTO PALMARESJ
+VALUES(708, 7);
+INSERT INTO PALMARESJ
+VALUES(709, 7);
+INSERT INTO PALMARESJ
+VALUES(710, 7);
+INSERT INTO PALMARESJ
+VALUES(711, 7);
+INSERT INTO PALMARESJ
+VALUES(701, 8);
+INSERT INTO PALMARESJ
+VALUES(702, 8);
+INSERT INTO PALMARESJ
+VALUES(703, 8);
+INSERT INTO PALMARESJ
+VALUES(704, 8);
+INSERT INTO PALMARESJ
+VALUES(705, 8);
+INSERT INTO PALMARESJ
+VALUES(706, 8);
+INSERT INTO PALMARESJ
+VALUES(707, 8);
+INSERT INTO PALMARESJ
+VALUES(708, 8);
+INSERT INTO PALMARESJ
+VALUES(709, 8);
+INSERT INTO PALMARESJ
+VALUES(710, 8);
+INSERT INTO PALMARESJ
+VALUES(711, 8);
+INSERT INTO PALMARESJ
+VALUES(701, 9);
+INSERT INTO PALMARESJ
+VALUES(702, 9);
+INSERT INTO PALMARESJ
+VALUES(703, 9);
+INSERT INTO PALMARESJ
+VALUES(704, 9);
+INSERT INTO PALMARESJ
+VALUES(705, 9);
+INSERT INTO PALMARESJ
+VALUES(706, 9);
+INSERT INTO PALMARESJ
+VALUES(707, 9);
+INSERT INTO PALMARESJ
+VALUES(708, 9);
+INSERT INTO PALMARESJ
+VALUES(709, 9);
+INSERT INTO PALMARESJ
+VALUES(710, 9);
+INSERT INTO PALMARESJ
+VALUES(711, 9);
+INSERT INTO PALMARESJ
+VALUES(701, 10);
+INSERT INTO PALMARESJ
+VALUES(702, 10);
+INSERT INTO PALMARESJ
+VALUES(703, 10);
+INSERT INTO PALMARESJ
+VALUES(704, 10);
+INSERT INTO PALMARESJ
+VALUES(705, 10);
+INSERT INTO PALMARESJ
+VALUES(706, 10);
+INSERT INTO PALMARESJ
+VALUES(707, 10);
+INSERT INTO PALMARESJ
+VALUES(708, 10);
+INSERT INTO PALMARESJ
+VALUES(709, 10);
+INSERT INTO PALMARESJ
+VALUES(710, 10);
+INSERT INTO PALMARESJ
+VALUES(711, 10);
+INSERT INTO PALMARESJ
+VALUES(701, 11);
+INSERT INTO PALMARESJ
+VALUES(702, 11);
+INSERT INTO PALMARESJ
+VALUES(703, 11);
+INSERT INTO PALMARESJ
+VALUES(704, 11);
+INSERT INTO PALMARESJ
+VALUES(705, 11);
+INSERT INTO PALMARESJ
+VALUES(706, 11);
+INSERT INTO PALMARESJ
+VALUES(707, 11);
+INSERT INTO PALMARESJ
+VALUES(708, 11);
+INSERT INTO PALMARESJ
+VALUES(709, 11);
+INSERT INTO PALMARESJ
+VALUES(710, 11);
+INSERT INTO PALMARESJ
+VALUES(711, 11);
+INSERT INTO PALMARESJ
+VALUES(701, 12);
+INSERT INTO PALMARESJ
+VALUES(702, 12);
+INSERT INTO PALMARESJ
+VALUES(703, 12);
+INSERT INTO PALMARESJ
+VALUES(704, 12);
+INSERT INTO PALMARESJ
+VALUES(705, 12);
+INSERT INTO PALMARESJ
+VALUES(706, 12);
+INSERT INTO PALMARESJ
+VALUES(707, 12);
+INSERT INTO PALMARESJ
+VALUES(708, 12);
+INSERT INTO PALMARESJ
+VALUES(709, 12);
+INSERT INTO PALMARESJ
+VALUES(710, 12);
+INSERT INTO PALMARESJ
+VALUES(711, 12);
+
+INSERT INTO PALMARESJ
+VALUES(801, 1);
+INSERT INTO PALMARESJ
+VALUES(802, 1);
+INSERT INTO PALMARESJ
+VALUES(803, 1);
+INSERT INTO PALMARESJ
+VALUES(804, 1);
+INSERT INTO PALMARESJ
+VALUES(805, 1);
+INSERT INTO PALMARESJ
+VALUES(806, 1);
+INSERT INTO PALMARESJ
+VALUES(807, 1);
+INSERT INTO PALMARESJ
+VALUES(808, 1);
+INSERT INTO PALMARESJ
+VALUES(809, 1);
+INSERT INTO PALMARESJ
+VALUES(810, 1);
+INSERT INTO PALMARESJ
+VALUES(811, 1);
+INSERT INTO PALMARESJ
+VALUES(801, 2);
+INSERT INTO PALMARESJ
+VALUES(802, 2);
+INSERT INTO PALMARESJ
+VALUES(803, 2);
+INSERT INTO PALMARESJ
+VALUES(804, 2);
+INSERT INTO PALMARESJ
+VALUES(805, 2);
+INSERT INTO PALMARESJ
+VALUES(806, 2);
+INSERT INTO PALMARESJ
+VALUES(807, 2);
+INSERT INTO PALMARESJ
+VALUES(808, 2);
+INSERT INTO PALMARESJ
+VALUES(809, 2);
+INSERT INTO PALMARESJ
+VALUES(810, 2);
+INSERT INTO PALMARESJ
+VALUES(811, 2);
+INSERT INTO PALMARESJ
+VALUES(801, 3);
+INSERT INTO PALMARESJ
+VALUES(802, 3);
+INSERT INTO PALMARESJ
+VALUES(803, 3);
+INSERT INTO PALMARESJ
+VALUES(804, 3);
+INSERT INTO PALMARESJ
+VALUES(805, 3);
+INSERT INTO PALMARESJ
+VALUES(806, 3);
+INSERT INTO PALMARESJ
+VALUES(807, 3);
+INSERT INTO PALMARESJ
+VALUES(808, 3);
+INSERT INTO PALMARESJ
+VALUES(809, 3);
+INSERT INTO PALMARESJ
+VALUES(810, 3);
+INSERT INTO PALMARESJ
+VALUES(811, 3);
+INSERT INTO PALMARESJ
+VALUES(801, 4);
+INSERT INTO PALMARESJ
+VALUES(802, 4);
+INSERT INTO PALMARESJ
+VALUES(803, 4);
+INSERT INTO PALMARESJ
+VALUES(804, 4);
+INSERT INTO PALMARESJ
+VALUES(805, 4);
+INSERT INTO PALMARESJ
+VALUES(806, 4);
+INSERT INTO PALMARESJ
+VALUES(807, 4);
+INSERT INTO PALMARESJ
+VALUES(808, 4);
+INSERT INTO PALMARESJ
+VALUES(809, 4);
+INSERT INTO PALMARESJ
+VALUES(810, 4);
+INSERT INTO PALMARESJ
+VALUES(811, 4);
+INSERT INTO PALMARESJ
+VALUES(801, 5);
+INSERT INTO PALMARESJ
+VALUES(802, 5);
+INSERT INTO PALMARESJ
+VALUES(803, 5);
+INSERT INTO PALMARESJ
+VALUES(804, 5);
+INSERT INTO PALMARESJ
+VALUES(805, 5);
+INSERT INTO PALMARESJ
+VALUES(806, 5);
+INSERT INTO PALMARESJ
+VALUES(807, 5);
+INSERT INTO PALMARESJ
+VALUES(808, 5);
+INSERT INTO PALMARESJ
+VALUES(809, 5);
+INSERT INTO PALMARESJ
+VALUES(810, 5);
+INSERT INTO PALMARESJ
+VALUES(811, 5);
+INSERT INTO PALMARESJ
+VALUES(801, 6);
+INSERT INTO PALMARESJ
+VALUES(802, 6);
+INSERT INTO PALMARESJ
+VALUES(803, 6);
+INSERT INTO PALMARESJ
+VALUES(804, 6);
+INSERT INTO PALMARESJ
+VALUES(805, 6);
+INSERT INTO PALMARESJ
+VALUES(806, 6);
+INSERT INTO PALMARESJ
+VALUES(807, 6);
+INSERT INTO PALMARESJ
+VALUES(808, 6);
+INSERT INTO PALMARESJ
+VALUES(809, 6);
+INSERT INTO PALMARESJ
+VALUES(810, 6);
+INSERT INTO PALMARESJ
+VALUES(811, 6);
+INSERT INTO PALMARESJ
+VALUES(801, 7);
+INSERT INTO PALMARESJ
+VALUES(802, 7);
+INSERT INTO PALMARESJ
+VALUES(803, 7);
+INSERT INTO PALMARESJ
+VALUES(804, 7);
+INSERT INTO PALMARESJ
+VALUES(805, 7);
+INSERT INTO PALMARESJ
+VALUES(806, 7);
+INSERT INTO PALMARESJ
+VALUES(807, 7);
+INSERT INTO PALMARESJ
+VALUES(808, 7);
+INSERT INTO PALMARESJ
+VALUES(809, 7);
+INSERT INTO PALMARESJ
+VALUES(810, 7);
+INSERT INTO PALMARESJ
+VALUES(811, 7);
+INSERT INTO PALMARESJ
+VALUES(801, 8);
+INSERT INTO PALMARESJ
+VALUES(802, 8);
+INSERT INTO PALMARESJ
+VALUES(803, 8);
+INSERT INTO PALMARESJ
+VALUES(804, 8);
+INSERT INTO PALMARESJ
+VALUES(805, 8);
+INSERT INTO PALMARESJ
+VALUES(806, 8);
+INSERT INTO PALMARESJ
+VALUES(807, 8);
+INSERT INTO PALMARESJ
+VALUES(808, 8);
+INSERT INTO PALMARESJ
+VALUES(809, 8);
+INSERT INTO PALMARESJ
+VALUES(810, 8);
+INSERT INTO PALMARESJ
+VALUES(811, 8);
+INSERT INTO PALMARESJ
+VALUES(801, 9);
+INSERT INTO PALMARESJ
+VALUES(802, 9);
+INSERT INTO PALMARESJ
+VALUES(803, 9);
+INSERT INTO PALMARESJ
+VALUES(804, 9);
+INSERT INTO PALMARESJ
+VALUES(805, 9);
+INSERT INTO PALMARESJ
+VALUES(806, 9);
+INSERT INTO PALMARESJ
+VALUES(807, 9);
+INSERT INTO PALMARESJ
+VALUES(808, 9);
+INSERT INTO PALMARESJ
+VALUES(809, 9);
+INSERT INTO PALMARESJ
+VALUES(810, 9);
+INSERT INTO PALMARESJ
+VALUES(811, 9);
+INSERT INTO PALMARESJ
+VALUES(801, 10);
+INSERT INTO PALMARESJ
+VALUES(802, 10);
+INSERT INTO PALMARESJ
+VALUES(803, 10);
+INSERT INTO PALMARESJ
+VALUES(804, 10);
+INSERT INTO PALMARESJ
+VALUES(805, 10);
+INSERT INTO PALMARESJ
+VALUES(806, 10);
+INSERT INTO PALMARESJ
+VALUES(807, 10);
+INSERT INTO PALMARESJ
+VALUES(808, 10);
+INSERT INTO PALMARESJ
+VALUES(809, 10);
+INSERT INTO PALMARESJ
+VALUES(810, 10);
+INSERT INTO PALMARESJ
+VALUES(811, 10);
+INSERT INTO PALMARESJ
+VALUES(801, 11);
+INSERT INTO PALMARESJ
+VALUES(802, 11);
+INSERT INTO PALMARESJ
+VALUES(803, 11);
+INSERT INTO PALMARESJ
+VALUES(804, 11);
+INSERT INTO PALMARESJ
+VALUES(805, 11);
+INSERT INTO PALMARESJ
+VALUES(806, 11);
+INSERT INTO PALMARESJ
+VALUES(807, 11);
+INSERT INTO PALMARESJ
+VALUES(808, 11);
+INSERT INTO PALMARESJ
+VALUES(809, 11);
+INSERT INTO PALMARESJ
+VALUES(810, 11);
+INSERT INTO PALMARESJ
+VALUES(811, 11);
+INSERT INTO PALMARESJ
+VALUES(801, 12);
+INSERT INTO PALMARESJ
+VALUES(802, 12);
+INSERT INTO PALMARESJ
+VALUES(803, 12);
+INSERT INTO PALMARESJ
+VALUES(804, 12);
+INSERT INTO PALMARESJ
+VALUES(805, 12);
+INSERT INTO PALMARESJ
+VALUES(806, 12);
+INSERT INTO PALMARESJ
+VALUES(807, 12);
+INSERT INTO PALMARESJ
+VALUES(808, 12);
+INSERT INTO PALMARESJ
+VALUES(809, 12);
+INSERT INTO PALMARESJ
+VALUES(810, 12);
+INSERT INTO PALMARESJ
+VALUES(811, 12);
+
+INSERT INTO PALMARESJ
+VALUES(901, 1);
+INSERT INTO PALMARESJ
+VALUES(902, 1);
+INSERT INTO PALMARESJ
+VALUES(903, 1);
+INSERT INTO PALMARESJ
+VALUES(904, 1);
+INSERT INTO PALMARESJ
+VALUES(905, 1);
+INSERT INTO PALMARESJ
+VALUES(906, 1);
+INSERT INTO PALMARESJ
+VALUES(907, 1);
+INSERT INTO PALMARESJ
+VALUES(908, 1);
+INSERT INTO PALMARESJ
+VALUES(909, 1);
+INSERT INTO PALMARESJ
+VALUES(910, 1);
+INSERT INTO PALMARESJ
+VALUES(911, 1);
+INSERT INTO PALMARESJ
+VALUES(901, 2);
+INSERT INTO PALMARESJ
+VALUES(902, 2);
+INSERT INTO PALMARESJ
+VALUES(903, 2);
+INSERT INTO PALMARESJ
+VALUES(904, 2);
+INSERT INTO PALMARESJ
+VALUES(905, 2);
+INSERT INTO PALMARESJ
+VALUES(906, 2);
+INSERT INTO PALMARESJ
+VALUES(907, 2);
+INSERT INTO PALMARESJ
+VALUES(908, 2);
+INSERT INTO PALMARESJ
+VALUES(909, 2);
+INSERT INTO PALMARESJ
+VALUES(910, 2);
+INSERT INTO PALMARESJ
+VALUES(911, 2);
+INSERT INTO PALMARESJ
+VALUES(901, 3);
+INSERT INTO PALMARESJ
+VALUES(902, 3);
+INSERT INTO PALMARESJ
+VALUES(903, 3);
+INSERT INTO PALMARESJ
+VALUES(904, 3);
+INSERT INTO PALMARESJ
+VALUES(905, 3);
+INSERT INTO PALMARESJ
+VALUES(906, 3);
+INSERT INTO PALMARESJ
+VALUES(907, 3);
+INSERT INTO PALMARESJ
+VALUES(908, 3);
+INSERT INTO PALMARESJ
+VALUES(909, 3);
+INSERT INTO PALMARESJ
+VALUES(910, 3);
+INSERT INTO PALMARESJ
+VALUES(911, 3);
+INSERT INTO PALMARESJ
+VALUES(901, 4);
+INSERT INTO PALMARESJ
+VALUES(902, 4);
+INSERT INTO PALMARESJ
+VALUES(903, 4);
+INSERT INTO PALMARESJ
+VALUES(904, 4);
+INSERT INTO PALMARESJ
+VALUES(905, 4);
+INSERT INTO PALMARESJ
+VALUES(906, 4);
+INSERT INTO PALMARESJ
+VALUES(907, 4);
+INSERT INTO PALMARESJ
+VALUES(908, 4);
+INSERT INTO PALMARESJ
+VALUES(909, 4);
+INSERT INTO PALMARESJ
+VALUES(910, 4);
+INSERT INTO PALMARESJ
+VALUES(911, 4);
+INSERT INTO PALMARESJ
+VALUES(901, 5);
+INSERT INTO PALMARESJ
+VALUES(902, 5);
+INSERT INTO PALMARESJ
+VALUES(903, 5);
+INSERT INTO PALMARESJ
+VALUES(904, 5);
+INSERT INTO PALMARESJ
+VALUES(905, 5);
+INSERT INTO PALMARESJ
+VALUES(906, 5);
+INSERT INTO PALMARESJ
+VALUES(907, 5);
+INSERT INTO PALMARESJ
+VALUES(908, 5);
+INSERT INTO PALMARESJ
+VALUES(909, 5);
+INSERT INTO PALMARESJ
+VALUES(910, 5);
+INSERT INTO PALMARESJ
+VALUES(911, 5);
+INSERT INTO PALMARESJ
+VALUES(901, 6);
+INSERT INTO PALMARESJ
+VALUES(902, 6);
+INSERT INTO PALMARESJ
+VALUES(903, 6);
+INSERT INTO PALMARESJ
+VALUES(904, 6);
+INSERT INTO PALMARESJ
+VALUES(905, 6);
+INSERT INTO PALMARESJ
+VALUES(906, 6);
+INSERT INTO PALMARESJ
+VALUES(907, 6);
+INSERT INTO PALMARESJ
+VALUES(908, 6);
+INSERT INTO PALMARESJ
+VALUES(909, 6);
+INSERT INTO PALMARESJ
+VALUES(910, 6);
+INSERT INTO PALMARESJ
+VALUES(911, 6);
+INSERT INTO PALMARESJ
+VALUES(901, 7);
+INSERT INTO PALMARESJ
+VALUES(902, 7);
+INSERT INTO PALMARESJ
+VALUES(903, 7);
+INSERT INTO PALMARESJ
+VALUES(904, 7);
+INSERT INTO PALMARESJ
+VALUES(905, 7);
+INSERT INTO PALMARESJ
+VALUES(906, 7);
+INSERT INTO PALMARESJ
+VALUES(907, 7);
+INSERT INTO PALMARESJ
+VALUES(908, 7);
+INSERT INTO PALMARESJ
+VALUES(909, 7);
+INSERT INTO PALMARESJ
+VALUES(910, 7);
+INSERT INTO PALMARESJ
+VALUES(911, 7);
+INSERT INTO PALMARESJ
+VALUES(901, 8);
+INSERT INTO PALMARESJ
+VALUES(902, 8);
+INSERT INTO PALMARESJ
+VALUES(903, 8);
+INSERT INTO PALMARESJ
+VALUES(904, 8);
+INSERT INTO PALMARESJ
+VALUES(905, 8);
+INSERT INTO PALMARESJ
+VALUES(906, 8);
+INSERT INTO PALMARESJ
+VALUES(907, 8);
+INSERT INTO PALMARESJ
+VALUES(908, 8);
+INSERT INTO PALMARESJ
+VALUES(909, 8);
+INSERT INTO PALMARESJ
+VALUES(910, 8);
+INSERT INTO PALMARESJ
+VALUES(911, 8);
+INSERT INTO PALMARESJ
+VALUES(901, 9);
+INSERT INTO PALMARESJ
+VALUES(902, 9);
+INSERT INTO PALMARESJ
+VALUES(903, 9);
+INSERT INTO PALMARESJ
+VALUES(904, 9);
+INSERT INTO PALMARESJ
+VALUES(905, 9);
+INSERT INTO PALMARESJ
+VALUES(906, 9);
+INSERT INTO PALMARESJ
+VALUES(907, 9);
+INSERT INTO PALMARESJ
+VALUES(908, 9);
+INSERT INTO PALMARESJ
+VALUES(909, 9);
+INSERT INTO PALMARESJ
+VALUES(910, 9);
+INSERT INTO PALMARESJ
+VALUES(911, 9);
+INSERT INTO PALMARESJ
+VALUES(901, 10);
+INSERT INTO PALMARESJ
+VALUES(902, 10);
+INSERT INTO PALMARESJ
+VALUES(903, 10);
+INSERT INTO PALMARESJ
+VALUES(904, 10);
+INSERT INTO PALMARESJ
+VALUES(905, 10);
+INSERT INTO PALMARESJ
+VALUES(906, 10);
+INSERT INTO PALMARESJ
+VALUES(907, 10);
+INSERT INTO PALMARESJ
+VALUES(908, 10);
+INSERT INTO PALMARESJ
+VALUES(909, 10);
+INSERT INTO PALMARESJ
+VALUES(910, 10);
+INSERT INTO PALMARESJ
+VALUES(911, 10);
+INSERT INTO PALMARESJ
+VALUES(901, 11);
+INSERT INTO PALMARESJ
+VALUES(902, 11);
+INSERT INTO PALMARESJ
+VALUES(903, 11);
+INSERT INTO PALMARESJ
+VALUES(904, 11);
+INSERT INTO PALMARESJ
+VALUES(905, 11);
+INSERT INTO PALMARESJ
+VALUES(906, 11);
+INSERT INTO PALMARESJ
+VALUES(907, 11);
+INSERT INTO PALMARESJ
+VALUES(908, 11);
+INSERT INTO PALMARESJ
+VALUES(909, 11);
+INSERT INTO PALMARESJ
+VALUES(910, 11);
+INSERT INTO PALMARESJ
+VALUES(911, 11);
+INSERT INTO PALMARESJ
+VALUES(901, 12);
+INSERT INTO PALMARESJ
+VALUES(902, 12);
+INSERT INTO PALMARESJ
+VALUES(903, 12);
+INSERT INTO PALMARESJ
+VALUES(904, 12);
+INSERT INTO PALMARESJ
+VALUES(905, 12);
+INSERT INTO PALMARESJ
+VALUES(906, 12);
+INSERT INTO PALMARESJ
+VALUES(907, 12);
+INSERT INTO PALMARESJ
+VALUES(908, 12);
+INSERT INTO PALMARESJ
+VALUES(909, 12);
+INSERT INTO PALMARESJ
+VALUES(910, 12);
+INSERT INTO PALMARESJ
+VALUES(911, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1001, 1);
+INSERT INTO PALMARESJ
+VALUES(1002, 1);
+INSERT INTO PALMARESJ
+VALUES(1003, 1);
+INSERT INTO PALMARESJ
+VALUES(1004, 1);
+INSERT INTO PALMARESJ
+VALUES(1005, 1);
+INSERT INTO PALMARESJ
+VALUES(1006, 1);
+INSERT INTO PALMARESJ
+VALUES(1007, 1);
+INSERT INTO PALMARESJ
+VALUES(1008, 1);
+INSERT INTO PALMARESJ
+VALUES(1009, 1);
+INSERT INTO PALMARESJ
+VALUES(1010, 1);
+INSERT INTO PALMARESJ
+VALUES(1011, 1);
+INSERT INTO PALMARESJ
+VALUES(1001, 2);
+INSERT INTO PALMARESJ
+VALUES(1002, 2);
+INSERT INTO PALMARESJ
+VALUES(1003, 2);
+INSERT INTO PALMARESJ
+VALUES(1004, 2);
+INSERT INTO PALMARESJ
+VALUES(1005, 2);
+INSERT INTO PALMARESJ
+VALUES(1006, 2);
+INSERT INTO PALMARESJ
+VALUES(1007, 2);
+INSERT INTO PALMARESJ
+VALUES(1008, 2);
+INSERT INTO PALMARESJ
+VALUES(1009, 2);
+INSERT INTO PALMARESJ
+VALUES(1010, 2);
+INSERT INTO PALMARESJ
+VALUES(1011, 2);
+INSERT INTO PALMARESJ
+VALUES(1001, 3);
+INSERT INTO PALMARESJ
+VALUES(1002, 3);
+INSERT INTO PALMARESJ
+VALUES(1003, 3);
+INSERT INTO PALMARESJ
+VALUES(1004, 3);
+INSERT INTO PALMARESJ
+VALUES(1005, 3);
+INSERT INTO PALMARESJ
+VALUES(1006, 3);
+INSERT INTO PALMARESJ
+VALUES(1007, 3);
+INSERT INTO PALMARESJ
+VALUES(1008, 3);
+INSERT INTO PALMARESJ
+VALUES(1009, 3);
+INSERT INTO PALMARESJ
+VALUES(1010, 3);
+INSERT INTO PALMARESJ
+VALUES(1011, 3);
+INSERT INTO PALMARESJ
+VALUES(1001, 4);
+INSERT INTO PALMARESJ
+VALUES(1002, 4);
+INSERT INTO PALMARESJ
+VALUES(1003, 4);
+INSERT INTO PALMARESJ
+VALUES(1004, 4);
+INSERT INTO PALMARESJ
+VALUES(1005, 4);
+INSERT INTO PALMARESJ
+VALUES(1006, 4);
+INSERT INTO PALMARESJ
+VALUES(1007, 4);
+INSERT INTO PALMARESJ
+VALUES(1008, 4);
+INSERT INTO PALMARESJ
+VALUES(1009, 4);
+INSERT INTO PALMARESJ
+VALUES(1010, 4);
+INSERT INTO PALMARESJ
+VALUES(1011, 4);
+INSERT INTO PALMARESJ
+VALUES(1001, 5);
+INSERT INTO PALMARESJ
+VALUES(1002, 5);
+INSERT INTO PALMARESJ
+VALUES(1003, 5);
+INSERT INTO PALMARESJ
+VALUES(1004, 5);
+INSERT INTO PALMARESJ
+VALUES(1005, 5);
+INSERT INTO PALMARESJ
+VALUES(1006, 5);
+INSERT INTO PALMARESJ
+VALUES(1007, 5);
+INSERT INTO PALMARESJ
+VALUES(1008, 5);
+INSERT INTO PALMARESJ
+VALUES(1009, 5);
+INSERT INTO PALMARESJ
+VALUES(1010, 5);
+INSERT INTO PALMARESJ
+VALUES(1011, 5);
+INSERT INTO PALMARESJ
+VALUES(1001, 6);
+INSERT INTO PALMARESJ
+VALUES(1002, 6);
+INSERT INTO PALMARESJ
+VALUES(1003, 6);
+INSERT INTO PALMARESJ
+VALUES(1004, 6);
+INSERT INTO PALMARESJ
+VALUES(1005, 6);
+INSERT INTO PALMARESJ
+VALUES(1006, 6);
+INSERT INTO PALMARESJ
+VALUES(1007, 6);
+INSERT INTO PALMARESJ
+VALUES(1008, 6);
+INSERT INTO PALMARESJ
+VALUES(1009, 6);
+INSERT INTO PALMARESJ
+VALUES(1010, 6);
+INSERT INTO PALMARESJ
+VALUES(1011, 6);
+INSERT INTO PALMARESJ
+VALUES(1001, 7);
+INSERT INTO PALMARESJ
+VALUES(1002, 7);
+INSERT INTO PALMARESJ
+VALUES(1003, 7);
+INSERT INTO PALMARESJ
+VALUES(1004, 7);
+INSERT INTO PALMARESJ
+VALUES(1005, 7);
+INSERT INTO PALMARESJ
+VALUES(1006, 7);
+INSERT INTO PALMARESJ
+VALUES(1007, 7);
+INSERT INTO PALMARESJ
+VALUES(1008, 7);
+INSERT INTO PALMARESJ
+VALUES(1009, 7);
+INSERT INTO PALMARESJ
+VALUES(1010, 7);
+INSERT INTO PALMARESJ
+VALUES(1011, 7);
+INSERT INTO PALMARESJ
+VALUES(1001, 8);
+INSERT INTO PALMARESJ
+VALUES(1002, 8);
+INSERT INTO PALMARESJ
+VALUES(1003, 8);
+INSERT INTO PALMARESJ
+VALUES(1004, 8);
+INSERT INTO PALMARESJ
+VALUES(1005, 8);
+INSERT INTO PALMARESJ
+VALUES(1006, 8);
+INSERT INTO PALMARESJ
+VALUES(1007, 8);
+INSERT INTO PALMARESJ
+VALUES(1008, 8);
+INSERT INTO PALMARESJ
+VALUES(1009, 8);
+INSERT INTO PALMARESJ
+VALUES(1010, 8);
+INSERT INTO PALMARESJ
+VALUES(1011, 8);
+INSERT INTO PALMARESJ
+VALUES(1001, 9);
+INSERT INTO PALMARESJ
+VALUES(1002, 9);
+INSERT INTO PALMARESJ
+VALUES(1003, 9);
+INSERT INTO PALMARESJ
+VALUES(1004, 9);
+INSERT INTO PALMARESJ
+VALUES(1005, 9);
+INSERT INTO PALMARESJ
+VALUES(1006, 9);
+INSERT INTO PALMARESJ
+VALUES(1007, 9);
+INSERT INTO PALMARESJ
+VALUES(1008, 9);
+INSERT INTO PALMARESJ
+VALUES(1009, 9);
+INSERT INTO PALMARESJ
+VALUES(1010, 9);
+INSERT INTO PALMARESJ
+VALUES(1011, 9);
+INSERT INTO PALMARESJ
+VALUES(1001, 10);
+INSERT INTO PALMARESJ
+VALUES(1002, 10);
+INSERT INTO PALMARESJ
+VALUES(1003, 10);
+INSERT INTO PALMARESJ
+VALUES(1004, 10);
+INSERT INTO PALMARESJ
+VALUES(1005, 10);
+INSERT INTO PALMARESJ
+VALUES(1006, 10);
+INSERT INTO PALMARESJ
+VALUES(1007, 10);
+INSERT INTO PALMARESJ
+VALUES(1008, 10);
+INSERT INTO PALMARESJ
+VALUES(1009, 10);
+INSERT INTO PALMARESJ
+VALUES(1010, 10);
+INSERT INTO PALMARESJ
+VALUES(1011, 10);
+INSERT INTO PALMARESJ
+VALUES(1001, 11);
+INSERT INTO PALMARESJ
+VALUES(1002, 11);
+INSERT INTO PALMARESJ
+VALUES(1003, 11);
+INSERT INTO PALMARESJ
+VALUES(1004, 11);
+INSERT INTO PALMARESJ
+VALUES(1005, 11);
+INSERT INTO PALMARESJ
+VALUES(1006, 11);
+INSERT INTO PALMARESJ
+VALUES(1007, 11);
+INSERT INTO PALMARESJ
+VALUES(1008, 11);
+INSERT INTO PALMARESJ
+VALUES(1009, 11);
+INSERT INTO PALMARESJ
+VALUES(1010, 11);
+INSERT INTO PALMARESJ
+VALUES(1011, 11);
+INSERT INTO PALMARESJ
+VALUES(1001, 12);
+INSERT INTO PALMARESJ
+VALUES(1002, 12);
+INSERT INTO PALMARESJ
+VALUES(1003, 12);
+INSERT INTO PALMARESJ
+VALUES(1004, 12);
+INSERT INTO PALMARESJ
+VALUES(1005, 12);
+INSERT INTO PALMARESJ
+VALUES(1006, 12);
+INSERT INTO PALMARESJ
+VALUES(1007, 12);
+INSERT INTO PALMARESJ
+VALUES(1008, 12);
+INSERT INTO PALMARESJ
+VALUES(1009, 12);
+INSERT INTO PALMARESJ
+VALUES(1010, 12);
+INSERT INTO PALMARESJ
+VALUES(1011, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1101, 1);
+INSERT INTO PALMARESJ
+VALUES(1102, 1);
+INSERT INTO PALMARESJ
+VALUES(1103, 1);
+INSERT INTO PALMARESJ
+VALUES(1104, 1);
+INSERT INTO PALMARESJ
+VALUES(1105, 1);
+INSERT INTO PALMARESJ
+VALUES(1106, 1);
+INSERT INTO PALMARESJ
+VALUES(1107, 1);
+INSERT INTO PALMARESJ
+VALUES(1108, 1);
+INSERT INTO PALMARESJ
+VALUES(1109, 1);
+INSERT INTO PALMARESJ
+VALUES(1110, 1);
+INSERT INTO PALMARESJ
+VALUES(1111, 1);
+INSERT INTO PALMARESJ
+VALUES(1101, 2);
+INSERT INTO PALMARESJ
+VALUES(1102, 2);
+INSERT INTO PALMARESJ
+VALUES(1103, 2);
+INSERT INTO PALMARESJ
+VALUES(1104, 2);
+INSERT INTO PALMARESJ
+VALUES(1105, 2);
+INSERT INTO PALMARESJ
+VALUES(1106, 2);
+INSERT INTO PALMARESJ
+VALUES(1107, 2);
+INSERT INTO PALMARESJ
+VALUES(1108, 2);
+INSERT INTO PALMARESJ
+VALUES(1109, 2);
+INSERT INTO PALMARESJ
+VALUES(1110, 2);
+INSERT INTO PALMARESJ
+VALUES(1111, 2);
+INSERT INTO PALMARESJ
+VALUES(1101, 3);
+INSERT INTO PALMARESJ
+VALUES(1102, 3);
+INSERT INTO PALMARESJ
+VALUES(1103, 3);
+INSERT INTO PALMARESJ
+VALUES(1104, 3);
+INSERT INTO PALMARESJ
+VALUES(1105, 3);
+INSERT INTO PALMARESJ
+VALUES(1106, 3);
+INSERT INTO PALMARESJ
+VALUES(1107, 3);
+INSERT INTO PALMARESJ
+VALUES(1108, 3);
+INSERT INTO PALMARESJ
+VALUES(1109, 3);
+INSERT INTO PALMARESJ
+VALUES(1110, 3);
+INSERT INTO PALMARESJ
+VALUES(1111, 3);
+INSERT INTO PALMARESJ
+VALUES(1101, 4);
+INSERT INTO PALMARESJ
+VALUES(1102, 4);
+INSERT INTO PALMARESJ
+VALUES(1103, 4);
+INSERT INTO PALMARESJ
+VALUES(1104, 4);
+INSERT INTO PALMARESJ
+VALUES(1105, 4);
+INSERT INTO PALMARESJ
+VALUES(1106, 4);
+INSERT INTO PALMARESJ
+VALUES(1107, 4);
+INSERT INTO PALMARESJ
+VALUES(1108, 4);
+INSERT INTO PALMARESJ
+VALUES(1109, 4);
+INSERT INTO PALMARESJ
+VALUES(1110, 4);
+INSERT INTO PALMARESJ
+VALUES(1111, 4);
+INSERT INTO PALMARESJ
+VALUES(1101, 5);
+INSERT INTO PALMARESJ
+VALUES(1102, 5);
+INSERT INTO PALMARESJ
+VALUES(1103, 5);
+INSERT INTO PALMARESJ
+VALUES(1104, 5);
+INSERT INTO PALMARESJ
+VALUES(1105, 5);
+INSERT INTO PALMARESJ
+VALUES(1106, 5);
+INSERT INTO PALMARESJ
+VALUES(1107, 5);
+INSERT INTO PALMARESJ
+VALUES(1108, 5);
+INSERT INTO PALMARESJ
+VALUES(1109, 5);
+INSERT INTO PALMARESJ
+VALUES(1110, 5);
+INSERT INTO PALMARESJ
+VALUES(1111, 5);
+INSERT INTO PALMARESJ
+VALUES(1101, 6);
+INSERT INTO PALMARESJ
+VALUES(1102, 6);
+INSERT INTO PALMARESJ
+VALUES(1103, 6);
+INSERT INTO PALMARESJ
+VALUES(1104, 6);
+INSERT INTO PALMARESJ
+VALUES(1105, 6);
+INSERT INTO PALMARESJ
+VALUES(1106, 6);
+INSERT INTO PALMARESJ
+VALUES(1107, 6);
+INSERT INTO PALMARESJ
+VALUES(1108, 6);
+INSERT INTO PALMARESJ
+VALUES(1109, 6);
+INSERT INTO PALMARESJ
+VALUES(1110, 6);
+INSERT INTO PALMARESJ
+VALUES(1111, 6);
+INSERT INTO PALMARESJ
+VALUES(1101, 7);
+INSERT INTO PALMARESJ
+VALUES(1102, 7);
+INSERT INTO PALMARESJ
+VALUES(1103, 7);
+INSERT INTO PALMARESJ
+VALUES(1104, 7);
+INSERT INTO PALMARESJ
+VALUES(1105, 7);
+INSERT INTO PALMARESJ
+VALUES(1106, 7);
+INSERT INTO PALMARESJ
+VALUES(1107, 7);
+INSERT INTO PALMARESJ
+VALUES(1108, 7);
+INSERT INTO PALMARESJ
+VALUES(1109, 7);
+INSERT INTO PALMARESJ
+VALUES(1110, 7);
+INSERT INTO PALMARESJ
+VALUES(1111, 7);
+INSERT INTO PALMARESJ
+VALUES(1101, 8);
+INSERT INTO PALMARESJ
+VALUES(1102, 8);
+INSERT INTO PALMARESJ
+VALUES(1103, 8);
+INSERT INTO PALMARESJ
+VALUES(1104, 8);
+INSERT INTO PALMARESJ
+VALUES(1105, 8);
+INSERT INTO PALMARESJ
+VALUES(1106, 8);
+INSERT INTO PALMARESJ
+VALUES(1107, 8);
+INSERT INTO PALMARESJ
+VALUES(1108, 8);
+INSERT INTO PALMARESJ
+VALUES(1109, 8);
+INSERT INTO PALMARESJ
+VALUES(1110, 8);
+INSERT INTO PALMARESJ
+VALUES(1111, 8);
+INSERT INTO PALMARESJ
+VALUES(1101, 9);
+INSERT INTO PALMARESJ
+VALUES(1102, 9);
+INSERT INTO PALMARESJ
+VALUES(1103, 9);
+INSERT INTO PALMARESJ
+VALUES(1104, 9);
+INSERT INTO PALMARESJ
+VALUES(1105, 9);
+INSERT INTO PALMARESJ
+VALUES(1106, 9);
+INSERT INTO PALMARESJ
+VALUES(1107, 9);
+INSERT INTO PALMARESJ
+VALUES(1108, 9);
+INSERT INTO PALMARESJ
+VALUES(1109, 9);
+INSERT INTO PALMARESJ
+VALUES(1110, 9);
+INSERT INTO PALMARESJ
+VALUES(1111, 9);
+INSERT INTO PALMARESJ
+VALUES(1101, 10);
+INSERT INTO PALMARESJ
+VALUES(1102, 10);
+INSERT INTO PALMARESJ
+VALUES(1103, 10);
+INSERT INTO PALMARESJ
+VALUES(1104, 10);
+INSERT INTO PALMARESJ
+VALUES(1105, 10);
+INSERT INTO PALMARESJ
+VALUES(1106, 10);
+INSERT INTO PALMARESJ
+VALUES(1107, 10);
+INSERT INTO PALMARESJ
+VALUES(1108, 10);
+INSERT INTO PALMARESJ
+VALUES(1109, 10);
+INSERT INTO PALMARESJ
+VALUES(1110, 10);
+INSERT INTO PALMARESJ
+VALUES(1111, 10);
+INSERT INTO PALMARESJ
+VALUES(1101, 11);
+INSERT INTO PALMARESJ
+VALUES(1102, 11);
+INSERT INTO PALMARESJ
+VALUES(1103, 11);
+INSERT INTO PALMARESJ
+VALUES(1104, 11);
+INSERT INTO PALMARESJ
+VALUES(1105, 11);
+INSERT INTO PALMARESJ
+VALUES(1106, 11);
+INSERT INTO PALMARESJ
+VALUES(1107, 11);
+INSERT INTO PALMARESJ
+VALUES(1108, 11);
+INSERT INTO PALMARESJ
+VALUES(1109, 11);
+INSERT INTO PALMARESJ
+VALUES(1110, 11);
+INSERT INTO PALMARESJ
+VALUES(1111, 11);
+INSERT INTO PALMARESJ
+VALUES(1101, 12);
+INSERT INTO PALMARESJ
+VALUES(1102, 12);
+INSERT INTO PALMARESJ
+VALUES(1103, 12);
+INSERT INTO PALMARESJ
+VALUES(1104, 12);
+INSERT INTO PALMARESJ
+VALUES(1105, 12);
+INSERT INTO PALMARESJ
+VALUES(1106, 12);
+INSERT INTO PALMARESJ
+VALUES(1107, 12);
+INSERT INTO PALMARESJ
+VALUES(1108, 12);
+INSERT INTO PALMARESJ
+VALUES(1109, 12);
+INSERT INTO PALMARESJ
+VALUES(1110, 12);
+INSERT INTO PALMARESJ
+VALUES(1111, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1201, 1);
+INSERT INTO PALMARESJ
+VALUES(1202, 1);
+INSERT INTO PALMARESJ
+VALUES(1203, 1);
+INSERT INTO PALMARESJ
+VALUES(1204, 1);
+INSERT INTO PALMARESJ
+VALUES(1205, 1);
+INSERT INTO PALMARESJ
+VALUES(1206, 1);
+INSERT INTO PALMARESJ
+VALUES(1207, 1);
+INSERT INTO PALMARESJ
+VALUES(1208, 1);
+INSERT INTO PALMARESJ
+VALUES(1209, 1);
+INSERT INTO PALMARESJ
+VALUES(1210, 1);
+INSERT INTO PALMARESJ
+VALUES(1211, 1);
+INSERT INTO PALMARESJ
+VALUES(1201, 2);
+INSERT INTO PALMARESJ
+VALUES(1202, 2);
+INSERT INTO PALMARESJ
+VALUES(1203, 2);
+INSERT INTO PALMARESJ
+VALUES(1204, 2);
+INSERT INTO PALMARESJ
+VALUES(1205, 2);
+INSERT INTO PALMARESJ
+VALUES(1206, 2);
+INSERT INTO PALMARESJ
+VALUES(1207, 2);
+INSERT INTO PALMARESJ
+VALUES(1208, 2);
+INSERT INTO PALMARESJ
+VALUES(1209, 2);
+INSERT INTO PALMARESJ
+VALUES(1210, 2);
+INSERT INTO PALMARESJ
+VALUES(1211, 2);
+INSERT INTO PALMARESJ
+VALUES(1201, 3);
+INSERT INTO PALMARESJ
+VALUES(1202, 3);
+INSERT INTO PALMARESJ
+VALUES(1203, 3);
+INSERT INTO PALMARESJ
+VALUES(1204, 3);
+INSERT INTO PALMARESJ
+VALUES(1205, 3);
+INSERT INTO PALMARESJ
+VALUES(1206, 3);
+INSERT INTO PALMARESJ
+VALUES(1207, 3);
+INSERT INTO PALMARESJ
+VALUES(1208, 3);
+INSERT INTO PALMARESJ
+VALUES(1209, 3);
+INSERT INTO PALMARESJ
+VALUES(1210, 3);
+INSERT INTO PALMARESJ
+VALUES(1211, 3);
+INSERT INTO PALMARESJ
+VALUES(1201, 4);
+INSERT INTO PALMARESJ
+VALUES(1202, 4);
+INSERT INTO PALMARESJ
+VALUES(1203, 4);
+INSERT INTO PALMARESJ
+VALUES(1204, 4);
+INSERT INTO PALMARESJ
+VALUES(1205, 4);
+INSERT INTO PALMARESJ
+VALUES(1206, 4);
+INSERT INTO PALMARESJ
+VALUES(1207, 4);
+INSERT INTO PALMARESJ
+VALUES(1208, 4);
+INSERT INTO PALMARESJ
+VALUES(1209, 4);
+INSERT INTO PALMARESJ
+VALUES(1210, 4);
+INSERT INTO PALMARESJ
+VALUES(1211, 4);
+INSERT INTO PALMARESJ
+VALUES(1201, 5);
+INSERT INTO PALMARESJ
+VALUES(1202, 5);
+INSERT INTO PALMARESJ
+VALUES(1203, 5);
+INSERT INTO PALMARESJ
+VALUES(1204, 5);
+INSERT INTO PALMARESJ
+VALUES(1205, 5);
+INSERT INTO PALMARESJ
+VALUES(1206, 5);
+INSERT INTO PALMARESJ
+VALUES(1207, 5);
+INSERT INTO PALMARESJ
+VALUES(1208, 5);
+INSERT INTO PALMARESJ
+VALUES(1209, 5);
+INSERT INTO PALMARESJ
+VALUES(1210, 5);
+INSERT INTO PALMARESJ
+VALUES(1211, 5);
+INSERT INTO PALMARESJ
+VALUES(1201, 6);
+INSERT INTO PALMARESJ
+VALUES(1202, 6);
+INSERT INTO PALMARESJ
+VALUES(1203, 6);
+INSERT INTO PALMARESJ
+VALUES(1204, 6);
+INSERT INTO PALMARESJ
+VALUES(1205, 6);
+INSERT INTO PALMARESJ
+VALUES(1206, 6);
+INSERT INTO PALMARESJ
+VALUES(1207, 6);
+INSERT INTO PALMARESJ
+VALUES(1208, 6);
+INSERT INTO PALMARESJ
+VALUES(1209, 6);
+INSERT INTO PALMARESJ
+VALUES(1210, 6);
+INSERT INTO PALMARESJ
+VALUES(1211, 6);
+INSERT INTO PALMARESJ
+VALUES(1201, 7);
+INSERT INTO PALMARESJ
+VALUES(1202, 7);
+INSERT INTO PALMARESJ
+VALUES(1203, 7);
+INSERT INTO PALMARESJ
+VALUES(1204, 7);
+INSERT INTO PALMARESJ
+VALUES(1205, 7);
+INSERT INTO PALMARESJ
+VALUES(1206, 7);
+INSERT INTO PALMARESJ
+VALUES(1207, 7);
+INSERT INTO PALMARESJ
+VALUES(1208, 7);
+INSERT INTO PALMARESJ
+VALUES(1209, 7);
+INSERT INTO PALMARESJ
+VALUES(1210, 7);
+INSERT INTO PALMARESJ
+VALUES(1211, 7);
+INSERT INTO PALMARESJ
+VALUES(1201, 8);
+INSERT INTO PALMARESJ
+VALUES(1202, 8);
+INSERT INTO PALMARESJ
+VALUES(1203, 8);
+INSERT INTO PALMARESJ
+VALUES(1204, 8);
+INSERT INTO PALMARESJ
+VALUES(1205, 8);
+INSERT INTO PALMARESJ
+VALUES(1206, 8);
+INSERT INTO PALMARESJ
+VALUES(1207, 8);
+INSERT INTO PALMARESJ
+VALUES(1208, 8);
+INSERT INTO PALMARESJ
+VALUES(1209, 8);
+INSERT INTO PALMARESJ
+VALUES(1210, 8);
+INSERT INTO PALMARESJ
+VALUES(1211, 8);
+INSERT INTO PALMARESJ
+VALUES(1201, 9);
+INSERT INTO PALMARESJ
+VALUES(1202, 9);
+INSERT INTO PALMARESJ
+VALUES(1203, 9);
+INSERT INTO PALMARESJ
+VALUES(1204, 9);
+INSERT INTO PALMARESJ
+VALUES(1205, 9);
+INSERT INTO PALMARESJ
+VALUES(1206, 9);
+INSERT INTO PALMARESJ
+VALUES(1207, 9);
+INSERT INTO PALMARESJ
+VALUES(1208, 9);
+INSERT INTO PALMARESJ
+VALUES(1209, 9);
+INSERT INTO PALMARESJ
+VALUES(1210, 9);
+INSERT INTO PALMARESJ
+VALUES(1211, 9);
+INSERT INTO PALMARESJ
+VALUES(1201, 10);
+INSERT INTO PALMARESJ
+VALUES(1202, 10);
+INSERT INTO PALMARESJ
+VALUES(1203, 10);
+INSERT INTO PALMARESJ
+VALUES(1204, 10);
+INSERT INTO PALMARESJ
+VALUES(1205, 10);
+INSERT INTO PALMARESJ
+VALUES(1206, 10);
+INSERT INTO PALMARESJ
+VALUES(1207, 10);
+INSERT INTO PALMARESJ
+VALUES(1208, 10);
+INSERT INTO PALMARESJ
+VALUES(1209, 10);
+INSERT INTO PALMARESJ
+VALUES(1210, 10);
+INSERT INTO PALMARESJ
+VALUES(1211, 10);
+INSERT INTO PALMARESJ
+VALUES(1201, 11);
+INSERT INTO PALMARESJ
+VALUES(1202, 11);
+INSERT INTO PALMARESJ
+VALUES(1203, 11);
+INSERT INTO PALMARESJ
+VALUES(1204, 11);
+INSERT INTO PALMARESJ
+VALUES(1205, 11);
+INSERT INTO PALMARESJ
+VALUES(1206, 11);
+INSERT INTO PALMARESJ
+VALUES(1207, 11);
+INSERT INTO PALMARESJ
+VALUES(1208, 11);
+INSERT INTO PALMARESJ
+VALUES(1209, 11);
+INSERT INTO PALMARESJ
+VALUES(1210, 11);
+INSERT INTO PALMARESJ
+VALUES(1211, 11);
+INSERT INTO PALMARESJ
+VALUES(1201, 12);
+INSERT INTO PALMARESJ
+VALUES(1202, 12);
+INSERT INTO PALMARESJ
+VALUES(1203, 12);
+INSERT INTO PALMARESJ
+VALUES(1204, 12);
+INSERT INTO PALMARESJ
+VALUES(1205, 12);
+INSERT INTO PALMARESJ
+VALUES(1206, 12);
+INSERT INTO PALMARESJ
+VALUES(1207, 12);
+INSERT INTO PALMARESJ
+VALUES(1208, 12);
+INSERT INTO PALMARESJ
+VALUES(1209, 12);
+INSERT INTO PALMARESJ
+VALUES(1210, 12);
+INSERT INTO PALMARESJ
+VALUES(1211, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1301, 1);
+INSERT INTO PALMARESJ
+VALUES(1302, 1);
+INSERT INTO PALMARESJ
+VALUES(1303, 1);
+INSERT INTO PALMARESJ
+VALUES(1304, 1);
+INSERT INTO PALMARESJ
+VALUES(1305, 1);
+INSERT INTO PALMARESJ
+VALUES(1306, 1);
+INSERT INTO PALMARESJ
+VALUES(1307, 1);
+INSERT INTO PALMARESJ
+VALUES(1308, 1);
+INSERT INTO PALMARESJ
+VALUES(1309, 1);
+INSERT INTO PALMARESJ
+VALUES(1310, 1);
+INSERT INTO PALMARESJ
+VALUES(1311, 1);
+INSERT INTO PALMARESJ
+VALUES(1301, 2);
+INSERT INTO PALMARESJ
+VALUES(1302, 2);
+INSERT INTO PALMARESJ
+VALUES(1303, 2);
+INSERT INTO PALMARESJ
+VALUES(1304, 2);
+INSERT INTO PALMARESJ
+VALUES(1305, 2);
+INSERT INTO PALMARESJ
+VALUES(1306, 2);
+INSERT INTO PALMARESJ
+VALUES(1307, 2);
+INSERT INTO PALMARESJ
+VALUES(1308, 2);
+INSERT INTO PALMARESJ
+VALUES(1309, 2);
+INSERT INTO PALMARESJ
+VALUES(1310, 2);
+INSERT INTO PALMARESJ
+VALUES(1311, 2);
+INSERT INTO PALMARESJ
+VALUES(1301, 3);
+INSERT INTO PALMARESJ
+VALUES(1302, 3);
+INSERT INTO PALMARESJ
+VALUES(1303, 3);
+INSERT INTO PALMARESJ
+VALUES(1304, 3);
+INSERT INTO PALMARESJ
+VALUES(1305, 3);
+INSERT INTO PALMARESJ
+VALUES(1306, 3);
+INSERT INTO PALMARESJ
+VALUES(1307, 3);
+INSERT INTO PALMARESJ
+VALUES(1308, 3);
+INSERT INTO PALMARESJ
+VALUES(1309, 3);
+INSERT INTO PALMARESJ
+VALUES(1310, 3);
+INSERT INTO PALMARESJ
+VALUES(1311, 3);
+INSERT INTO PALMARESJ
+VALUES(1301, 4);
+INSERT INTO PALMARESJ
+VALUES(1302, 4);
+INSERT INTO PALMARESJ
+VALUES(1303, 4);
+INSERT INTO PALMARESJ
+VALUES(1304, 4);
+INSERT INTO PALMARESJ
+VALUES(1305, 4);
+INSERT INTO PALMARESJ
+VALUES(1306, 4);
+INSERT INTO PALMARESJ
+VALUES(1307, 4);
+INSERT INTO PALMARESJ
+VALUES(1308, 4);
+INSERT INTO PALMARESJ
+VALUES(1309, 4);
+INSERT INTO PALMARESJ
+VALUES(1310, 4);
+INSERT INTO PALMARESJ
+VALUES(1311, 4);
+INSERT INTO PALMARESJ
+VALUES(1301, 5);
+INSERT INTO PALMARESJ
+VALUES(1302, 5);
+INSERT INTO PALMARESJ
+VALUES(1303, 5);
+INSERT INTO PALMARESJ
+VALUES(1304, 5);
+INSERT INTO PALMARESJ
+VALUES(1305, 5);
+INSERT INTO PALMARESJ
+VALUES(1306, 5);
+INSERT INTO PALMARESJ
+VALUES(1307, 5);
+INSERT INTO PALMARESJ
+VALUES(1308, 5);
+INSERT INTO PALMARESJ
+VALUES(1309, 5);
+INSERT INTO PALMARESJ
+VALUES(1310, 5);
+INSERT INTO PALMARESJ
+VALUES(1311, 5);
+INSERT INTO PALMARESJ
+VALUES(1301, 6);
+INSERT INTO PALMARESJ
+VALUES(1302, 6);
+INSERT INTO PALMARESJ
+VALUES(1303, 6);
+INSERT INTO PALMARESJ
+VALUES(1304, 6);
+INSERT INTO PALMARESJ
+VALUES(1305, 6);
+INSERT INTO PALMARESJ
+VALUES(1306, 6);
+INSERT INTO PALMARESJ
+VALUES(1307, 6);
+INSERT INTO PALMARESJ
+VALUES(1308, 6);
+INSERT INTO PALMARESJ
+VALUES(1309, 6);
+INSERT INTO PALMARESJ
+VALUES(1310, 6);
+INSERT INTO PALMARESJ
+VALUES(1311, 6);
+INSERT INTO PALMARESJ
+VALUES(1301, 7);
+INSERT INTO PALMARESJ
+VALUES(1302, 7);
+INSERT INTO PALMARESJ
+VALUES(1303, 7);
+INSERT INTO PALMARESJ
+VALUES(1304, 7);
+INSERT INTO PALMARESJ
+VALUES(1305, 7);
+INSERT INTO PALMARESJ
+VALUES(1306, 7);
+INSERT INTO PALMARESJ
+VALUES(1307, 7);
+INSERT INTO PALMARESJ
+VALUES(1308, 7);
+INSERT INTO PALMARESJ
+VALUES(1309, 7);
+INSERT INTO PALMARESJ
+VALUES(1310, 7);
+INSERT INTO PALMARESJ
+VALUES(1311, 7);
+INSERT INTO PALMARESJ
+VALUES(1301, 8);
+INSERT INTO PALMARESJ
+VALUES(1302, 8);
+INSERT INTO PALMARESJ
+VALUES(1303, 8);
+INSERT INTO PALMARESJ
+VALUES(1304, 8);
+INSERT INTO PALMARESJ
+VALUES(1305, 8);
+INSERT INTO PALMARESJ
+VALUES(1306, 8);
+INSERT INTO PALMARESJ
+VALUES(1307, 8);
+INSERT INTO PALMARESJ
+VALUES(1308, 8);
+INSERT INTO PALMARESJ
+VALUES(1309, 8);
+INSERT INTO PALMARESJ
+VALUES(1310, 8);
+INSERT INTO PALMARESJ
+VALUES(1311, 8);
+INSERT INTO PALMARESJ
+VALUES(1301, 9);
+INSERT INTO PALMARESJ
+VALUES(1302, 9);
+INSERT INTO PALMARESJ
+VALUES(1303, 9);
+INSERT INTO PALMARESJ
+VALUES(1304, 9);
+INSERT INTO PALMARESJ
+VALUES(1305, 9);
+INSERT INTO PALMARESJ
+VALUES(1306, 9);
+INSERT INTO PALMARESJ
+VALUES(1307, 9);
+INSERT INTO PALMARESJ
+VALUES(1308, 9);
+INSERT INTO PALMARESJ
+VALUES(1309, 9);
+INSERT INTO PALMARESJ
+VALUES(1310, 9);
+INSERT INTO PALMARESJ
+VALUES(1311, 9);
+INSERT INTO PALMARESJ
+VALUES(1301, 10);
+INSERT INTO PALMARESJ
+VALUES(1302, 10);
+INSERT INTO PALMARESJ
+VALUES(1303, 10);
+INSERT INTO PALMARESJ
+VALUES(1304, 10);
+INSERT INTO PALMARESJ
+VALUES(1305, 10);
+INSERT INTO PALMARESJ
+VALUES(1306, 10);
+INSERT INTO PALMARESJ
+VALUES(1307, 10);
+INSERT INTO PALMARESJ
+VALUES(1308, 10);
+INSERT INTO PALMARESJ
+VALUES(1309, 10);
+INSERT INTO PALMARESJ
+VALUES(1310, 10);
+INSERT INTO PALMARESJ
+VALUES(1311, 10);
+INSERT INTO PALMARESJ
+VALUES(1301, 11);
+INSERT INTO PALMARESJ
+VALUES(1302, 11);
+INSERT INTO PALMARESJ
+VALUES(1303, 11);
+INSERT INTO PALMARESJ
+VALUES(1304, 11);
+INSERT INTO PALMARESJ
+VALUES(1305, 11);
+INSERT INTO PALMARESJ
+VALUES(1306, 11);
+INSERT INTO PALMARESJ
+VALUES(1307, 11);
+INSERT INTO PALMARESJ
+VALUES(1308, 11);
+INSERT INTO PALMARESJ
+VALUES(1309, 11);
+INSERT INTO PALMARESJ
+VALUES(1310, 11);
+INSERT INTO PALMARESJ
+VALUES(1311, 11);
+INSERT INTO PALMARESJ
+VALUES(1301, 12);
+INSERT INTO PALMARESJ
+VALUES(1302, 12);
+INSERT INTO PALMARESJ
+VALUES(1303, 12);
+INSERT INTO PALMARESJ
+VALUES(1304, 12);
+INSERT INTO PALMARESJ
+VALUES(1305, 12);
+INSERT INTO PALMARESJ
+VALUES(1306, 12);
+INSERT INTO PALMARESJ
+VALUES(1307, 12);
+INSERT INTO PALMARESJ
+VALUES(1308, 12);
+INSERT INTO PALMARESJ
+VALUES(1309, 12);
+INSERT INTO PALMARESJ
+VALUES(1310, 12);
+INSERT INTO PALMARESJ
+VALUES(1311, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1401, 1);
+INSERT INTO PALMARESJ
+VALUES(1402, 1);
+INSERT INTO PALMARESJ
+VALUES(1403, 1);
+INSERT INTO PALMARESJ
+VALUES(1404, 1);
+INSERT INTO PALMARESJ
+VALUES(1405, 1);
+INSERT INTO PALMARESJ
+VALUES(1406, 1);
+INSERT INTO PALMARESJ
+VALUES(1407, 1);
+INSERT INTO PALMARESJ
+VALUES(1408, 1);
+INSERT INTO PALMARESJ
+VALUES(1409, 1);
+INSERT INTO PALMARESJ
+VALUES(1410, 1);
+INSERT INTO PALMARESJ
+VALUES(1411, 1);
+INSERT INTO PALMARESJ
+VALUES(1401, 2);
+INSERT INTO PALMARESJ
+VALUES(1402, 2);
+INSERT INTO PALMARESJ
+VALUES(1403, 2);
+INSERT INTO PALMARESJ
+VALUES(1404, 2);
+INSERT INTO PALMARESJ
+VALUES(1405, 2);
+INSERT INTO PALMARESJ
+VALUES(1406, 2);
+INSERT INTO PALMARESJ
+VALUES(1407, 2);
+INSERT INTO PALMARESJ
+VALUES(1408, 2);
+INSERT INTO PALMARESJ
+VALUES(1409, 2);
+INSERT INTO PALMARESJ
+VALUES(1410, 2);
+INSERT INTO PALMARESJ
+VALUES(1411, 2);
+INSERT INTO PALMARESJ
+VALUES(1401, 3);
+INSERT INTO PALMARESJ
+VALUES(1402, 3);
+INSERT INTO PALMARESJ
+VALUES(1403, 3);
+INSERT INTO PALMARESJ
+VALUES(1404, 3);
+INSERT INTO PALMARESJ
+VALUES(1405, 3);
+INSERT INTO PALMARESJ
+VALUES(1406, 3);
+INSERT INTO PALMARESJ
+VALUES(1407, 3);
+INSERT INTO PALMARESJ
+VALUES(1408, 3);
+INSERT INTO PALMARESJ
+VALUES(1409, 3);
+INSERT INTO PALMARESJ
+VALUES(1410, 3);
+INSERT INTO PALMARESJ
+VALUES(1411, 3);
+INSERT INTO PALMARESJ
+VALUES(1401, 4);
+INSERT INTO PALMARESJ
+VALUES(1402, 4);
+INSERT INTO PALMARESJ
+VALUES(1403, 4);
+INSERT INTO PALMARESJ
+VALUES(1404, 4);
+INSERT INTO PALMARESJ
+VALUES(1405, 4);
+INSERT INTO PALMARESJ
+VALUES(1406, 4);
+INSERT INTO PALMARESJ
+VALUES(1407, 4);
+INSERT INTO PALMARESJ
+VALUES(1408, 4);
+INSERT INTO PALMARESJ
+VALUES(1409, 4);
+INSERT INTO PALMARESJ
+VALUES(1410, 4);
+INSERT INTO PALMARESJ
+VALUES(1411, 4);
+INSERT INTO PALMARESJ
+VALUES(1401, 5);
+INSERT INTO PALMARESJ
+VALUES(1402, 5);
+INSERT INTO PALMARESJ
+VALUES(1403, 5);
+INSERT INTO PALMARESJ
+VALUES(1404, 5);
+INSERT INTO PALMARESJ
+VALUES(1405, 5);
+INSERT INTO PALMARESJ
+VALUES(1406, 5);
+INSERT INTO PALMARESJ
+VALUES(1407, 5);
+INSERT INTO PALMARESJ
+VALUES(1408, 5);
+INSERT INTO PALMARESJ
+VALUES(1409, 5);
+INSERT INTO PALMARESJ
+VALUES(1410, 5);
+INSERT INTO PALMARESJ
+VALUES(1411, 5);
+INSERT INTO PALMARESJ
+VALUES(1401, 6);
+INSERT INTO PALMARESJ
+VALUES(1402, 6);
+INSERT INTO PALMARESJ
+VALUES(1403, 6);
+INSERT INTO PALMARESJ
+VALUES(1404, 6);
+INSERT INTO PALMARESJ
+VALUES(1405, 6);
+INSERT INTO PALMARESJ
+VALUES(1406, 6);
+INSERT INTO PALMARESJ
+VALUES(1407, 6);
+INSERT INTO PALMARESJ
+VALUES(1408, 6);
+INSERT INTO PALMARESJ
+VALUES(1409, 6);
+INSERT INTO PALMARESJ
+VALUES(1410, 6);
+INSERT INTO PALMARESJ
+VALUES(1411, 6);
+INSERT INTO PALMARESJ
+VALUES(1401, 7);
+INSERT INTO PALMARESJ
+VALUES(1402, 7);
+INSERT INTO PALMARESJ
+VALUES(1403, 7);
+INSERT INTO PALMARESJ
+VALUES(1404, 7);
+INSERT INTO PALMARESJ
+VALUES(1405, 7);
+INSERT INTO PALMARESJ
+VALUES(1406, 7);
+INSERT INTO PALMARESJ
+VALUES(1407, 7);
+INSERT INTO PALMARESJ
+VALUES(1408, 7);
+INSERT INTO PALMARESJ
+VALUES(1409, 7);
+INSERT INTO PALMARESJ
+VALUES(1410, 7);
+INSERT INTO PALMARESJ
+VALUES(1411, 7);
+INSERT INTO PALMARESJ
+VALUES(1401, 8);
+INSERT INTO PALMARESJ
+VALUES(1402, 8);
+INSERT INTO PALMARESJ
+VALUES(1403, 8);
+INSERT INTO PALMARESJ
+VALUES(1404, 8);
+INSERT INTO PALMARESJ
+VALUES(1405, 8);
+INSERT INTO PALMARESJ
+VALUES(1406, 8);
+INSERT INTO PALMARESJ
+VALUES(1407, 8);
+INSERT INTO PALMARESJ
+VALUES(1408, 8);
+INSERT INTO PALMARESJ
+VALUES(1409, 8);
+INSERT INTO PALMARESJ
+VALUES(1410, 8);
+INSERT INTO PALMARESJ
+VALUES(1411, 8);
+INSERT INTO PALMARESJ
+VALUES(1401, 9);
+INSERT INTO PALMARESJ
+VALUES(1402, 9);
+INSERT INTO PALMARESJ
+VALUES(1403, 9);
+INSERT INTO PALMARESJ
+VALUES(1404, 9);
+INSERT INTO PALMARESJ
+VALUES(1405, 9);
+INSERT INTO PALMARESJ
+VALUES(1406, 9);
+INSERT INTO PALMARESJ
+VALUES(1407, 9);
+INSERT INTO PALMARESJ
+VALUES(1408, 9);
+INSERT INTO PALMARESJ
+VALUES(1409, 9);
+INSERT INTO PALMARESJ
+VALUES(1410, 9);
+INSERT INTO PALMARESJ
+VALUES(1411, 9);
+INSERT INTO PALMARESJ
+VALUES(1401, 10);
+INSERT INTO PALMARESJ
+VALUES(1402, 10);
+INSERT INTO PALMARESJ
+VALUES(1403, 10);
+INSERT INTO PALMARESJ
+VALUES(1404, 10);
+INSERT INTO PALMARESJ
+VALUES(1405, 10);
+INSERT INTO PALMARESJ
+VALUES(1406, 10);
+INSERT INTO PALMARESJ
+VALUES(1407, 10);
+INSERT INTO PALMARESJ
+VALUES(1408, 10);
+INSERT INTO PALMARESJ
+VALUES(1409, 10);
+INSERT INTO PALMARESJ
+VALUES(1410, 10);
+INSERT INTO PALMARESJ
+VALUES(1411, 10);
+INSERT INTO PALMARESJ
+VALUES(1401, 11);
+INSERT INTO PALMARESJ
+VALUES(1402, 11);
+INSERT INTO PALMARESJ
+VALUES(1403, 11);
+INSERT INTO PALMARESJ
+VALUES(1404, 11);
+INSERT INTO PALMARESJ
+VALUES(1405, 11);
+INSERT INTO PALMARESJ
+VALUES(1406, 11);
+INSERT INTO PALMARESJ
+VALUES(1407, 11);
+INSERT INTO PALMARESJ
+VALUES(1408, 11);
+INSERT INTO PALMARESJ
+VALUES(1409, 11);
+INSERT INTO PALMARESJ
+VALUES(1410, 11);
+INSERT INTO PALMARESJ
+VALUES(1411, 11);
+INSERT INTO PALMARESJ
+VALUES(1401, 12);
+INSERT INTO PALMARESJ
+VALUES(1402, 12);
+INSERT INTO PALMARESJ
+VALUES(1403, 12);
+INSERT INTO PALMARESJ
+VALUES(1404, 12);
+INSERT INTO PALMARESJ
+VALUES(1405, 12);
+INSERT INTO PALMARESJ
+VALUES(1406, 12);
+INSERT INTO PALMARESJ
+VALUES(1407, 12);
+INSERT INTO PALMARESJ
+VALUES(1408, 12);
+INSERT INTO PALMARESJ
+VALUES(1409, 12);
+INSERT INTO PALMARESJ
+VALUES(1410, 12);
+INSERT INTO PALMARESJ
+VALUES(1411, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1501, 1);
+INSERT INTO PALMARESJ
+VALUES(1502, 1);
+INSERT INTO PALMARESJ
+VALUES(1503, 1);
+INSERT INTO PALMARESJ
+VALUES(1504, 1);
+INSERT INTO PALMARESJ
+VALUES(1505, 1);
+INSERT INTO PALMARESJ
+VALUES(1506, 1);
+INSERT INTO PALMARESJ
+VALUES(1507, 1);
+INSERT INTO PALMARESJ
+VALUES(1508, 1);
+INSERT INTO PALMARESJ
+VALUES(1509, 1);
+INSERT INTO PALMARESJ
+VALUES(1510, 1);
+INSERT INTO PALMARESJ
+VALUES(1511, 1);
+INSERT INTO PALMARESJ
+VALUES(1501, 2);
+INSERT INTO PALMARESJ
+VALUES(1502, 2);
+INSERT INTO PALMARESJ
+VALUES(1503, 2);
+INSERT INTO PALMARESJ
+VALUES(1504, 2);
+INSERT INTO PALMARESJ
+VALUES(1505, 2);
+INSERT INTO PALMARESJ
+VALUES(1506, 2);
+INSERT INTO PALMARESJ
+VALUES(1507, 2);
+INSERT INTO PALMARESJ
+VALUES(1508, 2);
+INSERT INTO PALMARESJ
+VALUES(1509, 2);
+INSERT INTO PALMARESJ
+VALUES(1510, 2);
+INSERT INTO PALMARESJ
+VALUES(1511, 2);
+INSERT INTO PALMARESJ
+VALUES(1501, 3);
+INSERT INTO PALMARESJ
+VALUES(1502, 3);
+INSERT INTO PALMARESJ
+VALUES(1503, 3);
+INSERT INTO PALMARESJ
+VALUES(1504, 3);
+INSERT INTO PALMARESJ
+VALUES(1505, 3);
+INSERT INTO PALMARESJ
+VALUES(1506, 3);
+INSERT INTO PALMARESJ
+VALUES(1507, 3);
+INSERT INTO PALMARESJ
+VALUES(1508, 3);
+INSERT INTO PALMARESJ
+VALUES(1509, 3);
+INSERT INTO PALMARESJ
+VALUES(1510, 3);
+INSERT INTO PALMARESJ
+VALUES(1511, 3);
+INSERT INTO PALMARESJ
+VALUES(1501, 4);
+INSERT INTO PALMARESJ
+VALUES(1502, 4);
+INSERT INTO PALMARESJ
+VALUES(1503, 4);
+INSERT INTO PALMARESJ
+VALUES(1504, 4);
+INSERT INTO PALMARESJ
+VALUES(1505, 4);
+INSERT INTO PALMARESJ
+VALUES(1506, 4);
+INSERT INTO PALMARESJ
+VALUES(1507, 4);
+INSERT INTO PALMARESJ
+VALUES(1508, 4);
+INSERT INTO PALMARESJ
+VALUES(1509, 4);
+INSERT INTO PALMARESJ
+VALUES(1510, 4);
+INSERT INTO PALMARESJ
+VALUES(1511, 4);
+INSERT INTO PALMARESJ
+VALUES(1501, 5);
+INSERT INTO PALMARESJ
+VALUES(1502, 5);
+INSERT INTO PALMARESJ
+VALUES(1503, 5);
+INSERT INTO PALMARESJ
+VALUES(1504, 5);
+INSERT INTO PALMARESJ
+VALUES(1505, 5);
+INSERT INTO PALMARESJ
+VALUES(1506, 5);
+INSERT INTO PALMARESJ
+VALUES(1507, 5);
+INSERT INTO PALMARESJ
+VALUES(1508, 5);
+INSERT INTO PALMARESJ
+VALUES(1509, 5);
+INSERT INTO PALMARESJ
+VALUES(1510, 5);
+INSERT INTO PALMARESJ
+VALUES(1511, 5);
+INSERT INTO PALMARESJ
+VALUES(1501, 6);
+INSERT INTO PALMARESJ
+VALUES(1502, 6);
+INSERT INTO PALMARESJ
+VALUES(1503, 6);
+INSERT INTO PALMARESJ
+VALUES(1504, 6);
+INSERT INTO PALMARESJ
+VALUES(1505, 6);
+INSERT INTO PALMARESJ
+VALUES(1506, 6);
+INSERT INTO PALMARESJ
+VALUES(1507, 6);
+INSERT INTO PALMARESJ
+VALUES(1508, 6);
+INSERT INTO PALMARESJ
+VALUES(1509, 6);
+INSERT INTO PALMARESJ
+VALUES(1510, 6);
+INSERT INTO PALMARESJ
+VALUES(1511, 6);
+INSERT INTO PALMARESJ
+VALUES(1501, 7);
+INSERT INTO PALMARESJ
+VALUES(1502, 7);
+INSERT INTO PALMARESJ
+VALUES(1503, 7);
+INSERT INTO PALMARESJ
+VALUES(1504, 7);
+INSERT INTO PALMARESJ
+VALUES(1505, 7);
+INSERT INTO PALMARESJ
+VALUES(1506, 7);
+INSERT INTO PALMARESJ
+VALUES(1507, 7);
+INSERT INTO PALMARESJ
+VALUES(1508, 7);
+INSERT INTO PALMARESJ
+VALUES(1509, 7);
+INSERT INTO PALMARESJ
+VALUES(1510, 7);
+INSERT INTO PALMARESJ
+VALUES(1511, 7);
+INSERT INTO PALMARESJ
+VALUES(1501, 8);
+INSERT INTO PALMARESJ
+VALUES(1502, 8);
+INSERT INTO PALMARESJ
+VALUES(1503, 8);
+INSERT INTO PALMARESJ
+VALUES(1504, 8);
+INSERT INTO PALMARESJ
+VALUES(1505, 8);
+INSERT INTO PALMARESJ
+VALUES(1506, 8);
+INSERT INTO PALMARESJ
+VALUES(1507, 8);
+INSERT INTO PALMARESJ
+VALUES(1508, 8);
+INSERT INTO PALMARESJ
+VALUES(1509, 8);
+INSERT INTO PALMARESJ
+VALUES(1510, 8);
+INSERT INTO PALMARESJ
+VALUES(1511, 8);
+INSERT INTO PALMARESJ
+VALUES(1501, 9);
+INSERT INTO PALMARESJ
+VALUES(1502, 9);
+INSERT INTO PALMARESJ
+VALUES(1503, 9);
+INSERT INTO PALMARESJ
+VALUES(1504, 9);
+INSERT INTO PALMARESJ
+VALUES(1505, 9);
+INSERT INTO PALMARESJ
+VALUES(1506, 9);
+INSERT INTO PALMARESJ
+VALUES(1507, 9);
+INSERT INTO PALMARESJ
+VALUES(1508, 9);
+INSERT INTO PALMARESJ
+VALUES(1509, 9);
+INSERT INTO PALMARESJ
+VALUES(1510, 9);
+INSERT INTO PALMARESJ
+VALUES(1511, 9);
+INSERT INTO PALMARESJ
+VALUES(1501, 10);
+INSERT INTO PALMARESJ
+VALUES(1502, 10);
+INSERT INTO PALMARESJ
+VALUES(1503, 10);
+INSERT INTO PALMARESJ
+VALUES(1504, 10);
+INSERT INTO PALMARESJ
+VALUES(1505, 10);
+INSERT INTO PALMARESJ
+VALUES(1506, 10);
+INSERT INTO PALMARESJ
+VALUES(1507, 10);
+INSERT INTO PALMARESJ
+VALUES(1508, 10);
+INSERT INTO PALMARESJ
+VALUES(1509, 10);
+INSERT INTO PALMARESJ
+VALUES(1510, 10);
+INSERT INTO PALMARESJ
+VALUES(1511, 10);
+INSERT INTO PALMARESJ
+VALUES(1501, 11);
+INSERT INTO PALMARESJ
+VALUES(1502, 11);
+INSERT INTO PALMARESJ
+VALUES(1503, 11);
+INSERT INTO PALMARESJ
+VALUES(1504, 11);
+INSERT INTO PALMARESJ
+VALUES(1505, 11);
+INSERT INTO PALMARESJ
+VALUES(1506, 11);
+INSERT INTO PALMARESJ
+VALUES(1507, 11);
+INSERT INTO PALMARESJ
+VALUES(1508, 11);
+INSERT INTO PALMARESJ
+VALUES(1509, 11);
+INSERT INTO PALMARESJ
+VALUES(1510, 11);
+INSERT INTO PALMARESJ
+VALUES(1511, 11);
+INSERT INTO PALMARESJ
+VALUES(1501, 12);
+INSERT INTO PALMARESJ
+VALUES(1502, 12);
+INSERT INTO PALMARESJ
+VALUES(1503, 12);
+INSERT INTO PALMARESJ
+VALUES(1504, 12);
+INSERT INTO PALMARESJ
+VALUES(1505, 12);
+INSERT INTO PALMARESJ
+VALUES(1506, 12);
+INSERT INTO PALMARESJ
+VALUES(1507, 12);
+INSERT INTO PALMARESJ
+VALUES(1508, 12);
+INSERT INTO PALMARESJ
+VALUES(1509, 12);
+INSERT INTO PALMARESJ
+VALUES(1510, 12);
+INSERT INTO PALMARESJ
+VALUES(1511, 12);
+
+INSERT INTO PALMARESJ
+VALUES(1601, 1);
+INSERT INTO PALMARESJ
+VALUES(1602, 1);
+INSERT INTO PALMARESJ
+VALUES(1603, 1);
+INSERT INTO PALMARESJ
+VALUES(1604, 1);
+INSERT INTO PALMARESJ
+VALUES(1605, 1);
+INSERT INTO PALMARESJ
+VALUES(1606, 1);
+INSERT INTO PALMARESJ
+VALUES(1607, 1);
+INSERT INTO PALMARESJ
+VALUES(1608, 1);
+INSERT INTO PALMARESJ
+VALUES(1609, 1);
+INSERT INTO PALMARESJ
+VALUES(1610, 1);
+INSERT INTO PALMARESJ
+VALUES(1611, 1);
+INSERT INTO PALMARESJ
+VALUES(1601, 2);
+INSERT INTO PALMARESJ
+VALUES(1602, 2);
+INSERT INTO PALMARESJ
+VALUES(1603, 2);
+INSERT INTO PALMARESJ
+VALUES(1604, 2);
+INSERT INTO PALMARESJ
+VALUES(1605, 2);
+INSERT INTO PALMARESJ
+VALUES(1606, 2);
+INSERT INTO PALMARESJ
+VALUES(1607, 2);
+INSERT INTO PALMARESJ
+VALUES(1608, 2);
+INSERT INTO PALMARESJ
+VALUES(1609, 2);
+INSERT INTO PALMARESJ
+VALUES(1610, 2);
+INSERT INTO PALMARESJ
+VALUES(1611, 2);
+INSERT INTO PALMARESJ
+VALUES(1601, 3);
+INSERT INTO PALMARESJ
+VALUES(1602, 3);
+INSERT INTO PALMARESJ
+VALUES(1603, 3);
+INSERT INTO PALMARESJ
+VALUES(1604, 3);
+INSERT INTO PALMARESJ
+VALUES(1605, 3);
+INSERT INTO PALMARESJ
+VALUES(1606, 3);
+INSERT INTO PALMARESJ
+VALUES(1607, 3);
+INSERT INTO PALMARESJ
+VALUES(1608, 3);
+INSERT INTO PALMARESJ
+VALUES(1609, 3);
+INSERT INTO PALMARESJ
+VALUES(1610, 3);
+INSERT INTO PALMARESJ
+VALUES(1611, 3);
+INSERT INTO PALMARESJ
+VALUES(1601, 4);
+INSERT INTO PALMARESJ
+VALUES(1602, 4);
+INSERT INTO PALMARESJ
+VALUES(1603, 4);
+INSERT INTO PALMARESJ
+VALUES(1604, 4);
+INSERT INTO PALMARESJ
+VALUES(1605, 4);
+INSERT INTO PALMARESJ
+VALUES(1606, 4);
+INSERT INTO PALMARESJ
+VALUES(1607, 4);
+INSERT INTO PALMARESJ
+VALUES(1608, 4);
+INSERT INTO PALMARESJ
+VALUES(1609, 4);
+INSERT INTO PALMARESJ
+VALUES(1610, 4);
+INSERT INTO PALMARESJ
+VALUES(1611, 4);
+INSERT INTO PALMARESJ
+VALUES(1601, 5);
+INSERT INTO PALMARESJ
+VALUES(1602, 5);
+INSERT INTO PALMARESJ
+VALUES(1603, 5);
+INSERT INTO PALMARESJ
+VALUES(1604, 5);
+INSERT INTO PALMARESJ
+VALUES(1605, 5);
+INSERT INTO PALMARESJ
+VALUES(1606, 5);
+INSERT INTO PALMARESJ
+VALUES(1607, 5);
+INSERT INTO PALMARESJ
+VALUES(1608, 5);
+INSERT INTO PALMARESJ
+VALUES(1609, 5);
+INSERT INTO PALMARESJ
+VALUES(1610, 5);
+INSERT INTO PALMARESJ
+VALUES(1611, 5);
+INSERT INTO PALMARESJ
+VALUES(1601, 6);
+INSERT INTO PALMARESJ
+VALUES(1602, 6);
+INSERT INTO PALMARESJ
+VALUES(1603, 6);
+INSERT INTO PALMARESJ
+VALUES(1604, 6);
+INSERT INTO PALMARESJ
+VALUES(1605, 6);
+INSERT INTO PALMARESJ
+VALUES(1606, 6);
+INSERT INTO PALMARESJ
+VALUES(1607, 6);
+INSERT INTO PALMARESJ
+VALUES(1608, 6);
+INSERT INTO PALMARESJ
+VALUES(1609, 6);
+INSERT INTO PALMARESJ
+VALUES(1610, 6);
+INSERT INTO PALMARESJ
+VALUES(1611, 6);
+INSERT INTO PALMARESJ
+VALUES(1601, 7);
+INSERT INTO PALMARESJ
+VALUES(1602, 7);
+INSERT INTO PALMARESJ
+VALUES(1603, 7);
+INSERT INTO PALMARESJ
+VALUES(1604, 7);
+INSERT INTO PALMARESJ
+VALUES(1605, 7);
+INSERT INTO PALMARESJ
+VALUES(1606, 7);
+INSERT INTO PALMARESJ
+VALUES(1607, 7);
+INSERT INTO PALMARESJ
+VALUES(1608, 7);
+INSERT INTO PALMARESJ
+VALUES(1609, 7);
+INSERT INTO PALMARESJ
+VALUES(1610, 7);
+INSERT INTO PALMARESJ
+VALUES(1611, 7);
+INSERT INTO PALMARESJ
+VALUES(1601, 8);
+INSERT INTO PALMARESJ
+VALUES(1602, 8);
+INSERT INTO PALMARESJ
+VALUES(1603, 8);
+INSERT INTO PALMARESJ
+VALUES(1604, 8);
+INSERT INTO PALMARESJ
+VALUES(1605, 8);
+INSERT INTO PALMARESJ
+VALUES(1606, 8);
+INSERT INTO PALMARESJ
+VALUES(1607, 8);
+INSERT INTO PALMARESJ
+VALUES(1608, 8);
+INSERT INTO PALMARESJ
+VALUES(1609, 8);
+INSERT INTO PALMARESJ
+VALUES(1610, 8);
+INSERT INTO PALMARESJ
+VALUES(1611, 8);
+INSERT INTO PALMARESJ
+VALUES(1601, 9);
+INSERT INTO PALMARESJ
+VALUES(1602, 9);
+INSERT INTO PALMARESJ
+VALUES(1603, 9);
+INSERT INTO PALMARESJ
+VALUES(1604, 9);
+INSERT INTO PALMARESJ
+VALUES(1605, 9);
+INSERT INTO PALMARESJ
+VALUES(1606, 9);
+INSERT INTO PALMARESJ
+VALUES(1607, 9);
+INSERT INTO PALMARESJ
+VALUES(1608, 9);
+INSERT INTO PALMARESJ
+VALUES(1609, 9);
+INSERT INTO PALMARESJ
+VALUES(1610, 9);
+INSERT INTO PALMARESJ
+VALUES(1611, 9);
+INSERT INTO PALMARESJ
+VALUES(1601, 10);
+INSERT INTO PALMARESJ
+VALUES(1602, 10);
+INSERT INTO PALMARESJ
+VALUES(1603, 10);
+INSERT INTO PALMARESJ
+VALUES(1604, 10);
+INSERT INTO PALMARESJ
+VALUES(1605, 10);
+INSERT INTO PALMARESJ
+VALUES(1606, 10);
+INSERT INTO PALMARESJ
+VALUES(1607, 10);
+INSERT INTO PALMARESJ
+VALUES(1608, 10);
+INSERT INTO PALMARESJ
+VALUES(1609, 10);
+INSERT INTO PALMARESJ
+VALUES(1610, 10);
+INSERT INTO PALMARESJ
+VALUES(1611, 10);
+INSERT INTO PALMARESJ
+VALUES(1601, 11);
+INSERT INTO PALMARESJ
+VALUES(1602, 11);
+INSERT INTO PALMARESJ
+VALUES(1603, 11);
+INSERT INTO PALMARESJ
+VALUES(1604, 11);
+INSERT INTO PALMARESJ
+VALUES(1605, 11);
+INSERT INTO PALMARESJ
+VALUES(1606, 11);
+INSERT INTO PALMARESJ
+VALUES(1607, 11);
+INSERT INTO PALMARESJ
+VALUES(1608, 11);
+INSERT INTO PALMARESJ
+VALUES(1609, 11);
+INSERT INTO PALMARESJ
+VALUES(1610, 11);
+INSERT INTO PALMARESJ
+VALUES(1611, 11);
+INSERT INTO PALMARESJ
+VALUES(1601, 12);
+INSERT INTO PALMARESJ
+VALUES(1602, 12);
+INSERT INTO PALMARESJ
+VALUES(1603, 12);
+INSERT INTO PALMARESJ
+VALUES(1604, 12);
+INSERT INTO PALMARESJ
+VALUES(1605, 12);
+INSERT INTO PALMARESJ
+VALUES(1606, 12);
+INSERT INTO PALMARESJ
+VALUES(1607, 12);
+INSERT INTO PALMARESJ
+VALUES(1608, 12);
+INSERT INTO PALMARESJ
+VALUES(1609, 12);
+INSERT INTO PALMARESJ
+VALUES(1610, 12);
+INSERT INTO PALMARESJ
+VALUES(1611, 12);
+
+/* ====================================================================================== */
+
+/* ====================================================================================== */
+/*                                  LISTE DES PARTICIPATIONS                              */
+/* ====================================================================================== */
+
+
+/* Participations pour les Coupes du Monde */
+
+/* Coupe du Monde de 2014 */
+INSERT INTO PARTICIPER
+VALUES(1, 1, 7);
+INSERT INTO PARTICIPER
+VALUES(2, 1, 13);
+INSERT INTO PARTICIPER
+VALUES(3, 1, 9);
+INSERT INTO PARTICIPER
+VALUES(4, 1, 1);
+INSERT INTO PARTICIPER
+VALUES(5, 1, 3);
+INSERT INTO PARTICIPER
+VALUES(5, 1, 5);
+INSERT INTO PARTICIPER
+VALUES(5, 1, 11);
+INSERT INTO PARTICIPER
+VALUES(5, 1, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 4);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 6);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 8);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 10);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 12);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 1, 16);
+
+/* Coupe du Monde de 2010 */
+INSERT INTO PARTICIPER
+VALUES(1, 2, 15);
+INSERT INTO PARTICIPER
+VALUES(2, 2, 5);
+INSERT INTO PARTICIPER
+VALUES(3, 2, 11);
+INSERT INTO PARTICIPER
+VALUES(4, 2, 1);
+INSERT INTO PARTICIPER
+VALUES(5, 2, 4);
+INSERT INTO PARTICIPER
+VALUES(5, 2, 7);
+INSERT INTO PARTICIPER
+VALUES(5, 2, 9);
+INSERT INTO PARTICIPER
+VALUES(5, 2, 13);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 3);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 6);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 8);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 10);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 12);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 2, 16);
+
+/* Coupe du Monde de 1998 */
+INSERT INTO PARTICIPER
+VALUES(1, 3, 3);
+INSERT INTO PARTICIPER
+VALUES(2, 3, 9);
+INSERT INTO PARTICIPER
+VALUES(3, 3, 8);
+INSERT INTO PARTICIPER
+VALUES(4, 3, 13);
+INSERT INTO PARTICIPER
+VALUES(5, 3, 1);
+INSERT INTO PARTICIPER
+VALUES(5, 3, 5);
+INSERT INTO PARTICIPER
+VALUES(5, 3, 12);
+INSERT INTO PARTICIPER
+VALUES(5, 3, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 4);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 6);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 10);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 3, 16);
+
+
+/* Participations pour les Coupes de France */
+
+/* Coupe de France de 2012 */
+INSERT INTO PARTICIPER
+VALUES(1, 4, 10);
+INSERT INTO PARTICIPER
+VALUES(2, 4, 2);
+INSERT INTO PARTICIPER
+VALUES(3, 4, 3);
+INSERT INTO PARTICIPER
+VALUES(4, 4, 4);
+INSERT INTO PARTICIPER
+VALUES(5, 4, 5);
+INSERT INTO PARTICIPER
+VALUES(5, 4, 6);
+INSERT INTO PARTICIPER
+VALUES(5, 4, 7);
+INSERT INTO PARTICIPER
+VALUES(5, 4, 8);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 9);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 1);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 12);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 13);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 4, 16);
+
+/* Coupe de France de 2008 */
+INSERT INTO PARTICIPER
+VALUES(1, 5, 15);
+INSERT INTO PARTICIPER
+VALUES(2, 5, 16);
+INSERT INTO PARTICIPER
+VALUES(3, 5, 14);
+INSERT INTO PARTICIPER
+VALUES(4, 5, 13);
+INSERT INTO PARTICIPER
+VALUES(5, 5, 12);
+INSERT INTO PARTICIPER
+VALUES(5, 5, 11);
+INSERT INTO PARTICIPER
+VALUES(5, 5, 10);
+INSERT INTO PARTICIPER
+VALUES(5, 5, 9);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 8);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 6);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 5);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 4);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 3);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 5, 1);
+
+/* Coupe de France de 2004 */
+INSERT INTO PARTICIPER
+VALUES(1, 6, 4);
+INSERT INTO PARTICIPER
+VALUES(2, 6, 8);
+INSERT INTO PARTICIPER
+VALUES(3, 6, 12);
+INSERT INTO PARTICIPER
+VALUES(4, 6, 16);
+INSERT INTO PARTICIPER
+VALUES(5, 6, 2);
+INSERT INTO PARTICIPER
+VALUES(5, 6, 6);
+INSERT INTO PARTICIPER
+VALUES(5, 6, 10);
+INSERT INTO PARTICIPER
+VALUES(5, 6, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 3);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 1);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 5);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 9);
+INSERT INTO PARTICIPER
+VALUES(6, 6, 13);
+
+
+/* Participations pour les Ligues des Champions */
+
+/* Ligues des Champions de 2015 */
+INSERT INTO PARTICIPER
+VALUES(1, 7, 12);
+INSERT INTO PARTICIPER
+VALUES(2, 7, 1);
+INSERT INTO PARTICIPER
+VALUES(3, 7, 3);
+INSERT INTO PARTICIPER
+VALUES(4, 7, 6);
+INSERT INTO PARTICIPER
+VALUES(5, 7, 9);
+INSERT INTO PARTICIPER
+VALUES(5, 7, 2);
+INSERT INTO PARTICIPER
+VALUES(5, 7, 7);
+INSERT INTO PARTICIPER
+VALUES(5, 7, 8);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 16);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 4);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 10);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 5);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 7, 13);
+
+/* Ligues des Champions de 2013 */
+INSERT INTO PARTICIPER
+VALUES(1, 8, 10);
+INSERT INTO PARTICIPER
+VALUES(2, 8, 12);
+INSERT INTO PARTICIPER
+VALUES(3, 8, 14);
+INSERT INTO PARTICIPER
+VALUES(4, 8, 16);
+INSERT INTO PARTICIPER
+VALUES(5, 8, 8);
+INSERT INTO PARTICIPER
+VALUES(5, 8, 6);
+INSERT INTO PARTICIPER
+VALUES(5, 8, 4);
+INSERT INTO PARTICIPER
+VALUES(5, 8, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 13);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 9);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 5);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 3);
+INSERT INTO PARTICIPER
+VALUES(6, 8, 1);
+
+/* Ligues des Champions de 2011 */
+INSERT INTO PARTICIPER
+VALUES(1, 9, 8);
+INSERT INTO PARTICIPER
+VALUES(2, 9, 10);
+INSERT INTO PARTICIPER
+VALUES(3, 9, 6);
+INSERT INTO PARTICIPER
+VALUES(4, 9, 12);
+INSERT INTO PARTICIPER
+VALUES(5, 9, 4);
+INSERT INTO PARTICIPER
+VALUES(5, 9, 14);
+INSERT INTO PARTICIPER
+VALUES(5, 9, 2);
+INSERT INTO PARTICIPER
+VALUES(5, 9, 16);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 1);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 15);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 3);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 13);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 5);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 9, 9);
+
+
+/* Liste des Championnats */
+
+/* Championnat de 2010 */
+INSERT INTO PARTICIPER
+VALUES(1, 10, 1);
+INSERT INTO PARTICIPER
+VALUES(2, 10, 3);
+INSERT INTO PARTICIPER
+VALUES(3, 10, 5);
+INSERT INTO PARTICIPER
+VALUES(4, 10, 9);
+INSERT INTO PARTICIPER
+VALUES(5, 10, 11);
+INSERT INTO PARTICIPER
+VALUES(5, 10, 13);
+INSERT INTO PARTICIPER
+VALUES(5, 10, 15);
+INSERT INTO PARTICIPER
+VALUES(5, 10, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 4);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 6);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 8);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 10);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 12);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 16);
+INSERT INTO PARTICIPER
+VALUES(6, 10, 7);
+
+/* Championnat de 2006 */
+INSERT INTO PARTICIPER
+VALUES(1, 11, 3);
+INSERT INTO PARTICIPER
+VALUES(2, 11, 4);
+INSERT INTO PARTICIPER
+VALUES(3, 11, 5);
+INSERT INTO PARTICIPER
+VALUES(4, 11, 6);
+INSERT INTO PARTICIPER
+VALUES(5, 11, 1);
+INSERT INTO PARTICIPER
+VALUES(5, 11, 9);
+INSERT INTO PARTICIPER
+VALUES(5, 11, 8);
+INSERT INTO PARTICIPER
+VALUES(5, 11, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 2);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 10);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 12);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 16);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 13);
+INSERT INTO PARTICIPER
+VALUES(6, 11, 15);
+
+/* Championnat de 2002 */
+INSERT INTO PARTICIPER
+VALUES(1, 12, 6);
+INSERT INTO PARTICIPER
+VALUES(2, 12, 4);
+INSERT INTO PARTICIPER
+VALUES(3, 12, 2);
+INSERT INTO PARTICIPER
+VALUES(4, 12, 8);
+INSERT INTO PARTICIPER
+VALUES(5, 12, 10);
+INSERT INTO PARTICIPER
+VALUES(5, 12, 12);
+INSERT INTO PARTICIPER
+VALUES(5, 12, 16);
+INSERT INTO PARTICIPER
+VALUES(5, 12, 14);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 1);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 3);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 7);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 5);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 9);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 11);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 13);
+INSERT INTO PARTICIPER
+VALUES(6, 12, 15);

@@ -1,0 +1,105 @@
+﻿ORDER BY (déjà testé)
+
+1) Trier par ordre alphabétique les noms des joueurs de l'équipe 'Equipe1'.
+
+SELECT nom FROM JOUEUR
+WHERE numEquipe=1
+ORDER BY nom;
+
+
+2) Trier par ordre décroissant les équipes dont le budget est compris entre 140 000 000 et 150 000 000.
+
+SELECT nom, budget FROM EQUIPE
+WHERE budget BETWEEN 140000000 AND 150000000
+ORDER BY budget DESC;
+
+
+3) Trier par ordre croissant les numéros des joueurs de l'équipe 'Equipe2'.
+
+SELECT nom, numMaillot FROM JOUEUR
+WHERE numEquipe=2
+ORDER BY numMaillot;
+
+
+=========================================================================================================================================================
+
+SELECT IMBRIQUEES (déjà testé)
+
+
+1) Liste des équipes(nom) ayant gagné la competition "Coupe du Monde".  --> TESTÉ, OK !
+
+SELECT nom FROM EQUIPE
+WHERE num IN (
+	SELECT numEquipe FROM COMPETITION 
+	WHERE nom='Coupe du Monde');
+
+
+2) Liste des joueurs (nom, prenom) de l'équipe "Equipe8" ayant gagné la Ligue des Champions.  --> TESTÉ, OK !
+
+SELECT nom,prenom FROM JOUEUR
+WHERE numEquipe=8
+AND numEquipe IN (
+	SELECT numEquipe FROM COMPETITION 
+	WHERE nom='Ligue des Champions');
+
+
+3) Sélectionner les joueurs appartennant à une équipe dont la capacité du stade est supérieur à 90000.  --> TESTÉ, OK !
+
+SELECT nom, numEquipe FROM JOUEUR
+WHERE numEquipe IN(
+	SELECT num FROM EQUIPE
+	WHERE capaciteStade>90000);
+
+
+=========================================================================================================================================================
+
+Triple jointure (en cours de test)
+
+
+1) Liste des joueurs (nom, prénom) n'ayant pas atteint les 1/4 de finale de la competition "Coupe du Monde" de la saison "saison1" triés par ordre chronologique.
+
+SELECT DISTINCT JOUEUR.nom, JOUEUR.prenom FROM JOUEUR
+JOIN EQUIPE ON EQUIPE.num=JOUEUR.numEquipe
+JOIN PARTICIPER ON EQUIPE.num=PARTICIPER.numEquipe
+JOIN COMPETITION ON PARTICIPER.numCompetition=COMPETITION.num
+WHERE PARTICIPER.resultat=6
+AND COMPETITION.nom='Coupe du Monde'
+AND COMPETITION.saison=1998
+ORDER BY JOUEUR.nom;
+
+
+2) 
+
+
+=========================================================================================================================================================
+
+GROUP BY
+
+
+1) Calculer la moyenne du budget des équipes ayant gagné la compétition "C"
+
+SELECT AVG(budget), nom FROM EQUIPE
+JOIN PARTICIPER ON PARTICIPER.numEquipe=EQUIPE.num
+JOIN COMPETITION ON COMPETITION.num=PARTICIPER.numCompetition
+WHERE PARTICIPER.resultat=1 AND COMPETITION.nom='Coupe de France';
+
+
+2) Compter le nombre de palmares des joueurs qui en possèdent  --> TESTÉ, OK !
+
+SELECT COUNT(*), nom FROM JOUEUR
+JOIN PALMARESJ ON PALMARESJ.numJoueur=JOUEUR.code
+GROUP BY nom;
+
+
+3) Compter le nombre de joueurs ayant plus de 100 sélections par équipe (GROUP BY nom) --> TESTÉ, OK !
+
+SELECT COUNT(*), nom FROM JOUEUR
+WHERE nbSelections > 100
+GROUP BY nom;
+
+
+4) Liste des equipes ayant gagné au moins 2 compétitions
+
+SELECT nom FROM EQUIPE
+JOIN PARTICIPER ON PARTICIPER.numEquipe=EQUIPE.num
+WHERE GROUP BY HAVING COUNT(*) > 2;

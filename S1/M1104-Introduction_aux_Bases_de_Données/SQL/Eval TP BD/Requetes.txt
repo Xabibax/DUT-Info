@@ -1,0 +1,143 @@
+﻿/*ORDER BY (--> TESTÉ, OK !)*/
+
+/*1) Trier par ordre alphabétique les noms des joueurs de l'équipe 'Equipe1'. --> TESTÉ, OK !*/
+
+SELECT nom FROM JOUEUR
+WHERE numEquipe=1
+ORDER BY nom;
+
+
+/*2) Trier par ordre décroissant les équipes dont le budget est compris entre 140 000 000 et 150 000 000. --> TESTÉ, OK !*/
+
+SELECT nom, budget FROM EQUIPE
+WHERE budget BETWEEN 140000000 AND 150000000
+ORDER BY budget DESC;
+
+
+/*3) Trier par ordre croissant les numéros des joueurs de l'équipe 'Equipe2'. --> TESTÉ, OK !*/
+
+SELECT nom, numMaillot FROM JOUEUR
+WHERE numEquipe=2
+ORDER BY numMaillot;
+
+
+/*=======================================================================================================================================*/
+
+/*SELECT IMBRIQUEES (--> TESTÉ, OK !)*/
+
+
+/*1) Liste des équipes (nom) ayant gagné la competition "Coupe du Monde".  --> TESTÉ, OK !*/
+
+SELECT nom FROM EQUIPE
+WHERE num IN (
+	SELECT numEquipe FROM COMPETITION 
+	WHERE nom='Coupe du Monde');
+
+
+/*2) Liste des joueurs (nom, prenom) de l'équipe "Equipe8" ayant gagné la Ligue des Champions.  --> TESTÉ, OK !*/
+
+SELECT nom,prenom FROM JOUEUR
+WHERE numEquipe=8
+AND numEquipe IN (
+	SELECT numEquipe FROM COMPETITION 
+	WHERE nom='Ligue des Champions');
+
+
+/*3) Sélectionner les joueurs appartennant à une équipe dont la capacité du stade est supérieur à 90000.  --> TESTÉ, OK !*/
+
+SELECT nom, numEquipe FROM JOUEUR
+WHERE numEquipe IN(
+	SELECT num FROM EQUIPE
+	WHERE capaciteStade>90000);
+
+
+/*=======================================================================================================================================*/
+
+/*Triple jointure (--> TESTÉ, OK !)*/
+
+
+/*1) Liste des joueurs (nom, prénom) n'ayant pas atteint les 1/4 de finale de la competition "Coupe du Monde" de la saison "saison1", triés par ordre chronologique. --> TESTÉ, OK !*/
+
+SELECT DISTINCT JOUEUR.nom, JOUEUR.prenom FROM JOUEUR
+JOIN EQUIPE ON EQUIPE.num=JOUEUR.numEquipe
+JOIN PARTICIPER ON EQUIPE.num=PARTICIPER.numEquipe
+JOIN COMPETITION ON PARTICIPER.numCompetition=COMPETITION.num
+WHERE PARTICIPER.resultat=6
+AND COMPETITION.nom='Coupe du Monde'
+AND COMPETITION.saison=1998
+ORDER BY JOUEUR.nom;
+
+
+/*2) Liste des joueurs (nom, prénom) ayant atteint les 1/2 finale de la competition "Championnat", triés par ordre chronologique inverse. --> TESTÉ, OK !*/
+
+SELECT DISTINCT JOUEUR.nom, JOUEUR.prenom FROM JOUEUR
+JOIN EQUIPE ON EQUIPE.num=JOUEUR.numEquipe
+JOIN PARTICIPER ON EQUIPE.num=PARTICIPER.numEquipe
+JOIN COMPETITION ON PARTICIPER.numCompetition=COMPETITION.num
+WHERE PARTICIPER.resultat<=4
+AND COMPETITION.nom='Championnat'
+ORDER BY JOUEUR.nom DESC;
+
+
+/*3) Liste des joueurs (nom, prénom) ayant gagné la compétition «Coupe de France» --> TESTÉ, OK !*/
+
+SELECT DISTINCT JOUEUR.nom, JOUEUR.prenom
+FROM JOUEUR
+JOIN PALMARESJ ON JOUEUR.code=PALMARESJ.numJoueur
+JOIN COMPETITION ON PALMARESJ.numCompetition=COMPETITION.num
+JOIN PARTICIPER ON COMPETITION.num=PARTICIPER.numCompetition
+WHERE PARTICIPER.resultat=1
+AND COMPETITION.nom='Coupe de France';
+
+
+/*=======================================================================================================================================*/
+
+/*GROUP BY (--> TESTÉ, OK !)*/
+
+
+/*1) Compter le nombre de palmares des joueurs qui en possèdent  --> TESTÉ, OK !*/
+
+SELECT COUNT(*), nom FROM JOUEUR
+JOIN PALMARESJ ON PALMARESJ.numJoueur=JOUEUR.code
+GROUP BY nom;
+
+
+/*2) Compter le nombre de joueurs ayant plus de 100 sélections par équipe (GROUP BY nom) --> TESTÉ, OK !*/
+
+SELECT COUNT(*), nom FROM JOUEUR
+WHERE nbSelections > 100
+GROUP BY nom;
+
+
+/*3) Compter le nombre d'équipe ayant gagné une compétition  --> TESTÉ, OK !*/
+
+SELECT DISTINCT COUNT(*), nom FROM EQUIPE
+JOIN PARTICIPER ON PARTICIPER.numEquipe=EQUIPE.num
+WHERE PARTICIPER.resultat=1
+GROUP BY nom;
+
+
+
+/*=======================================================================================================================================*/
+
+/*GROUP BY HAVING (--> TESTÉ, OK !)*/
+
+/*1) Afficher la liste des joueurs (prénom) ayant le même prénom. --> TESTÉ, OK !*/
+
+SELECT prenom FROM JOUEUR
+GROUP BY prenom HAVING COUNT(*) > 1;
+
+
+/*2) Liste des equipes ayant gagné au moins 2 compétitions.  --> TESTÉ, OK !*/
+
+SELECT nom FROM EQUIPE
+JOIN PARTICIPER ON PARTICIPER.numEquipe=EQUIPE.num
+WHERE PARTICIPER.resultat=1
+GROUP BY nom HAVING COUNT(*)>=2;
+
+
+/*3) Afficher toutes les capacités stade ayant la même valeur. --> TESTÉ, OK !*/
+
+SELECT capaciteStade FROM EQUIPE
+GROUP BY capaciteStade HAVING COUNT(*)>=2;
+
