@@ -1,0 +1,11 @@
+#!/bin/sh
+
+case $1 in
+     -b ) rm -R $2/*.bak;;
+     -o ) rm -R $2/*.old;;
+     -t ) rm -R $2/*~;;
+     -a ) rm -R $2/*.bak $2/*.old $2/*~;;
+     * ) echo "N'importe quoi !";;
+esac
+
+exit 0

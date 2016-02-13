@@ -1,0 +1,2 @@
+echo $USER;
+#finger $USER

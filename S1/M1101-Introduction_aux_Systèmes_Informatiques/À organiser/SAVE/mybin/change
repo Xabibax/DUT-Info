@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "avant :"
+ll $1
+
+touch -m $1
+
+echo "apres :"
+ll $1
+
+exit 0

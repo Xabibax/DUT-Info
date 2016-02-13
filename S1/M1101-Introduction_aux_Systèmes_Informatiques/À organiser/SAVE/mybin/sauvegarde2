@@ -1,0 +1,16 @@
+#!/bin/sh
+
+chmod +w $2
+
+if [ ! -e $2/$1 ]
+   then cp $1 $2/$1
+else
+    i=2
+    while [ -e $2/$1$i ]
+    do
+	i=$(($i+1))
+	cp $1 $2/$1$i
+    done
+fi
+
+chmod -w $2

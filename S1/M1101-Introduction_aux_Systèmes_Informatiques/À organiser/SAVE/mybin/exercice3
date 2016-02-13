@@ -1,0 +1,9 @@
+#!/bin/sh
+tab=("Un" "Deux" "Trois" "Quatre" "Cinq" "Six" "Sept" "Huit" "Neuf" "Dix")
+tabuleau=("Première" "Deuxième" "Troisème" "Quatrième" "Cinquième" "Sixième" "Septième" "Huitième" "Neuvième" "Dixième")
+
+for i in {0..9}
+    do
+	touch ${tab[$i]}
+	echo "${tabuleau[i]} ligne" > ${tab[$i]}
+done
