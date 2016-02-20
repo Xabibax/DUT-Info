@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     CaseACocher c;
     Couleur color;
 
-    f.apparait("Exo3");
+    f.apparait("Exo3 - Case à cocher");
     s.associerA(f);
     color.changeCouleur(0,0,65535);
 

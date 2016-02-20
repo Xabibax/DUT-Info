@@ -56,7 +56,7 @@ void Carre::dessiner(Fenetre f, Couleur c) const
 	f.choixCouleurTrace(c);
 	f.traceLigne(this->x, this->y, this->x + this->longueur, this->y);
 	f.traceLigne(this->x, this->y, this->x, this->y + this->longueur);
-	f.traceLigne(this->x + this->longueur, this->y, this->x + this->longueur, this->y + this->longueur);
+	f.traceLigne(this->x + this->longueur, this->y, this->x + this->longueur, this->y + this->longueur + 1);
 	f.traceLigne(this->x, this->y + this->longueur, this->x + this->longueur, this->y + this->longueur);
 }
 

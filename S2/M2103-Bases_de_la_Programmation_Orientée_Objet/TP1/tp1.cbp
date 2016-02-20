@@ -29,7 +29,7 @@
 		<Unit filename="Image.h" />
 		<Unit filename="Souris.cpp" />
 		<Unit filename="Souris.h" />
-		<Unit filename="exo3.cpp" />
+		<Unit filename="exo4.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

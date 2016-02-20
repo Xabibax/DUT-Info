@@ -1,4 +1,4 @@
-#include "caseACocher.h"
+#include "CaseACocher.h"
 
 void CaseACocher::definirCadre(int x, int y, int longueur, Couleur couleur)
 {

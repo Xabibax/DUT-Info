@@ -22,6 +22,8 @@
 		</Compiler>
 		<Unit filename="Carre.cpp" />
 		<Unit filename="Carre.h" />
+		<Unit filename="Cercle.cpp" />
+		<Unit filename="Cercle.h" />
 		<Unit filename="Couleur.h" />
 		<Unit filename="Couleur.o" />
 		<Unit filename="Fenetre.h" />
@@ -30,7 +32,7 @@
 		<Unit filename="Image.o" />
 		<Unit filename="Souris.h" />
 		<Unit filename="Souris.o" />
-		<Unit filename="exo3.cpp" />
+		<Unit filename="exo3-cercle.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -2276,34 +2276,38 @@
 1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103/TP1/Souris.cpp
 	"Souris.h"
 
-1379943768 source:/home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Couleur.cpp
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Couleur.cpp
 	"Couleur.h"
 
-1379943768 /home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Couleur.h
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Couleur.h
 	<gdk/gdk.h>
 
-1379943768 source:/home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Fenetre.cpp
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Fenetre.cpp
 	<stdio.h>
 	<unistd.h>
 	<string.h>
 	"Fenetre.h"
 
-1379943768 /home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Fenetre.h
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Fenetre.h
 	<gtk/gtk.h>
 	<gdk/gdk.h>
 	"Couleur.h"
 	"Image.h"
 
-1379943768 /home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Image.h
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Image.h
 	<gtk/gtk.h>
 	<gdk/gdk.h>
 
-1379943768 source:/home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Image.cpp
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Image.cpp
 	"Image.h"
 
-1379943768 source:/home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Souris.cpp
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Souris.cpp
 	"Souris.h"
 
-1379943768 /home/valentin/partage-windows/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Souris.h
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/Souris.h
 	"Fenetre.h"
+
+1455914704 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP1/exo4.cpp
+	"Fenetre.h"
+	"Souris.h"
 

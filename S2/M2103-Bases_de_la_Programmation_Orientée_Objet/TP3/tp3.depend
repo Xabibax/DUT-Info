@@ -2296,3 +2296,66 @@
 	"Image.h"
 	"caseACocher.h"
 
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Couleur.cpp
+	"Couleur.h"
+
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Couleur.h
+	<gdk/gdk.h>
+
+1455188406 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Fenetre.cpp
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	"Fenetre.h"
+
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Fenetre.h
+	<gtk/gtk.h>
+	<gdk/gdk.h>
+	"Couleur.h"
+	"Image.h"
+
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Image.h
+	<gtk/gtk.h>
+	<gdk/gdk.h>
+
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Image.cpp
+	"Image.h"
+
+1379943768 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Souris.cpp
+	"Souris.h"
+
+1379943768 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Souris.h
+	"Fenetre.h"
+
+1455959461 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Bouton.cpp
+	"Bouton.h"
+
+1455959500 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Bouton.h
+	"Cercle.h"
+
+1455957920 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Cercle.h
+	"Couleur.h"
+	"Fenetre.h"
+
+1455956019 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Carre.cpp
+	"Carre.h"
+
+1454580624 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Carre.h
+	"Couleur.h"
+	"Fenetre.h"
+
+1455917229 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/CaseACocher.cpp
+	"CaseACocher.h"
+
+1455186184 /users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/CaseACocher.h
+	"Carre.h"
+
+1455916674 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/Cercle.cpp
+	"Cercle.h"
+
+1455958202 source:/users/info/vgraglia/DUT-Info/S2/M2103-Bases_de_la_Programmation_Orientée_Objet/TP3/exo3-bouton.cpp
+	"Fenetre.h"
+	"Souris.h"
+	"Image.h"
+	"Bouton.h"
+

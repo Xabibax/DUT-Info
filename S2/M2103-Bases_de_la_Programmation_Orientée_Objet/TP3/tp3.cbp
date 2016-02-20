@@ -20,8 +20,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Bouton.cpp" />
+		<Unit filename="Bouton.h" />
 		<Unit filename="Carre.cpp" />
 		<Unit filename="Carre.h" />
+		<Unit filename="CaseACocher.cpp" />
+		<Unit filename="CaseACocher.h" />
+		<Unit filename="Cercle.cpp" />
+		<Unit filename="Cercle.h" />
 		<Unit filename="Couleur.cpp" />
 		<Unit filename="Couleur.h" />
 		<Unit filename="Fenetre.cpp" />
@@ -30,9 +36,7 @@
 		<Unit filename="Image.h" />
 		<Unit filename="Souris.cpp" />
 		<Unit filename="Souris.h" />
-		<Unit filename="caseACocher.cpp" />
-		<Unit filename="caseACocher.h" />
-		<Unit filename="exo3.cpp" />
+		<Unit filename="exo3-bouton.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
