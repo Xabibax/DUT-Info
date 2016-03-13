@@ -8,7 +8,7 @@
 
 class CaseAvecTexte : public CaseACocher{
 
-private:
+protected:
 	char *texte;
 	void affecterTexte(const char*);
 

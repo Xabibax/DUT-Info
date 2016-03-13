@@ -1,40 +1,42 @@
 #include "Bouton.h"
 
 Bouton::Bouton(const Bouton& source) :
-    Cercle(source),
+    c(source.c),
     estActif(source.estActif){
 }
 
 Bouton::Bouton() :
-    Cercle(),
+    c(),
     estActif(false){
 }
 
 Bouton::Bouton(int x, int y, int r, Couleur color, char estActif) :
-    Cercle(x, y, r, color),
+    c(x, y, r, color),
 	estActif(estActif=='C'){
 }
 
 Bouton::Bouton(Cercle pc, char pestActif) :
-    Cercle(pc),
+    c(pc),
     estActif(pestActif == 'C'){
 }
 
 void Bouton::definir(int x, int y, int t, int r, int v, int b)
 {
-    this->placer(x, y);
-    this->dimensionner(t);
-    this->definirCouleur(r, v, b);
+    this->c.placer(x, y);
+    this->c.dimensionner(t);
+    this->c.definirCouleur(r, v, b);
 }
 
 void Bouton::definir(int x, int y, int t, Couleur color)
 {
-	this->definir(x, y, t, color.rouge(), color.vert(), color.bleu());
+    this->c.placer(x, y);
+    this->c.dimensionner(t);
+    this->c.definirCouleur(color);
 }
 
 Cercle Bouton::circle() const
 {
-    return *this;
+    return this->c;
 }
 
 void Bouton::definirEtat(char lettre)
@@ -49,13 +51,13 @@ char Bouton::etat() const
 
 Couleur Bouton::couleur() const
 {
-    return this->couleur();
+    return this->c.couleur();
 }
 
 void Bouton::afficher(Fenetre& f) const
 {
-    this->Cercle::afficher(f);
-	this->dessiner(f, this->Cercle::couleur());
+    this->c.afficher(f);
+	this->dessiner(f, this->c.couleur());
 }
 
 void Bouton::effacer(Fenetre& f) const

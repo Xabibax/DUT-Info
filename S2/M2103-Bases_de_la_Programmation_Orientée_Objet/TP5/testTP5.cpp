@@ -27,7 +27,7 @@ int main (int argc, char **argv)
     cat1.afficher(f);
     cat3.afficher(f);
 
-	f.choixCouleurTrace(Couleur(0,0,0));
+    f.choixCouleurTrace(Couleur(0,0,0));
     f.ecrit(10,140,"Si vous voyez une case rouge et une case verte, ");
     f.ecrit(10,160,"Si le texte de la case verte est 'Sans Texte', ");
     f.ecrit(10,180,"Et si les clics sur la case rouge font bien disparaitre la case verte");

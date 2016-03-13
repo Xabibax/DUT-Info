@@ -3,23 +3,25 @@
 
 #include "Cercle.h"
 
-class Bouton : public Cercle
+class Bouton
 {
 protected:
+    Cercle c;
     char estActif;
-    void dessiner(Fenetre, Couleur) const;
 
 public:
     Bouton(const Bouton&);
     Bouton();
+    Bouton(int, int, int, Couleur, char);
     Bouton(Cercle, char);
 
-    void definir(int, int, int, int, int, int, char);
-    void definir(int, int, int, Couleur, char);
-    void activer();
-	void desactiver();
-    bool estActif() const;
+    void definir(int, int, int, int, int, int);
+    void definir(int, int, int, Couleur);
+    Cercle circle() const;
+    void definirEtat(char);
+    char etat() const;
     Couleur couleur() const;
+    void dessiner(Fenetre, Couleur) const;
     void afficher(Fenetre& f) const;
     void effacer(Fenetre& f) const;
 };
