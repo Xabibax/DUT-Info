@@ -31,10 +31,7 @@ void BoutonAvecTexte::afficher(Fenetre& f) const
 void BoutonAvecTexte::effacer(Fenetre& f) const
 {
     this->Bouton::effacer(f);
-
-    Couleur coul;
-    coul = (f.couleurFond());
-    this->afficherTexte(f, coul);
+    this->afficherTexte(f, f.couleurFond());
 }
 
 void BoutonAvecTexte::affecterTexte(const char *t)
