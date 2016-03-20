@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tp7-bouton" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tp7-bouton" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Bouton.cpp" />
+		<Unit filename="Bouton.h" />
+		<Unit filename="BoutonAvecTexte.cpp" />
+		<Unit filename="BoutonAvecTexte.h" />
+		<Unit filename="Cercle.cpp" />
+		<Unit filename="Cercle.h" />
+		<Unit filename="Couleur.cpp" />
+		<Unit filename="Couleur.h" />
+		<Unit filename="Fenetre.cpp" />
+		<Unit filename="Fenetre.h" />
+		<Unit filename="GroupeBoutons.cpp" />
+		<Unit filename="GroupeBoutons.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="Souris.cpp" />
+		<Unit filename="Souris.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="tp7-bouton.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder>
+				<lib name="gtk+-2.0" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
