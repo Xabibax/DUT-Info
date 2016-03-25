@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tp8_exo3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tp8_exo3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Carre.cpp" />
+		<Unit filename="Carre.h" />
+		<Unit filename="CaseACocher.cpp" />
+		<Unit filename="CaseACocher.h" />
+		<Unit filename="CaseAvecTexte.cpp" />
+		<Unit filename="CaseAvecTexte.h" />
+		<Unit filename="Cercle.cpp" />
+		<Unit filename="Cercle.h" />
+		<Unit filename="Couleur.cpp" />
+		<Unit filename="Couleur.h" />
+		<Unit filename="ElementGraphique.h" />
+		<Unit filename="Fenetre.cpp" />
+		<Unit filename="Fenetre.h" />
+		<Unit filename="FenetreDessin.cpp" />
+		<Unit filename="FenetreDessin.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="Souris.cpp" />
+		<Unit filename="Souris.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1">
+				<lib name="gtk+-2.0" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
