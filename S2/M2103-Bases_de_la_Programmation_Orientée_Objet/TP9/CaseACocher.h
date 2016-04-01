@@ -21,6 +21,7 @@ public:
     void dessiner(Fenetre&, Couleur) const;
     virtual void afficher(Fenetre& ) const;
     virtual void effacer(Fenetre& ) const;
+    string quiSuisJe() const;
 };
 
 #endif // CASEACOCHER_H

@@ -19,6 +19,7 @@ public:
 	void definirTexte(const char*);
 	virtual void afficher(Fenetre&) const;
 	virtual void effacer(Fenetre&) const;
+	string quiSuisJe() const;
 };
 
 #endif

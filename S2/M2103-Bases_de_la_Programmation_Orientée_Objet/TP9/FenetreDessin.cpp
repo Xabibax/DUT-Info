@@ -80,3 +80,26 @@ void FenetreDessin::disparait()
     delete [] this->elements;
     Fenetre::disparait();
 }
+
+void FenetreDessin::actualiser()
+{
+    this->effacer();
+    for(int i=0; i<this->nbElements; i++)
+        this->elements[i]->afficher(*this);
+}
+
+void FenetreDessin::definirCouleur(int pos, Couleur coul)
+{
+    if((pos>=0) && (pos<this->nbElements))
+    {
+        this->elements[pos]->definirCouleur(coul);
+        this->actualiser();
+    }
+}
+
+ElementGraphique* FenetreDessin::element(int pos)
+{
+    if((pos>=0) && (pos<this->nbElements))
+        return this->elements[pos];
+    return NULL;
+}

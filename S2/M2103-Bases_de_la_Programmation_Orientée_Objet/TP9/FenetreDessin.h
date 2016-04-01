@@ -23,6 +23,9 @@ public:
     int largeur() const;
     int largeurBoiteOutils() const;
     void disparait();
+    void definirCouleur(int, Couleur);
+    void actualiser();
+    ElementGraphique* element(int);
 };
 
 #endif // FENETRE_DESSIN_H
