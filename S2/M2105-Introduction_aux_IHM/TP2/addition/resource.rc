@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 aaaa ICON "wx/msw/std.ico"
 
 #include "wx/msw/wx.rc"
+=======
+aaaa ICON "wx/msw/std.ico"
+
+#include "wx/msw/wx.rc"
+>>>>>>> 106584f02f83aaec8a8a62bb79ee6636755791a1
