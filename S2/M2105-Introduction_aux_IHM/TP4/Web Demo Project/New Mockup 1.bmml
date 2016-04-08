@@ -1,0 +1,33 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="929" measuredH="504" mockupW="879" mockupH="489">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="50" y="15" w="879" h="489" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Accueil%0Ahttp%3A//iutbayonne.univ-pau.fr/liste-personnes</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="58" y="102" w="855" h="368" measuredW="200" measuredH="182" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%C9tudiants%0AEnseignants%0AMati%E8res%0APartiels</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::DataGrid" x="139" y="102" w="488" h="368" measuredW="264" measuredH="381" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hasHeader>true</hasHeader>
+        <selectedIndex>2</selectedIndex>
+        <text>Code%20%5E%2C%20Nom%20%5Ev%2C%20Pr%E9nom%20%5Ev%0A001%2C%20PORTES%20NARRIEU%2C%20Alex%0A002%2C%20OGIER%2C%20Kevin%0A003%2C%20GRAGLIA%2C%20Valentin%0A004%2C%20BAILLET%2C%20Julien%0A005%2C%20RANDE%2C%20Justin%0A006%2C%20GESTAS%2C%20Vincent%0A007%2C%20INCABY%2C%20Bastien%0A008%2C%20ROUSSELIN%2C%20Sylvie%0A009%2C%20MORELL%2C%20Julien%0A010%2C%20GERARD%2C%20Alexandre%0A011%2C%20RODRIGUES%2C%20Ana%EFs%0A012%2C%20EL-TOUNI%2C%20Yacine%0A%7B30%2C%2030%2C%2030%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="610" y="120" w="-1" h="348" measuredW="16" measuredH="100" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="791" y="115" w="-1" h="-1" measuredW="128" measuredH="128" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Cxxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TabBar" x="632" y="255" w="274" h="209" measuredW="211" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Infos%2C%20Groupe%2C%20Partiels</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,45 @@
+Option Compare Database
+
+    Dim cn As New ADODB.Connection
+    Dim rs As New ADODB.Recordset
+    
+Private Sub Cmd_Debut_Click()
+    rs.MoveFirst
+    zoneTxt.Caption = rs("prenom") & " " & rs("nom") & " est inscrit au dept. " & rs("departement")
+End Sub
+
+Private Sub Cmd_Fin_Click()
+    rs.MoveLast
+    zoneTxt.Caption = rs("prenom") & " " & rs("nom") & " est inscrit au dept. " & rs("departement")
+End Sub
+
+Private Sub Cmd_Precedent_Click()
+    rs.MovePrevious
+    
+    If Not rs.BOF Then
+        zoneTxt.Caption = rs("prenom") & " " & rs("nom") & " est inscrit au dept. " & rs("departement")
+    Else
+        rs.MoveNext
+    End If
+End Sub
+
+Private Sub Cmd_Suivant_Click()
+    rs.MoveNext
+    
+    If Not rs.EOF Then
+        zoneTxt.Caption = rs("prenom") & " " & rs("nom") & " est inscrit au dept. " & rs("departement")
+    Else
+        rs.MovePrevious
+    End If
+End Sub
+
+Private Sub Form_Close()
+    cn.Close
+    Set cn = Nothing
+End Sub
+
+Private Sub Form_Load()
+    Set cn = CurrentProject.Connection
+    Set rs = cn.Execute("R_TP3")
+End Sub
+
