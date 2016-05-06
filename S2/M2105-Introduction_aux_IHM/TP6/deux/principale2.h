@@ -76,13 +76,12 @@ class Principale2 : public wxFrame
     virtual ~Principale2();
 
     protected:
-    wxButton *bouton;
-    wxTextCtrl *yCl;
-    wxStaticText *x;
-    wxStaticText *y;
-    wxStaticText *res;
-    wxTextCtrl *xCl;
-
+    wxStaticText *txtX;
+    wxStaticText *txtY;
+    wxStaticText *txtXPlusY;
+    wxTextCtrl *lblX;
+    wxTextCtrl *lblY;
+    wxButton *additionner;
 
 };
 #endif // PRINCIPALE2_H
