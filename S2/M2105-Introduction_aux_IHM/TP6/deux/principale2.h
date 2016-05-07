@@ -67,21 +67,20 @@
 */
 #include <wx/wx.h>
 
-// Définition de la classe Principale0
 class Principale2 : public wxFrame
 {
     public:
-    // Le constructeur
-    Principale2(const wxString& title);
-    virtual ~Principale2();
+        Principale2(const wxString& title);
+        virtual ~Principale2();
 
     protected:
-    wxStaticText *txtX;
-    wxStaticText *txtY;
-    wxStaticText *txtXPlusY;
-    wxTextCtrl *lblX;
-    wxTextCtrl *lblY;
-    wxButton *additionner;
+        wxStaticText *txtX;
+        wxStaticText *txtY;
+        wxStaticText *txtXPlusY;
+        wxTextCtrl *lblX;
+        wxTextCtrl *lblY;
+        wxButton *additionner;
 
 };
+
 #endif // PRINCIPALE2_H

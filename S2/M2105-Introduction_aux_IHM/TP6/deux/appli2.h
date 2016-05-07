@@ -3,13 +3,12 @@
 
 #include <wx/wx.h>
 
-// Définition de la classe "Appli2"
 class Appli2 : public wxApp
 {
    public:
-   // appel au démarrage de l’application
-   virtual bool OnInit();
+       virtual bool OnInit(); // appel au démarrage de l’application
 };
 
 DECLARE_APP(Appli2)
+
 #endif // APPLI2_H

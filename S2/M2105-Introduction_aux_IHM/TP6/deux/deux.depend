@@ -64,9 +64,9 @@
 	"wx/statusbr.h"
 	<wx/wx.h>
 
-1462360873 
+1300801016 
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\event.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\event.h
 	"wx/defs.h"
 	"wx/cpp.h"
 	"wx/object.h"
@@ -78,7 +78,7 @@
 
 1300801016 ay.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\defs.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\defs.h
 	"wx/platform.h"
 	"wx/features.h"
 	"wx/version.h"
@@ -91,7 +91,7 @@
 
 1300800942 nundef.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\platform.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\platform.h
 	<stddef.h>
 	<AvailabilityMacros.h>
 	<unistd.h>
@@ -105,9 +105,9 @@
 
 1300800944 ityMacros.h>
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\lib\gcc_lib\mswud\wx\setup.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\lib\gcc_lib\mswud\wx\setup.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\chkconf.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\chkconf.h
 	"wx/palmos/chkconf.h"
 	"wx/msw/wince/chkconf.h"
 	"wx/msw/chkconf.h"
@@ -121,39 +121,37 @@
 
 1300800940 hkconf.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\chkconf.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\chkconf.h
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\chkconf.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\chkconf.h
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\chkconf.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\chkconf.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\libraries.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\libraries.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\libraries.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\libraries.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\gccpriv.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\gccpriv.h
 	<_mingw.h>
 	<w32api.h>
 
-1300801016 
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\features.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\features.h
-
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\version.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\version.h
 	"wx/cpp.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\cpp.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\cpp.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dlimpexp.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dlimpexp.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\debug.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\debug.h
 	<assert.h>
 	<limits.h>
 	"wx/wxchar.h"
 
 1300800956 .h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\wxchar.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\wxchar.h
 	"wx/platform.h"
 	"wx/dlimpexp.h"
 	<stdio.h>
@@ -183,22 +181,22 @@
 	<time.h>
 	<string.h>
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\winundef.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\winundef.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\object.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\object.h
 	"wx/memory.h"
 	"wx/xti.h"
 	"wx/msw/msvcrt.h"
 
 1300800942 vcrt.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\memory.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\memory.h
 	"wx/defs.h"
 	"wx/string.h"
 	"wx/msgout.h"
 	<stddef.h>
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\string.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\string.h
 	"wx/defs.h"
 	<ctype.h>
 	<stdio.h>
@@ -223,11 +221,11 @@
 
 1300800942 ap.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\buffer.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\buffer.h
 	"wx/wxchar.h"
 	<stdlib.h>
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\strconv.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\strconv.h
 	"wx/defs.h"
 	"wx/wxchar.h"
 	"wx/buffer.h"
@@ -237,19 +235,19 @@
 
 1300800942 c.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\fontenc.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\fontenc.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\beforestd.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\beforestd.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\afterstd.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\afterstd.h
 	"wx/msw/winundef.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\arrstr.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\arrstr.h
 	"wx/defs.h"
 	"wx/string.h"
 	"wx/dynarray.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dynarray.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dynarray.h
 	"wx/defs.h"
 	"wx/beforestd.h"
 	<vector>
@@ -258,16 +256,16 @@
 
 1300800942 td.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\iosfwrap.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\iosfwrap.h
 	<iostream.h>
 	<iosfwd>
 	"wx/msw/winundef.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msgout.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msgout.h
 	"wx/defs.h"
 	"wx/wxchar.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\xti.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\xti.h
 	"wx/defs.h"
 	"wx/memory.h"
 	"wx/flags.h"
@@ -279,9 +277,9 @@
 	<typeinfo>
 	"wx/dynarray.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\flags.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\flags.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\hashmap.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\hashmap.h
 	"wx/string.h"
 	<unordered_map>
 	<tr1/unordered_map>
@@ -289,7 +287,7 @@
 	<hash_map>
 	<stddef.h>
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\log.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\log.h
 	"wx/defs.h"
 	"wx/string.h"
 	"wx/arrstr.h"
@@ -301,29 +299,29 @@
 
 1300800942 log.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\logg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\logg.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\intl.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\intl.h
 	"wx/defs.h"
 	"wx/string.h"
 	"wx/fontenc.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\msvcrt.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\msvcrt.h
 	<stdlib.h>
 	<crtdbg.h>
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\clntdata.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\clntdata.h
 	"wx/defs.h"
 	"wx/string.h"
 	"wx/hashmap.h"
 	"wx/vector.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\vector.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\vector.h
 	"wx/defs.h"
 
 1300800956 "
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\gdicmn.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\gdicmn.h
 	"wx/defs.h"
 	"wx/list.h"
 	"wx/string.h"
@@ -331,7 +329,7 @@
 	"wx/hashmap.h"
 	"wx/math.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\list.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\list.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/string.h"
@@ -341,12 +339,12 @@
 	<list>
 	"wx/afterstd.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\math.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\math.h
 	"wx/defs.h"
 	<math.h>
 	<float.h>
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\cursor.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\cursor.h
 	"wx/defs.h"
 	"wx/palmos/cursor.h"
 	"wx/msw/cursor.h"
@@ -363,20 +361,20 @@
 
 1300800942 h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\cursor.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\cursor.h
 	"wx/msw/gdiimage.h"
 
 1300801016 iimage.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\gdiimage.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\gdiimage.h
 	"wx/gdiobj.h"
 	"wx/gdicmn.h"
 	"wx/list.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\gdiobj.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\gdiobj.h
 	"wx/object.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\utils.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\utils.h
 	"wx/object.h"
 	"wx/list.h"
 	"wx/filefn.h"
@@ -388,7 +386,7 @@
 	<unistd.h>
 	<stdio.h>
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\filefn.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\filefn.h
 	"wx/list.h"
 	"wx/arrstr.h"
 	"wx/msw/wince/time.h"
@@ -426,23 +424,23 @@
 
 1300800942 .h>
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\time.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\time.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\private.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\private.h
 	"wx/msw/wrapwin.h"
 	"wx/msw/microwin.h"
 	"wx/log.h"
 	"wx/gdicmn.h"
 	"wx/colour.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wrapwin.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wrapwin.h
 	"wx/platform.h"
 	<windows.h>
 	"wx/msw/winundef.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\microwin.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\microwin.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\colour.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\colour.h
 	"wx/defs.h"
 	"wx/gdiobj.h"
 	"wx/variant.h"
@@ -460,7 +458,7 @@
 
 1300800940 lour.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\variant.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\variant.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/string.h"
@@ -471,7 +469,7 @@
 	"wx/db.h"
 	"wx/iosfwrap.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\datetime.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\datetime.h
 	"wx/defs.h"
 	<time.h>
 	"wx/msw/wince/time.h"
@@ -479,13 +477,13 @@
 	"wx/longlong.h"
 	"wx/dynarray.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\longlong.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\longlong.h
 	"wx/defs.h"
 	"wx/string.h"
 	<limits.h>
 	"wx/iosfwrap.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\db.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\db.h
 	"wx/defs.h"
 	"wx/string.h"
 	<afxwin.h>
@@ -502,24 +500,24 @@
 	<sqlext.h>
 	"wx/object.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\isql.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\isql.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\isqlext.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\isqlext.h
 	"wx/isql.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\colour.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\colour.h
 	"wx/object.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\colour.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\colour.h
 	"wx/object.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\platinfo.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\platinfo.h
 	"wx/string.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\thread.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\thread.h
 	"wx/defs.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\app.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\app.h
 	"wx/event.h"
 	"wx/build.h"
 	"wx/init.h"
@@ -539,23 +537,23 @@
 
 1300800940 heme.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\build.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\build.h
 	"wx/version.h"
 
 1300800944 n.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\init.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\init.h
 	"wx/defs.h"
 	"wx/wxchar.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\app.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\app.h
 	"wx/event.h"
 	"wx/icon.h"
 	"wx/msw/wrapwin.h"
 
 1300801014 apwin.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\icon.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\icon.h
 	"wx/iconloc.h"
 	"wx/generic/icon.h"
 	"wx/msw/icon.h"
@@ -572,13 +570,13 @@
 
 1300800956 t.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\iconloc.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\iconloc.h
 	"wx/string.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\icon.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\icon.h
 	"wx/bitmap.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\bitmap.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\bitmap.h
 	"wx/string.h"
 	"wx/gdicmn.h"
 	"wx/colour.h"
@@ -598,13 +596,13 @@
 
 1300800940 c/mask.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\bitmap.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\bitmap.h
 	"wx/msw/gdiimage.h"
 	"wx/palette.h"
 
 1300801014 e.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\palette.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\palette.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/gdiobj.h"
@@ -619,42 +617,42 @@
 
 1300800942 lette.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\palette.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\palette.h
 	"wx/gdiobj.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\paletteg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\paletteg.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/gdiobj.h"
 	"wx/gdicmn.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\mask.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\mask.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\icon.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\icon.h
 	"wx/msw/gdiimage.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\theme.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\theme.h
 	"wx/string.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\stream.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\stream.h
 	"wx/defs.h"
 	<stdio.h>
 	"wx/object.h"
 	"wx/string.h"
 	"wx/filefn.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\stopwatch.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\stopwatch.h
 	"wx/defs.h"
 	"wx/longlong.h"
 
 1300800944 ng.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\module.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\module.h
 	"wx/object.h"
 	"wx/list.h"
 	"wx/dynarray.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\window.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\window.h
 	"wx/event.h"
 	"wx/list.h"
 	"wx/cursor.h"
@@ -682,7 +680,7 @@
 
 1300800944 indow.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\font.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\font.h
 	"wx/defs.h"
 	"wx/fontenc.h"
 	"wx/gdiobj.h"
@@ -700,10 +698,10 @@
 
 1300801014 nt.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\font.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\font.h
 	"wx/gdicmn.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\region.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\region.h
 	"wx/gdiobj.h"
 	"wx/gdicmn.h"
 	"wx/palmos/region.h"
@@ -719,13 +717,13 @@
 
 1300800944 gion.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\region.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\region.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\validate.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\validate.h
 	"wx/defs.h"
 	"wx/event.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\accel.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\accel.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/generic/accel.h"
@@ -739,45 +737,45 @@
 
 1300800940 cel.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\accel.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\accel.h
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\accel.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\accel.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\access.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\access.h
 	"wx/defs.h"
 	"wx/variant.h"
 	"wx/msw/ole/access.h"
 
 1300800940 e/access.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\access.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\access.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\window.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\window.h
 	"wx/hash.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\hash.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\hash.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/list.h"
 	"wx/dynarray.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\window.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\window.h
 	"wx/bitmap.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\containr.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\containr.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\panel.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\panel.h
 	"wx/generic/panelg.h"
 
 1300800942 c/panelg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\panelg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\panelg.h
 	"wx/window.h"
 	"wx/containr.h"
 
 1300800956 nr.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\toplevel.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\toplevel.h
 	"wx/window.h"
 	"wx/iconbndl.h"
 	"wx/palmos/toplevel.h"
@@ -795,27 +793,27 @@
 
 1300800944 oplevel.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\iconbndl.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\iconbndl.h
 	"wx/dynarray.h"
 	"wx/gdicmn.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\toplevel.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\toplevel.h
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\toplevel.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\toplevel.h
 	"wx/univ/inpcons.h"
 	"wx/univ/inphand.h"
 	"wx/icon.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\inpcons.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\inpcons.h
 	"wx/object.h"
 	"wx/event.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\inphand.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\inphand.h
 	"wx/univ/inpcons.h"
 
 1300801018 npcons.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\frame.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\frame.h
 	"wx/toplevel.h"
 	"wx/univ/frame.h"
 	"wx/palmos/frame.h"
@@ -829,11 +827,11 @@
 
 1300800942 ame.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\frame.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\frame.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\frame.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\frame.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\image.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\image.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/string.h"
@@ -854,40 +852,40 @@
 
 1300800942 f.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagbmp.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagbmp.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagpng.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagpng.h
 	"wx/defs.h"
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imaggif.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imaggif.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagpcx.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagpcx.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagjpeg.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagjpeg.h
 	"wx/defs.h"
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagtga.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagtga.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagtiff.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagtiff.h
 	"wx/defs.h"
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagpnm.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagpnm.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagxpm.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagxpm.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagiff.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imagiff.h
 	"wx/image.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dc.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dc.h
 	"wx/object.h"
 	"wx/intl.h"
 	"wx/cursor.h"
@@ -915,7 +913,7 @@
 
 1300800942 h.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\brush.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\brush.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/gdiobj.h"
@@ -932,12 +930,12 @@
 
 1300800940 ush.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\brush.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\brush.h
 	"wx/gdicmn.h"
 	"wx/gdiobj.h"
 	"wx/bitmap.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\pen.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\pen.h
 	"wx/defs.h"
 	"wx/palmos/pen.h"
 	"wx/msw/pen.h"
@@ -950,33 +948,33 @@
 	"wx/cocoa/pen.h"
 	"wx/os2/pen.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\pen.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\pen.h
 	"wx/gdiobj.h"
 	"wx/bitmap.h"
 	"wx/colour.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dc.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dc.h
 	"wx/defs.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcgraph.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcgraph.h
 	"wx/geometry.h"
 	"wx/dynarray.h"
 	"wx/graphics.h"
 
 1300800942 cs.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\geometry.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\geometry.h
 	"wx/defs.h"
 	"wx/utils.h"
 	"wx/gdicmn.h"
 	"wx/math.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\graphics.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\graphics.h
 	"wx/defs.h"
 	"wx/geometry.h"
 	"wx/dynarray.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcclient.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcclient.h
 	"wx/defs.h"
 	"wx/palmos/dcclient.h"
 	"wx/msw/dcclient.h"
@@ -992,11 +990,11 @@
 
 1300800942 client.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcclient.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcclient.h
 	"wx/dc.h"
 	"wx/dynarray.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcmemory.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcmemory.h
 	"wx/bitmap.h"
 	"wx/palmos/dcmemory.h"
 	"wx/msw/dcmemory.h"
@@ -1012,10 +1010,10 @@
 
 1300800942 memory.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcmemory.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcmemory.h
 	"wx/dcclient.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcprint.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcprint.h
 	"wx/defs.h"
 	"wx/palmos/dcprint.h"
 	"wx/msw/dcprint.h"
@@ -1024,13 +1022,13 @@
 
 1300800942 print.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcprint.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcprint.h
 	"wx/dc.h"
 	"wx/cmndata.h"
 
 1300801014 a.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\cmndata.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\cmndata.h
 	"wx/window.h"
 	"wx/font.h"
 	"wx/encinfo.h"
@@ -1038,10 +1036,10 @@
 	"wx/gdicmn.h"
 	"wx/stream.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\encinfo.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\encinfo.h
 	"wx/string.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcscreen.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dcscreen.h
 	"wx/defs.h"
 	"wx/palmos/dcscreen.h"
 	"wx/msw/dcscreen.h"
@@ -1057,10 +1055,10 @@
 
 1300800942 screen.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcscreen.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dcscreen.h
 	"wx/dc.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\button.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\button.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/button.h"
@@ -1075,7 +1073,7 @@
 
 1300800940 /button.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\control.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\control.h
 	"wx/defs.h"
 	"wx/window.h"
 	"wx/univ/control.h"
@@ -1090,19 +1088,19 @@
 
 1300800942 ntrol.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\control.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\control.h
 	"wx/univ/inphand.h"
 	"wx/univ/inpcons.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\control.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\control.h
 	"wx/dynarray.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\button.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\button.h
 	"wx/bitmap.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\button.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\button.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\menuitem.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\menuitem.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/univ/menuitem.h"
@@ -1117,20 +1115,20 @@
 
 1300800942 nuitem.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\menuitem.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\menuitem.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\menuitem.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\menuitem.h
 	"wx/ownerdrw.h"
 
 1300801016 rw.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\ownerdrw.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\ownerdrw.h
 	"wx/defs.h"
 	"wx/bitmap.h"
 	"wx/colour.h"
 	"wx/font.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\menu.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\menu.h
 	"wx/defs.h"
 	"wx/list.h"
 	"wx/window.h"
@@ -1147,16 +1145,16 @@
 
 1300800942 nu.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\menu.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\menu.h
 	"wx/accel.h"
 	"wx/dynarray.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\menu.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\menu.h
 	"wx/accel.h"
 	"wx/dynarray.h"
 	"wx/arrstr.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dialog.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dialog.h
 	"wx/defs.h"
 	"wx/containr.h"
 	"wx/toplevel.h"
@@ -1172,12 +1170,12 @@
 
 1300800942 alog.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\dialog.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\dialog.h
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dialog.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dialog.h
 	"wx/panel.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\timer.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\timer.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/longlong.h"
@@ -1195,15 +1193,15 @@
 
 1300800944 mer.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\timer.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\timer.h
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\timer.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\timer.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\settings.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\settings.h
 	"wx/colour.h"
 	"wx/font.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msgdlg.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msgdlg.h
 	"wx/defs.h"
 	"wx/generic/msgdlgg.h"
 	"wx/generic/msgdlgg.h"
@@ -1219,15 +1217,15 @@
 
 1300800942 gdlg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\msgdlgg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\msgdlgg.h
 	"wx/defs.h"
 	"wx/dialog.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\msgdlg.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\msgdlg.h
 	"wx/defs.h"
 	"wx/dialog.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dataobj.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dataobj.h
 	"wx/defs.h"
 	"wx/string.h"
 	"wx/bitmap.h"
@@ -1260,13 +1258,13 @@
 
 1300800942 taobj2.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\dataform.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\dataform.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\dataobj.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\dataobj.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\dataobj2.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\ole\dataobj2.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\checkbox.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\checkbox.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/checkbox.h"
@@ -1281,12 +1279,12 @@
 
 1300800940 /checkbox.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\checkbox.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\checkbox.h
 	"wx/button.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\checkbox.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\checkbox.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\checklst.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\checklst.h
 	"wx/listbox.h"
 	"wx/univ/checklst.h"
 	"wx/msw/wince/checklst.h"
@@ -1300,7 +1298,7 @@
 
 1300800940 ecklst.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\listbox.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\listbox.h
 	"wx/defs.h"
 	"wx/ctrlsub.h"
 	"wx/univ/listbox.h"
@@ -1314,34 +1312,34 @@
 
 1300800942 listbox.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\ctrlsub.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\ctrlsub.h
 	"wx/defs.h"
 	"wx/control.h"
 
 1300800956 l.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\listbox.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\listbox.h
 	"wx/scrolwin.h"
 	"wx/dynarray.h"
 	"wx/arrstr.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\scrolwin.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\scrolwin.h
 	"wx/panel.h"
 	"wx/gtk/scrolwin.h"
 	"wx/gtk1/scrolwin.h"
 
 1300800944 crolwin.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\listbox.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\listbox.h
 	"wx/dynarray.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\checklst.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\checklst.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\checklst.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\checklst.h
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\checklst.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\checklst.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\scrolbar.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\scrolbar.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/scrolbar.h"
@@ -1355,24 +1353,24 @@
 
 1300800944 rolbar.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\scrolbar.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\scrolbar.h
 	"wx/univ/scrarrow.h"
 	"wx/renderer.h"
 
 1300801020 er.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\scrarrow.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\scrarrow.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\renderer.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\renderer.h
 	"wx/gdicmn.h"
 	"wx/colour.h"
 	"wx/font.h"
 	"wx/bitmap.h"
 	"wx/string.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\scrolbar.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\scrolbar.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\stattext.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\stattext.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/stattext.h"
@@ -1387,11 +1385,11 @@
 
 1300800944 /stattext.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\stattext.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\stattext.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\stattext.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\stattext.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\statbox.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\statbox.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/statbox.h"
@@ -1405,11 +1403,11 @@
 
 1300800944 atbox.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\statbox.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\statbox.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\statbox.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\statbox.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\radiobox.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\radiobox.h
 	"wx/ctrlsub.h"
 	"wx/dynarray.h"
 	"wx/univ/radiobox.h"
@@ -1424,16 +1422,16 @@
 
 1300800944 /radiobox.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\radiobox.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\radiobox.h
 	"wx/statbox.h"
 	"wx/dynarray.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\radiobox.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\radiobox.h
 	"wx/statbox.h"
 
 1300801016 x.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\radiobut.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\radiobut.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/radiobut.h"
@@ -1448,14 +1446,14 @@
 
 1300800944 /radiobut.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\radiobut.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\radiobut.h
 	"wx/checkbox.h"
 
 1300801018 ox.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\radiobut.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\radiobut.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\textctrl.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\textctrl.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/dynarray.h"
@@ -1474,23 +1472,23 @@
 
 1300800944 xtctrl.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\ioswrap.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\ioswrap.h
 	<iostream.h>
 	<iostream>
 	"wx/msw/winundef.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\textctrl.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\textctrl.h
 	"wx/scrolwin.h"
 	"wx/univ/inphand.h"
 
 1300801020 nphand.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\textctrlce.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\textctrlce.h
 	"wx/dynarray.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\textctrl.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\textctrl.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\slider.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\slider.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/slider.h"
@@ -1505,17 +1503,17 @@
 
 1300800944 /slider.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\slider.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\slider.h
 	"wx/univ/scrthumb.h"
 
 1300801020 crthumb.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\scrthumb.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\scrthumb.h
 	"wx/timer.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\slider95.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\slider95.h
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\toolbar.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\toolbar.h
 	"wx/defs.h"
 	"wx/tbarbase.h"
 	"wx/univ/toolbar.h"
@@ -1531,43 +1529,43 @@
 
 1300800944 olbar.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\tbarbase.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\tbarbase.h
 	"wx/defs.h"
 	"wx/bitmap.h"
 	"wx/list.h"
 	"wx/control.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\toolbar.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\toolbar.h
 	"wx/button.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\tbar95.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\tbar95.h
 	"wx/dynarray.h"
 	"wx/imaglist.h"
 
 1300801016 st.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imaglist.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\imaglist.h
 	"wx/generic/imaglist.h"
 	"wx/msw/imaglist.h"
 	"wx/mac/imaglist.h"
 
 1300800942 aglist.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\imaglist.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\imaglist.h
 	"wx/defs.h"
 	"wx/list.h"
 	"wx/icon.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\imaglist.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\imaglist.h
 	"wx/bitmap.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\tbarwce.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\tbarwce.h
 	"wx/dynarray.h"
 	"wx/msw/tbar95.h"
 
 1300801016 ar95.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\combobox.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\combobox.h
 	"wx/defs.h"
 	"wx/textctrl.h"
 	"wx/ctrlsub.h"
@@ -1582,10 +1580,10 @@
 
 1300800940 mbobox.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\combobox.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\combobox.h
 	"wx/combo.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\combo.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\combo.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/renderer.h"
@@ -1595,15 +1593,15 @@
 
 1300800940 c/combo.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\combo.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\combo.h
 	"wx/timer.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\combo.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\combo.h
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\combobox.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\combobox.h
 	"wx/choice.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\choice.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\choice.h
 	"wx/defs.h"
 	"wx/ctrlsub.h"
 	"wx/univ/choice.h"
@@ -1618,23 +1616,23 @@
 
 1300800940 oice.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\choice.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\choice.h
 	"wx/combobox.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\choicece.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\wince\choicece.h
 	"wx/defs.h"
 	"wx/dynarray.h"
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\choice.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\choice.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\layout.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\layout.h
 	"wx/object.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\sizer.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\sizer.h
 	"wx/defs.h"
 	"wx/window.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\mdi.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\mdi.h
 	"wx/defs.h"
 	"wx/generic/mdig.h"
 	"wx/msw/mdi.h"
@@ -1647,14 +1645,14 @@
 
 1300800942 c/mdig.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\mdig.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\mdig.h
 	"wx/frame.h"
 	"wx/panel.h"
 	"wx/notebook.h"
 
 1300800956 ok.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\notebook.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\notebook.h
 	"wx/defs.h"
 	"wx/bookctrl.h"
 	"wx/univ/notebook.h"
@@ -1668,7 +1666,7 @@
 
 1300800942 tebook.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\bookctrl.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\bookctrl.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/dynarray.h"
@@ -1677,25 +1675,25 @@
 
 1300800940 bk.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\choicebk.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\choicebk.h
 	"wx/defs.h"
 	"wx/bookctrl.h"
 	"wx/choice.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\notebook.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\notebook.h
 	"wx/arrstr.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\notebook.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\notebook.h
 	"wx/control.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\notebook.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\notebook.h
 	"wx/event.h"
 	"wx/control.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\mdi.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\mdi.h
 	"wx/frame.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\statusbr.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\statusbr.h
 	"wx/defs.h"
 	"wx/window.h"
 	"wx/list.h"
@@ -1709,18 +1707,18 @@
 
 1300800944 c/statusbr.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\statusbr.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\statusbr.h
 	"wx/univ/inpcons.h"
 	"wx/arrstr.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\statbr95.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\statbr95.h
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\statusbr.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\statusbr.h
 	"wx/defs.h"
 	"wx/pen.h"
 	"wx/arrstr.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\wx.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\wx.h
 	"wx/defs.h"
 	"wx/object.h"
 	"wx/dynarray.h"
@@ -1800,7 +1798,7 @@
 	"wx/validate.h"
 	"wx/valtext.h"
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\bmpbuttn.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\bmpbuttn.h
 	"wx/defs.h"
 	"wx/bitmap.h"
 	"wx/button.h"
@@ -1815,14 +1813,14 @@
 
 1300800940 pbuttn.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\bmpbuttn.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\bmpbuttn.h
 
-1300801014 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\bmpbuttn.h
+1300804614 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\bmpbuttn.h
 	"wx/button.h"
 	"wx/bitmap.h"
 	"wx/brush.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\statbmp.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\statbmp.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/bitmap.h"
@@ -1838,15 +1836,15 @@
 
 1300800944 atbmp.h"
 
-1300801020 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\statbmp.h
+1300804620 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\statbmp.h
 	"wx/bitmap.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\statbmp.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\statbmp.h
 	"wx/control.h"
 	"wx/icon.h"
 	"wx/bitmap.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\gauge.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\gauge.h
 	"wx/defs.h"
 	"wx/control.h"
 	"wx/univ/gauge.h"
@@ -1860,11 +1858,11 @@
 
 1300800942 uge.h"
 
-1300801018 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\gauge.h
+1300804618 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\univ\gauge.h
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\gauge95.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\gauge95.h
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dirdlg.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\dirdlg.h
 	"wx/dialog.h"
 	"wx/generic/dirdlgg.h"
 	"wx/generic/dirdlgg.h"
@@ -1878,47 +1876,47 @@
 
 1300800942 c/dirdlgg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\dirdlgg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\dirdlgg.h
 	"wx/dialog.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dirdlg.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\dirdlg.h
 
-1300800940 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\choicdlg.h
+1300804540 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\choicdlg.h
 	"wx/generic/choicdgg.h"
 
 1300800940 c/choicdgg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\choicdgg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\choicdgg.h
 	"wx/dynarray.h"
 	"wx/dialog.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\textdlg.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\textdlg.h
 	"wx/generic/textdlgg.h"
 	"wx/numdlg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\textdlgg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\textdlgg.h
 	"wx/defs.h"
 	"wx/dialog.h"
 	"wx/valtext.h"
 
-1300800944 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\valtext.h
+1300804544 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\valtext.h
 	"wx/defs.h"
 	"wx/textctrl.h"
 	"wx/validate.h"
 
 1300800944 te.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\numdlg.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\numdlg.h
 	"wx/defs.h"
 	"wx/generic/numdlgg.h"
 
 1300800942 c/numdlgg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\numdlgg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\numdlgg.h
 	"wx/defs.h"
 	"wx/dialog.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\filedlg.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\filedlg.h
 	"wx/defs.h"
 	"wx/dialog.h"
 	"wx/arrstr.h"
@@ -1934,7 +1932,7 @@
 
 1300800942 ledlg.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\filedlgg.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\filedlgg.h
 	"wx/listctrl.h"
 	"wx/datetime.h"
 	"wx/filefn.h"
@@ -1942,7 +1940,7 @@
 
 1300800956 g.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\listctrl.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\listctrl.h
 	"wx/defs.h"
 	"wx/listbase.h"
 	"wx/msw/listctrl.h"
@@ -1951,21 +1949,21 @@
 
 1300800942 c/listctrl.h"
 
-1300800942 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\listbase.h
+1300804542 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\listbase.h
 	"wx/colour.h"
 	"wx/font.h"
 	"wx/gdicmn.h"
 	"wx/event.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\listctrl.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\listctrl.h
 	"wx/textctrl.h"
 
 1300800956 rl.h"
 
-1300800956 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\listctrl.h
+1300804556 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\generic\listctrl.h
 	"wx/textctrl.h"
 
-1300801016 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\filedlg.h
+1300804616 e:\wxmsw-2.8.12\wxmsw-2.8.12\include\wx\msw\filedlg.h
 
 1462359372 source:z:\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\appli2.cpp
 	"appli2.h"
@@ -1974,14 +1972,14 @@
 1462359153 z:\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\appli2.h
 	<wx/wx.h>
 
-1462360016 source:c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\appli2.cpp
+1462537850 source:c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\appli2.cpp
 	"appli2.h"
 	"principale2.h"
 
 1462359153 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\appli2.h
 	<wx/wx.h>
 
-1462360873 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\principale2.h
+1462565746 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp6\deux\principale2.h
 	"wx/event.h"
 	"wx/app.h"
 	"wx/utils.h"

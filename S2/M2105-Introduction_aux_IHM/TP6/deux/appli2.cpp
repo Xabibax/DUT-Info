@@ -14,6 +14,5 @@ bool Appli2::OnInit()
     maFen -> Show(true);
     wxMessageBox(wxT("Le programme deux.exe est encore en chantier."), wxT("Bienvenue"));
 
-    // Démarre la boucle des messages
     return true;
 }
