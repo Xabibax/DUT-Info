@@ -12,7 +12,6 @@ bool Appli2::OnInit()
 
     // Rendre la fenêtre visible
     maFen -> Show(true);
-    wxMessageBox(wxT("Le programme deux.exe est encore en chantier."), wxT("Bienvenue"));
 
     return true;
 }

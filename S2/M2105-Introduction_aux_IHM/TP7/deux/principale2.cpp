@@ -24,6 +24,6 @@ Principale2::~Principale2()
 
 void Principale2::demandeFermeture(wxCloseEvent& evt)
 {
-	if (wxMessageBox(wxT("Voulez-vous quittAIENT (PlumAIENT, vidAIENT, décapitAIENT) ?"), wxT("ConfirmAIENT"), wxYES_NO, this) == wxYES)
+	if (wxMessageBox(wxT("Voulez-vous quitter ?"), wxT("Confirmer"), wxYES_NO, this) == wxYES)
         this->Destroy();
 }
