@@ -69,7 +69,8 @@
 
 enum{
     ID_BOUTTONADDITIONCLICK_PRINCIPALE2 = wxID_HIGHEST + 1,
-    ID_BOUTTONEFFACERCLICK_PRINCIPALE2 = wxID_HIGHEST + 2
+    ID_BOUTTONEFFACERCLICK_PRINCIPALE2 = wxID_HIGHEST + 2,
+    ID_TXTRESULTAT_PRINCIPALE2 = wxID_HIGHEST + 3
 };
 
 class Principale2 : public wxFrame
@@ -78,6 +79,7 @@ class Principale2 : public wxFrame
         wxStaticText *txtX;
         wxStaticText *txtY;
         wxStaticText *txtXPlusY;
+        wxStaticText *txtResultat;
         wxTextCtrl *lblX;
         wxTextCtrl *lblY;
         wxButton *btAddition;
