@@ -67,6 +67,11 @@
 */
 #include <wx/wx.h>
 
+enum{
+    ID_BOUTTONADDITIONCLICK_PRINCIPALE2 = wxID_HIGHEST + 1,
+    ID_BOUTTONEFFACERCLICK_PRINCIPALE2 = wxID_HIGHEST + 2
+};
+
 class Principale2 : public wxFrame
 {
     protected:
@@ -75,13 +80,15 @@ class Principale2 : public wxFrame
         wxStaticText *txtXPlusY;
         wxTextCtrl *lblX;
         wxTextCtrl *lblY;
-        wxButton *btAdditionner;
+        wxButton *btAddition;
         wxButton *btEffacer;
 
     public:
         Principale2(const wxString& title);
         virtual ~Principale2();
         void demandeFermeture(wxCloseEvent& evt);
+        void bouttonAdditionClick(wxCloseEvent &evt);
+        void bouttonEffacerClick(wxCloseEvent &evt);
 
     DECLARE_EVENT_TABLE();
 };
