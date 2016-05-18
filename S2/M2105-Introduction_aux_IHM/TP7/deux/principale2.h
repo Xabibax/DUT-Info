@@ -67,32 +67,38 @@
 */
 #include <wx/wx.h>
 
-enum{
-    ID_BOUTTONADDITIONCLICK_PRINCIPALE2 = wxID_HIGHEST + 1,
-    ID_BOUTTONEFFACERCLICK_PRINCIPALE2 = wxID_HIGHEST + 2,
-    ID_TXTRESULTAT_PRINCIPALE2 = wxID_HIGHEST + 3
-};
-
+// Définition de la classe Principale2
 class Principale2 : public wxFrame
 {
-    protected:
-        wxStaticText *txtX;
-        wxStaticText *txtY;
-        wxStaticText *txtXPlusY;
-        wxStaticText *txtResultat;
-        wxTextCtrl *lblX;
-        wxTextCtrl *lblY;
-        wxButton *btAddition;
-        wxButton *btEffacer;
-
     public:
-        Principale2(const wxString& title);
-        virtual ~Principale2();
-        void demandeFermeture(wxCloseEvent& evt);
-        void bouttonAdditionClick(wxCloseEvent &evt);
-        void bouttonEffacerClick(wxCloseEvent &evt);
+    // Le constructeur
+    Principale2(const wxString& title);
 
-    DECLARE_EVENT_TABLE();
+    private:
+    bool monBool;
+    wxButton *bouton1;
+    wxButton *bouton2;
+    wxTextCtrl *yCl;
+    wxTextCtrl *xCl;
+    wxStaticText *x;
+    wxStaticText *y;
+    wxStaticText *Addition;
+    wxStaticText *Resultat;
+
+    // Le destructeur
+    virtual ~Principale2();
+
+    // Méthode d'évènements
+    void demandeFermeture(wxCloseEvent & evt);   // Gérer la demande de fermeture avec une fenêtre qui vous laisse le choix oui ou non
+    void demandeAddition(wxCommandEvent & evt);  // Permet de faire l'addition des valeurs que l'utilisateur a rentrée dans les deux zones de saisie et de l'afficher dans la zone prévue à cet effet
+    void demandeEffacer(wxCommandEvent & evt);   // Permet d'effacer les valeurs entrées par l'utilisateur en cliquant sur le bouton Effacer !
+
+
+    // Déclaration de la table d'évènements
+    private:
+
+        DECLARE_EVENT_TABLE()
+
+
 };
-
-#endif // PRINCIPALE2_H
+#endif // PRINCIPALE0_H
