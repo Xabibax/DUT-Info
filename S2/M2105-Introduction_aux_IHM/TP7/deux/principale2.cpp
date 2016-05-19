@@ -1,31 +1,33 @@
 #include "principale2.h"
-// Peuplement de la table d'événements
+
 BEGIN_EVENT_TABLE(Principale2,wxFrame)
-
-    EVT_CLOSE(Principale2 :: demandeFermeture)
-    EVT_BUTTON(300,Principale2 :: demandeAddition)
-    EVT_BUTTON(400,Principale2 :: demandeEffacer)
-
+    EVT_CLOSE(Principale2::demandeFermeture)
+    EVT_BUTTON(1, Principale2::btAdditionClick)
+    EVT_BUTTON(2, Principale2::btEffacerClick)
 END_EVENT_TABLE()
 
 
 Principale2::Principale2(const wxString& title) : wxFrame (NULL,
-            wxNewId(), // Identifiant de l'objet qui sera créé, par défaut : wxNewId(),
-            title)  // Titre de la fenêtre
+                                                           wxID_ANY, // Identifiant de l'objet qui sera créé, par défaut : wxID_ANY,
+                                                           title)  // Titre de la fenêtre
 {
-    x = new wxStaticText(this, wxNewId(), wxT("x ="), wxPoint(10,10));
-    y = new wxStaticText(this, wxNewId(), wxT("y ="), wxPoint(10,50));
-    Addition = new wxStaticText(this, wxNewId(), wxT("x + y ="), wxPoint(10,100));
-    Resultat = new wxStaticText(this, wxNewId(), wxT(" "), wxPoint(50,100));
-    xCl = new wxTextCtrl(this, wxNewId(), wxT(""), wxPoint(50, 10));
-    yCl = new wxTextCtrl(this, wxNewId(), wxT(""), wxPoint(50, 50));
-    bouton1 = new wxButton(this,300, wxT("Addition !"), wxPoint(200,100));
-    bouton2 = new wxButton(this,400, wxT("Effacer !"), wxPoint(300,100));
+    txtX = new wxStaticText(this, wxID_ANY, wxT("x ="), wxPoint(10,10));
+    txtY = new wxStaticText(this, wxID_ANY, wxT("y ="), wxPoint(10,50));
+    txtAddition = new wxStaticText(this, wxID_ANY, wxT("x + y ="), wxPoint(10,100));
+    txtResultat = new wxStaticText(this, wxID_ANY, wxT(" "), wxPoint(50,100));
+    lblX = new wxTextCtrl(this, wxID_ANY, wxT(""), wxPoint(50, 10));
+    lblY = new wxTextCtrl(this, wxID_ANY, wxT(""), wxPoint(50, 50));
+    btAddition = new wxButton(this,1, wxT("Addition !"), wxPoint(200,100));
+    btEffacer = new wxButton(this,2, wxT("Effacer !"), wxPoint(300,100));
 }
 
 // Demande à l'utilisateur s'il confirme la fermeture de la fenêtre avec la fonction wxMessageBox
-void Principale2 :: demandeFermeture(wxCloseEvent & evt)
+void Principale2::demandeFermeture(wxCloseEvent& evt)
 {
+	if (wxMessageBox(wxT("Voulez-vous quitter ?"), wxT("Confirmer"), wxYES_NO, this) == wxYES)
+	    this->Destroy();
+
+	/*
     int reponse = wxMessageBox(wxT("Voulez-vous quitter le programme ?"),
                                wxT("Confirmation de la fermeture"),
                                wxYES_NO);
@@ -33,53 +35,43 @@ void Principale2 :: demandeFermeture(wxCloseEvent & evt)
     {
         this->Destroy();
     }
+	*/
 }
 
-// Le destructeur
-Principale2 :: ~Principale2()
-{
+Principale2::~Principale2()
+{}
 
-}
-
-// Méthode qui permet d'additionner les deux nombres que
-// l'utilisateur a entrés dans les zones de texte prévues à cet effet xCl et yCl en renvoyant un booléen vrai si les valeurs sont correctes
-// ou dans le cas contraire affiche un message d'erreur
-
-void Principale2 :: demandeAddition(wxCommandEvent & evt)
+/* Méthode qui permet d'additionner les deux nombres que
+   l'utilisateur a entrés dans les zones de texte prévues à cet effet lblX et lblY en renvoyant un booléen vrai si les valeurs sont correctes (nombres)
+   ou dans le cas contraire (lettres) affiche un message d'erreur*/
+void Principale2::btAdditionClick(wxCommandEvent& evt)
 {
     // VARIABLES
-    double x,y,somme;
-    bool vraiX,vraiY;
+    double txtXSave, txtYSave;
     wxString StX,StY,StS;
 
     // TRAITEMENTS
-    StX = xCl->GetValue(); // On stocke dans StX la valeur que l'utilisateur a rentré dans la zone de saisie qui est de type wxString
-    vraiX=StX.ToDouble(&x); // On verifie avec un booléen si notre valeur est bien de type double. Si c'est le cas il renvoie vrai et stocke la valeur dans la variable x;
-    StY = yCl->GetValue(); // On stocke dans StY la valeur que l'utilisateur a rentré dans la zone de saisie qui est de type wxString
-    vraiY=StY.ToDouble(&y); // On verifie avec un booléen si notre valeur est bien de type double. Si c'est le cas il renvoie vrai et stocke la valeur dans la variable y;
+    StX = lblX->GetValue();
+    StY = lblY->GetValue();
 
-    // On doit verifier avec une condition si les deux valeurs stockées dans x et y sont bien de type double. Si c'est le cas on peut alors faire l'addition
-    if (vraiX && vraiY)
+    // On vérifie si les valeurs saisies sont des nombres (base = 10)
+    if (StX.ToDouble(&txtXSave/*, 10*/) && StY.ToDouble(&txtYSave/*, 10*/))
     {
-        somme = x + y; // Permet d'effectuer le calcul des deux valeurs
-        StS.Printf(wxT("%lf"), somme); // La méthode Printf permet de convertir la valeur de type double stockée dans la variable somme et ainsi de l'afficher dans la zone de résultat(Resultat)
-        Resultat->SetLabel(StS); // On met la valeur StS de type wxString dans Resultat
-
+        StS<<txtXSave+txtYSave;
+        txtResultat->SetLabel(StS); // On met la valeur StS de type wxString dans Resultat
     }
     else
     {
-        Resultat->SetLabel(wxT(" ")); // Si une des deux valeurs n'est pas valide on ne mettra rien dans la chaine de caractère, il n'y aura donc pas de resultat
-        wxMessageBox(wxT("Un des deux operandes ne contient pas de valeur ou la saisie est invalide"),wxT("Calcul impossible"));
-
+        txtResultat->SetLabel(wxT(" ")); // On efface s'il y avait déjà un précédent résultat de calculé.
+        wxMessageBox(wxT("Un des deux operandes ne contient pas de valeur ou la saisie est invalide"), wxT("Calcul impossible"));
     }
 }
 
 // Cette méthode permet d'effacer toutes valeurs auparavant entrées par l'utilisateur à l'aide du Bouton Effacer!
-void Principale2 :: demandeEffacer(wxCommandEvent & evt)
+void Principale2::btEffacerClick(wxCommandEvent& evt)
 {
-    xCl->SetLabel(wxT(" ")); // Cela permet d'effacer tout ce que l'utilisateur aurait pu entrer comme valeur dans xCl (zone correspondant à la valeur du x)
-    yCl->SetLabel(wxT(" ")); // Cela permet d'effacer tout ce que l'utilisateur aurait pu entrer comme valeur dans yCl (zone correspondant à la valeur du y)
-    Resultat->SetLabel(wxT(" ")); // Permet d'effacer les résultats encore inscrits dans la zone Resultat.
-
+    lblX->SetLabel(wxT(" ")); // ou lblX->Clear()
+    lblY->SetLabel(wxT(" "));
+    txtResultat->SetLabel(wxT(" "));
 }
 

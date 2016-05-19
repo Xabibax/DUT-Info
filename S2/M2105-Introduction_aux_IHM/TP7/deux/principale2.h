@@ -65,40 +65,30 @@
 #include "wx/statusbr.h"
 ....
 */
+
 #include <wx/wx.h>
 
-// Définition de la classe Principale2
 class Principale2 : public wxFrame
 {
-    public:
-    // Le constructeur
+private:
+    //bool monBool;
+    wxStaticText *txtX;
+    wxStaticText *txtY;
+    wxStaticText *txtAddition;
+    wxStaticText *txtResultat;
+    wxTextCtrl *lblX;
+    wxTextCtrl *lblY;
+    wxButton *btAddition;
+    wxButton *btEffacer;
+
+public:
     Principale2(const wxString& title);
-
-    private:
-    bool monBool;
-    wxButton *bouton1;
-    wxButton *bouton2;
-    wxTextCtrl *yCl;
-    wxTextCtrl *xCl;
-    wxStaticText *x;
-    wxStaticText *y;
-    wxStaticText *Addition;
-    wxStaticText *Resultat;
-
-    // Le destructeur
     virtual ~Principale2();
+    void demandeFermeture(wxCloseEvent& evt);
+    void btAdditionClick(wxCommandEvent& evt);
+    void btEffacerClick(wxCommandEvent& evt);
 
-    // Méthode d'évènements
-    void demandeFermeture(wxCloseEvent & evt);   // Gérer la demande de fermeture avec une fenêtre qui vous laisse le choix oui ou non
-    void demandeAddition(wxCommandEvent & evt);  // Permet de faire l'addition des valeurs que l'utilisateur a rentrée dans les deux zones de saisie et de l'afficher dans la zone prévue à cet effet
-    void demandeEffacer(wxCommandEvent & evt);   // Permet d'effacer les valeurs entrées par l'utilisateur en cliquant sur le bouton Effacer !
-
-
-    // Déclaration de la table d'évènements
-    private:
-
-        DECLARE_EVENT_TABLE()
-
-
+    DECLARE_EVENT_TABLE()
 };
-#endif // PRINCIPALE0_H
+
+#endif // PRINCIPALE2_H

@@ -2105,14 +2105,14 @@
 	"wx/statusbr.h"
 	<wx/wx.h>
 
-1462789035 source:z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.cpp
+1463650768 source:z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.cpp
 	"appli2.h"
 	"principale2.h"
 
-1462789035 z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.h
+1463650768 z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.h
 	<wx/wx.h>
 
-1463132432 z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.h
+1463655723 z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.h
 	"wx/event.h"
 	"wx/app.h"
 	"wx/utils.h"
@@ -2172,17 +2172,17 @@
 	"wx/statusbr.h"
 	<wx/wx.h>
 
-1463133084 source:z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.cpp
+1463653507 source:z:\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.cpp
 	"principale2.h"
 
-1463426063 source:c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.cpp
+1463650768 source:c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.cpp
 	"appli2.h"
 	"principale2.h"
 
-1462789035 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.h
+1463650768 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\appli2.h
 	<wx/wx.h>
 
-1463601865 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.h
+1463655723 c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.h
 	"wx/event.h"
 	"wx/app.h"
 	"wx/utils.h"
@@ -2241,4 +2241,7 @@
 	"wx/mdi.h"
 	"wx/statusbr.h"
 	<wx/wx.h>
+
+1463665553 source:c:\users\valentin\desktop\partage-linux\dut-info\s2\m2105-introduction_aux_ihm\tp7\deux\principale2.cpp
+	"principale2.h"
 
