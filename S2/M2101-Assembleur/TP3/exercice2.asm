@@ -23,7 +23,6 @@ mire:	CMP R1, 255
 		JMP mire
 suite:	HLT	
 	
-	
 rectangle:  LD R0, [SP+4]
 			OUT R0, 1
 			LD R0, [SP+3]
@@ -39,6 +38,6 @@ rectangle:  LD R0, [SP+4]
 			SHL [SP+5]
 			ADD R0, [SP+5]
 			OUT R0, 5
-			RET
+			RET 5
 			
 .STACK 10
