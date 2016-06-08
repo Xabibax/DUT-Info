@@ -33,5 +33,4 @@ rectangle:  LD R0, [SP+4]
 			ADD R0, [SP+5]
 			OUT R0, 5
 			RET
-			
 .STACK 10
