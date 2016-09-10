@@ -5,13 +5,14 @@ public class TP1 {
 	{
 		TP1 t = new TP1();
 				
-		int tab[] = {7,2,4,0,2,0,8,1,-2,10};
+		int tab[] = {7, 2, 4, 0, 2, 0, 8, 1, -2, 10};
 		int choix = 3;
 		
 		switch(choix)
 		{
 		case 1:
 			t.affichageDuTableau(tab);
+			// on peut aussi faire 'new TP1().affichageDuTableau(tab);'
 			break;
 		case 2:
 			t.afficherSommeTableau(tab);
