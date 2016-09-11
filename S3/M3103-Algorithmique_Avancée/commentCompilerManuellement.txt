@@ -1,0 +1,31 @@
+Attention : la procédure suivante peut légèrement varier suivant la version de Windows que vous utilisez !
+
+- Pour commencer, téléchargez la dernière version du JDK suivant votre Système d'Exploitation
+  à l'adresse "http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html".
+  Installez le programme dans l'emplcament par défaut. Votre ordinateur devrait alors redémarrer tout seul.
+- Allez dans le "Panneau de Configuration" de votre PC. Cliquez sur l'icône "Système", puis choisissez l'onglet "Paramètres système avancé".
+- Vous devriez normallement voir le bouton "Variables d'environnement..." en bas de la nouvelle fenêtre : cliquez dessus.
+- Une nouvelle fenêtre s'ouvre. Dans la partie inférieure intitulée "Variables système", cherchez la variable "Path".
+- Une fois sélectionnée, cliquez sur "Modifier".
+- Une autre fenêtre s'ouvre alors. Elle contient le nom des différentes variables et leur valeurs.
+- Cliquez maintenant sur le bouton "Nouveau" puis ajouter le chemin d'accès du dossier bin/ du JDK précédemment installé.
+  (pour ma part, il se situe dans "C:\Program Files\Java\jdk1.8.0_102\bin")
+- ATTENTION : suivant la version de votre OS, il est possible que vous deviez écrire ce chemin d'accès de la façon suivante (si les variables sont sur
+  une seule ligne et non sous forme de tableau. Par exemple :
+  %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;
+  va devenir %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;C:\Program Files\Java\jdk1.8.0_102\bin; pour ma part
+- Refermez ensuite toutes les fenêtres ouvertes en validant les modifications apportées.
+
+- Ouvrez maintenant votre CMD (recherchez CMD ou bien Windows+R > cmd > Entrée)
+- Par la suite, déplacez-vous dans le dossier src de votre projet à l'aide de la commande cd. Pour rappel, sous Windows, vous devez mettre
+  cd monDossier1\monDossier2 et non monDossier1/monDossier2 contrairement aux systèmes Unix.
+  (vous pouvez vérifiez le contenu du dossier courant avec la commande dir sous Windows)
+- Dès que vous appercevez votre fichier nomProjet.java, faîtes :
+  javac nomProjet.java pour compiler dans le même dossier.
+- Ensuite, exécutez le programme avec la commande java nomProjet (sans extension !)
+
+
+Si cela ne marche pas ou que la procédure ne fonctionne pas, regardez https://openclassrooms.com/courses/apprenez-a-programmer-en-java/installer-les-outils-de-developpement#/id/r-2180179
+
+
+Bon courage =)
