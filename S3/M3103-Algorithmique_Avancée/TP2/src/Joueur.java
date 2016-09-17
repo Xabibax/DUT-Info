@@ -1,6 +1,6 @@
-
 public class Joueur
 {
+	// Attributs
 	private int id;
 	private String nom;
 	private String prenom;
@@ -8,6 +8,7 @@ public class Joueur
 	private String poste;
 	private boolean estTitulaire;
 
+	// Constructeur
 	public Joueur(int id, String nom, String prenom, int numero, String poste, boolean estTitulaire)
 	{
 		this.id=id;
@@ -18,6 +19,7 @@ public class Joueur
 		this.estTitulaire=estTitulaire;
 	}
 
+	// Getters
 	public int getId() {return id;}
 	public String getNom() {return nom;}
 	public String getPrenom() {return prenom;}
@@ -25,6 +27,7 @@ public class Joueur
 	public String getPoste() {return poste;}
 	public boolean getTitulaire() {return estTitulaire;}
 
+	// Setters
 	public void setId(int id) {this.id = id;}
 	public void setNom(String nom) {this.nom = nom;}
 	public void setPrenom(String prenom) {this.prenom = prenom;}
@@ -32,13 +35,14 @@ public class Joueur
 	public void setPoste(String poste) {this.poste = poste;}
 	public void setTitulaire(boolean estTitulaire) {this.estTitulaire = estTitulaire;}
 
+	// Affichage des "propriétés" du joueur
 	public void afficherJoueur()
 	{
-		System.out.println(getId());
-		System.out.println(getNom());
-		System.out.println(getPrenom());
-		System.out.println(getNumero());
-		System.out.println(getPoste());
-		System.out.println(getTitulaire());
+		System.out.println("  Identifiant : " + getId());
+		System.out.println("  Nom : " + getNom());
+		System.out.println("  Prénom : " + getPrenom());
+		System.out.println("  Maillot : " + getNumero());
+		System.out.println("  Poste : " + getPoste());
+		System.out.println("  Titulaire : " + getTitulaire() + "\n");
 	}
 }
