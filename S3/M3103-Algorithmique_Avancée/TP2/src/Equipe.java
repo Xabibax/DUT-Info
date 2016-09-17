@@ -25,9 +25,7 @@ class Equipe
 			nombreJoueur++;
 		}
 		else
-		{
 			System.out.println("Erreur : il y a déjà bien assez de joueur dans cette équipe !");
-		}
 	}
 	
 	// Afficher seulement les joueurs titulaires
