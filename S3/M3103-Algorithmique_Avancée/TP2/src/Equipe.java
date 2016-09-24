@@ -25,26 +25,26 @@ class Equipe
 			nombreJoueur++;
 		}
 		else
-			System.out.println("Erreur : il y a déjà bien assez de joueur dans cette équipe !");
+			System.out.println("Erreur : il y a dï¿½jï¿½ bien assez de joueur dans cette ï¿½quipe !");
 	}
-	
+
 	// Afficher seulement les joueurs titulaires
 	public void afficherTitulaires()
 	{
 		System.out.println(nom + " - Titulaire(s) : ");
-		
+
 		for(int i=0; i<nombreJoueur; i++)
 		{
 			if(this.listeJoueur[i].getTitulaire())
 				this.listeJoueur[i].afficherJoueur();
 		}
 	}
-	
-	// Afficher seulement les joueurs remplaçants
+
+	// Afficher seulement les joueurs remplaï¿½ants
 	public void afficherRemplacants()
 	{
-		System.out.println(nom + " - Remplaçant(s) : ");
-		
+		System.out.println(nom + " - Remplaï¿½ant(s) : ");
+
 		for(int i=0; i<nombreJoueur; i++)
 		{
 			if(!this.listeJoueur[i].getTitulaire())
@@ -58,31 +58,31 @@ class Equipe
 		if(nombreJoueur > 0)
 			listeJoueur[caseASupprimer] = null;
 		else
-			System.out.println("Erreur : il n'y a aucun joueur à supprimer !");
+			System.out.println("Erreur : il n'y a aucun joueur ï¿½ supprimer !");
 	}
-	
+
 	// Supprimer un joueur du tableau en utilisant son ID
 	public void enleverJoueurAvecId(int id)
 	{
 		int numeroCase=-1;
-		
+
 		for(int i=0; i<nombreJoueur; i++)
 		{
 			if(listeJoueur[i].getId()==id)
 				numeroCase=i;
 		}
-		
+
 		if(numeroCase>-1)
 			this.enleverJoueur(numeroCase);
 		else
 			System.out.println("Erreur : il n'y a aucun joueur avec cet ID !");
 	}
-	
+
 	// Afficher tous les joueurs
 	public void afficherListeJoueur()
 	{
 		System.out.println(nom);
-		
+
 		for(int i=0; i < nombreJoueur; i++)
 		{
 			this.listeJoueur[i].afficherJoueur();
