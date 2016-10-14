@@ -56,30 +56,30 @@
 		n NUMBER(2);
 		CURSOR employes IS SELECT numemp, nom_complet, salaire FROM EMP;
 		-- Permet de retourner le résultat de la requête dans employes
-		
+
 		newsal emp.salaire%TYPE;
 		-- newsal sera de même type que salaire dans la table emp
-		
+
 		empv EXCEPTION;
 	BEGIN
 		SELECT COUNT(*) INTO n FROM EMP;
-		
+
 		IF n=0 THEN
 			RAISE empv;
 		END IF;
-		
+
 		FOR employe IN employes LOOP
 			newsal:=employe.salaire+50;
 			-- on additionne 50 à tous les salaires
-			
+
 			UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
 			-- on met à jour
-			
+
 		END LOOP;
-		
+
 		EXCEPTION
 			WHEN empv THEN dbms_output.put_line('0 row selected');
-			
+
 		Commit;
 	END;
 
@@ -139,7 +139,7 @@
 	END;
 
 -- Question 9 : Nouveau département (la compilation fonctionne mais pas l'exécution)
-	CREATE OR REPLACE PROCEDURE affecter_emp_dept (employe IN EMP.nom_complet%TYPE ,newDept IN DEPT.nomdep%TYPE) AS
+	CREATE OR REPLACE PROCEDURE affecter_emp_dept (employe IN EMP.nom_complet%TYPE, newDept IN DEPT.nomdep%TYPE) AS
 	  numDept DEPT.numdep%TYPE;
 	BEGIN
 	  SELECT numdep INTO numDept FROM DEPT WHERE nomdep=newDept;

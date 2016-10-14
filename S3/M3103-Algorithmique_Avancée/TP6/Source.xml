@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personnage>
+  <etudiant classe="P2">
+    <nom>LeJardinier</nom>
+    <prenoms>
+      <prenom>Nicolas</prenom>
+      <prenom>Laurent</prenom>
+    </prenoms>
+  </etudiant>
+  <etudiant classe="P1">
+    <nom>Superwoman</nom>
+  </etudiant>
+  <etudiant classe="P3">
+    <nom>Don Carleone</nom>
+  </etudiant>
+</personnage>
