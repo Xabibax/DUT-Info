@@ -1,9 +1,9 @@
 
-public class TP1 {
+public class Tp1 {
 
 	public static void main(String[] args)
 	{
-		TP1 t = new TP1();
+		Tp1 t = new Tp1();
 				
 		int tab[] = {7, 2, 4, 0, 2, 0, 8, 1, -2, 10};
 		int choix = 3;
@@ -12,7 +12,7 @@ public class TP1 {
 		{
 		case 1:
 			t.affichageDuTableau(tab);
-			// on peut aussi faire 'new TP1().affichageDuTableau(tab);'
+			// on peut aussi faire 'new Tp1().affichageDuTableau(tab);'
 			break;
 		case 2:
 			t.afficherSommeTableau(tab);
