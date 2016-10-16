@@ -8,19 +8,19 @@ public class tp6
 {
 	static Element racine = new Element("personnage");
 
-	//Document JDOM qui fait l'objet des opÃ©rations
+	//Document JDOM qui fait l'objet des opérations
 	static org.jdom2.Document document = new Document(racine);
 
-	// Initialiser le document JDOMÃ  partir d'un fichier XML //
+	// Initialiser le document JDOM à partir d'un fichier XML //
 	//*******************************************************//
 	public static void deFichierXMLversJDOM(String fichier)
 	{
-		// CrÃ©er une instance de SAXBuilder
+		// Créer une instance de SAXBuilder
 		SAXBuilder sxb = new SAXBuilder();
 
 		try
 		{
-			// CrÃ©er le document JDOM avec en argument le fichier XML
+			// Créer le document JDOM avec en argument le fichier XML
 			document = sxb.build(new File(fichier));
 		}
 		catch(Exception e) {e.printStackTrace();}
@@ -34,8 +34,8 @@ public class tp6
 		{
 			// Utiliser un affichage classique avec getPrettyFormat()
 			XMLOutputter sortie = new XMLOutputter(Format.getPrettyFormat());
-			// CrÃ©er une instance de FileOutputStream
-			// avec en argument le nom du fichier pour effectuer la sÃ©rialisation
+			// Créer une instance de FileOutputStream
+			// avec en argument le nom du fichier pour effectuer la sérialisation
 			sortie.output(document, new FileOutputStream(fichier));
 		}
 		catch(java.io.IOException e) {e.printStackTrace();}
@@ -49,7 +49,7 @@ public class tp6
 		{
 			// Utiliser un affichage classique avec getPrettyFormat()
 			XMLOutputter sortie = new XMLOutputter(Format.getPrettyFormat());
-			// PrÃ©ciser que la sortie de document se fait sur System.out
+			// Préciser que la sortie de document se fait sur System.out
 			sortie.output(document, System.out);
 		}
 		catch(java.io.IOException e) {e.printStackTrace();}
@@ -62,8 +62,8 @@ public class tp6
 			// On utilise ici un affichage classique avec getPrettyFormat()
 			XMLOutputter sortie = new XMLOutputter(Format.getPrettyFormat());
 
-			// Remarquez qu'il suffit simplement de crÃ©er une instance de FileOutputStream avec en argument le
-			// nom du fichier pour effectuer la sÃ©rialisation.
+			// Remarquez qu'il suffit simplement de créer une instance de FileOutputStream avec en argument le
+			// nom du fichier pour effectuer la sérialisation.
 			sortie.output(document, new FileOutputStream(fichier));
 		}
 
@@ -75,16 +75,16 @@ public class tp6
 		// Initialiser un Element racine avec la racine du document
 		Element racine = document.getRootElement();
 
-		// CrÃ©er une List d'Element constituÃ©e des nomDeFils de la racine
+		// Créer une List d'Element constituée des nomDeFils de la racine
 		// mais sans les autres fils de la racine
 		List <Element> listFils = racine.getChildren(nomDeFils);
 
-		// Parcourir la liste listFils constituÃ©e
+		// Parcourir la liste listFils constituée
 		for(int i=0; i < listFils.size(); i++)
 		{
-			// AccÃ©der au i-Ã¨me Element de la liste
+			// Accéder au i-ème Element de la liste
 			Element courant = listFils.get(i);
-			// AccÃ©der au nom de l'Element courant de la list, en format texte
+			// Accéder au nom de l'Element courant de la list, en format texte
 			System.out.println(courant.getChild(nomDePetitFils).getText());
 		}
 	}
@@ -94,67 +94,67 @@ public class tp6
 		// Initialiser un Element racine avec la racine du document
 		Element racine = document.getRootElement();
 
-		// CrÃ©er une List d'Element constituÃ©e des nomDeFils de la racine
+		// Créer une List d'Element constituée des nomDeFils de la racine
 		// mais sans les autres fils de la racine
 		List <Element> listFils = racine.getChildren(nomDeFils);
 
-		// Parcourir la liste listFils constituÃ©e
+		// Parcourir la liste listFils constituée
 		for(int i=0; i < listFils.size(); i++)
 		{
-			// AccÃ©der au i-Ã¨me Element de la liste
+			// Accéder au i-ème Element de la liste
 			Element courant = listFils.get(i);
-			// AccÃ©der au nom de l'Element courant de la list, en format texte
+			// Accéder au nom de l'Element courant de la list, en format texte
 			System.out.println(courant.getAttributeValue(attribut));
 		}
 	}
 
-	// Supprimer mes Ã©lÃ©ment petitFils d'un Ã©lÃ©ment fils
+	// Supprimer mes élément petitFils d'un élément fils
 	public static void supprimerPetitFilsDansFils(String fils, String petitFils)
 	{
 		// Initialiser un Element racine avec la racine du document
 		Element racine = document.getRootElement();
 
-		// Dans un premier temps on liste tous les Ã©tudiants
+		// Dans un premier temps on liste tous les étudiants
 		List listFils = racine.getChildren(fils);
-		// On parcours la liste grÃ¢ce Ã  un  iterator
+		// On parcours la liste grâce à un iterator
 		Iterator i = listFils.iterator();
 
 		while(i.hasNext())
 		{
 			Element courant = (Element) i.next();
-			// Si l'Ã©lÃ©ment courant possÃ¨dfe un Ã©lÃ©mentPetitFils on applique la modification
+			// Si l'élément courant possède un ElémentPetitFils on applique la modification
 			if(courant.getChild(petitFils)!= null)
 			{
-				// On supprime le ptitFils en question
+				// On supprime le petitFils en question
 				courant.removeChild(petitFils);
-				// On renomme l'element courant ainsi modifiÃ©
+				// On renomme l'élément courant ainsi modifié
 				courant.setName(courant.getName()+"_modifie");
 			}
 		}
 	}
 
-	// Supprimer mes Ã©lÃ©ment petitFils d'un Ã©lÃ©ment fils
+	// Supprimer mes élément petitFils d'un élément fils
 	public static void supprimerSaufSuperwoman(String fils, String petitFils)
 	{
 		// Initialiser un Element racine avec la racine du document
 		Element racine = document.getRootElement();
 
-		// Dans un premier temps on liste tous les Ã©tudiants
+		// Dans un premier temps on liste tous les étudiants
 		List listFils = racine.getChildren(fils);
-		// On parcours la liste grÃ¢ce Ã  un  iterator
+		// On parcours la liste grâce à un iterator
 		Iterator i = listFils.iterator();
 
 		while(i.hasNext())
 		{
 			Element courant = (Element) i.next();
-			// Si l'Ã©lÃ©ment courant possÃ¨dfe un Ã©lÃ©mentPetitFils on applique la modification
+			// Si l'élément courant possède un ElémentPetitFils on applique la modification
 			if(courant.getChild(petitFils)!= null)
 			{
 				if(courant.getChild(petitFils).getText() != "Superwoman")
 				{
-					// On supprime le ptitFils en question
+					// On supprime le petitFils en question
 					courant.removeChild(petitFils);
-					// On renomme l'element courant ainsi modifiÃ©
+					// On renomme l'élément courant ainsi modifié
 					courant.setName(courant.getName()+"_modifie");
 				}
 			}
@@ -166,21 +166,20 @@ public class tp6
 	 */
 	public static void main(String[] args)
     {
-		// On crÃ©e un nouvel Element etudiant et on l'ajoute en tant qu'Element de racine
+		// On crée un nouvel Element etudiant et on l'ajoute en tant qu'Element de racine
         Element etudiant = new Element("etudiant");
         racine.addContent(etudiant);
 
-        // On crÃ©e un nouvel Attribut classe et on l'ajoute ï¿½ï¿½ etudiant grÃ ce ï¿½ï¿½ la mÃ©thode setAttribute
+        // On crée un nouvel Attribut classe et on l'ajoute à etudiant grâce la méthode setAttribute
         Attribute classe = new Attribute("classe", "P2");
         etudiant.setAttribute(classe);
 
-        // On crÃ©e un nouvel Element nom, on lui assigne du texte et on l'ajoute en tant
+        // On crée un nouvel Element nom, on lui assigne du texte et on l'ajoute en tant
         // qu'Element de etudiant
         Element nom = new Element("nom");
         nom.setText("LeJardinier");
         etudiant.addContent(nom);
 
-        // 3 CrÃ©er un fichier XML
         Element prenoms = new Element("prenoms");
         etudiant.addContent(prenoms);
 
@@ -214,8 +213,6 @@ public class tp6
 
 
         // On affiche le document XML
-		//afficherJDOM();
-
         afficherJDOM();
 		enregistrerJDOM("Source.xml");
 
@@ -229,7 +226,7 @@ public class tp6
 		supprimerSaufSuperwoman("etudiant", "nom");
 		enregistrerJDOM("ResultatFinal.xml");
 
-        // On crÃ©e le fichier Exercice1.xml dans lequel on enregistre le document XML
+        // On crée le fichier Source.xml dans lequel on enregistre le document XML
         //enregistrerJDOM("Source.xml");
 	}
 }
