@@ -1,0 +1,23 @@
+Il est possible que vous ayez un point d'exclamation rouge sur votre projet. Cela signifie qu'Eclipse ne retrouve pas une source externe
+précédemment renseignée. Vous aurez le cas à chaque fois que vous importer le projet sous un autre disque dur (entre l'IUT et votre disque perso par exemple)
+Pour corriger ce problème de compatibilité d'Eclipse et pour recharger votre Build path, suivez la procédure suivante :
+
+- Si ce n'est pas déjà fait, importez d'abord votre projet :
+	* File > Open Projects from File System
+	* Saisissez le répertoire de votre projet dans Import Source (ou à l'aide du bouton Directory)
+	* Finish
+
+- Ensuite, allez dans le Package Explorer :
+	* Clic droit sur votre projet
+	* Build path > Add External Archives...
+	* Sélectionnez jdom-x.x.x.jar (quelque soit votre version du JDOM) > Ouvrir > Finish
+
+- Afin de corriger le problème de dépendance de l'ancienne source jdom :
+	* Clic droit sur votre projet
+	* Build path > Configure Build Path...
+	* Placez-vous dans l'arborescence de Java Build Path si Eclipse ne l'a pas fait automatiquement
+	* Dans l'onglet Libraries
+		¤ Sélectionnez l'ancienne source (elle doit normalement être marquée d'une croix rouge avec le mot clé "missing" à la fin du chemin d'accès
+		¤ Cliquez sur Remove puis OK
+
+Normalement, le point d'exclamation rouge disparait alors de l'arborescence de votre projet =)
