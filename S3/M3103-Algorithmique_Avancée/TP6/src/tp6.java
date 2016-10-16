@@ -213,20 +213,24 @@ public class tp6
 
 
         // On affiche le document XML
+        System.out.println("/** AFFICHER LE DOCUMENT JDOM **/");
         afficherJDOM();
 		enregistrerJDOM("Source.xml");
-
+		System.out.println("\n/** DOCUMENT JDOM ENREGISTRÉ SOUS \"Source.xml\" **/\n");
+		
+		System.out.println("/** AFFICHER LE TEXTE DU/DES PETIT(S) FILS  **/");
 		afficherTexteDePetitsFilsDeLaRacine("etudiant", "nom");
 
+		System.out.println("\n/** AFFICHER L'ATTRIBUT DU/DES PETIT(S) FILS  **/");
         afficherAttributDeFilsDeLaRacine("etudiant", "classe");
 
+        System.out.println("\n/** PETIT FILS DANS FILS SUPPRIMÉ ET ENREGISTRÉ DANS \"Resultat.xml\" **/\n");
 		supprimerPetitFilsDansFils("etudiant", "prenoms");
 		enregistrerJDOM("Resultat.xml");
 
+		System.out.println("/** SEUL SUPERWOMAN N'A PAS ÉTÉ SUPPRIMÉE**/\n");
 		supprimerSaufSuperwoman("etudiant", "nom");
 		enregistrerJDOM("ResultatFinal.xml");
-
-        // On crée le fichier Source.xml dans lequel on enregistre le document XML
-        //enregistrerJDOM("Source.xml");
+		System.out.println("/** DOCUMENT ENREGISTRÉ DANS \"ResultatFinal.xml\" **/");
 	}
 }
