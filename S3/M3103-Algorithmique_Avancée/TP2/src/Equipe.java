@@ -6,6 +6,7 @@ class Equipe
 	private int nombreJoueur;
 	private final int NOMBREMAXJOUEUR = 10;
 	private Joueur listeJoueur[] = new Joueur[10];
+	// TODO: try to fix final on listeJoueur[] (private Joueur listeJoueur = new Joueur[NOMBREMAXJOUEUR]; ?)
 
 	// Constructeur
 	public Equipe(int id, String nom)
