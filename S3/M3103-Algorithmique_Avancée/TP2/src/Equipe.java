@@ -1,4 +1,4 @@
-class Equipe
+public class Equipe
 {
 	// Attributs
 	private int id;
