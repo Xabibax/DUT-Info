@@ -1,9 +1,9 @@
-Dans la plupart des fichiers, vous trouverez deux versions pour chaque TD/TP :
-- une premi�re (nommée 'serveurLocal') qui ne peut se lancer qu'avec Wamp (ou Mamp, ou Lamp, ou encore Xampp)
+﻿Dans la plupart des fichiers, vous trouverez deux versions pour chaque TD/TP :
+- une première (nommée 'serveurLocal') qui ne peut se lancer qu'avec Wamp (ou Mamp, ou Lamp, ou encore Xampp)
 - la seconde (nommée 'IUT') qui ne fonctionnera exclusivement que sur les sessions de l'IUT
 
-En effet, certains scripts requi�rent des URL personnalis�es pour valider un formulaire, ou encore pour des variables
-de sessions. Ces URL sont donc adatp�es en fonction de l'outil utilis� pour ex�cuter le script PHP afin que vous
+En effet, certains scripts requièrent des URL personnalisées pour valider un formulaire, ou encore pour des variables
+de sessions. Ces URL sont donc adatpées en fonction de l'outil utilisé pour exécuter le script PHP afin que vous
 puissiez travailler depuis n'importe quel support !
 
 Bonne continuation =)
