@@ -1,0 +1,23 @@
+Sous Windows, si vous utilisez Wamp ET que vous souhaitez programmer en PHP dans un autre dossier
+que sous wamp64\www\ vous vous serez rendu compte que vous devez constamment copier votre répertoire perso
+dans wamp. Il n'est pas toujours pratique de faire cela puisque vous risquez d'oublier de copier certains scripts
+ou certaines dépendances.
+Afin de vous aider dans votre démarche et de vous éviter de copier/coller tout le temps d'un dossier à un autre,
+suivez la procédure suivante :
+
+- Ouvrez un invite de commande (cmd) EN ADMINISTRATEUR
+- Placez-vous dans le répretoire de wamp puis allez dans le dossier www\ de ce dernier.
+  à l'aide de la commande cd nomDossier\
+  (pour ma part, l'invite de commande se lance dans C:\Windows\system32\
+   je dois donc taper cd ..\..\wamp64\www\
+   puisque wamp est stocké ici dans C:\wamp64)
+- Tapez maintenant : mklink /J nouveauNomDeDossier\ cheminAPartirDIciVersAutreRepertoire\
+  (dans mon cas, je dois taper mklink /J M3104 ..\..\Users\Valentin\Documents\Bureau\partage-linux\DUT-Info\S3\M3104-Programmation_web_cote_serveur)
+- Si tout fonctionne, le message "Jonction créér pour nouveauNomDeDossier <<===>> cheminAPartirDIciVersAutreRepertoire" s'affiche
+  Sinon, recommencez en modifiant les chemins d'accès ;)
+
+Désormais, les scipts que vous modifierai dans le dossier www\ se mettront à jour dans l'autre dossier, et réciproquement !
+
+Bonne courage =)
+
+Valentin
