@@ -9,8 +9,8 @@
         if($password == "azerty123") // Change password here
         {
             $_SESSION['authentifie'] = true;
-            header('Location: http://iparla.iutbayonne.univ-pau.fr/~vgraglia/PHP/TD5/authentifie.php');
-            // header('Location: http://iparla.iutbayonne.univ-pau.fr/~votreLogin/PHP/TD5/authentifie.php');
+            header('Location: authentifie.php');
+            // si authentifie.php se trouve au même endroit que intranet.php
         }
         else
             echo "Mot de passe incorrect";
