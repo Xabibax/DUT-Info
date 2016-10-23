@@ -1,4 +1,4 @@
-<form action="envoyermail.php" method="post">
+<form action="envoyerMail.php" method="post">
     <?php
         $fic = "dons.txt";
         $nom = $_POST['nom'];

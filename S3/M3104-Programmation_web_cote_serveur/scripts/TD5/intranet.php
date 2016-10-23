@@ -9,8 +9,8 @@
         if($password == "azerty123") // Change password here
         {
             $_SESSION['authentifie'] = true;
-            header('Location: http://localhost/M3104/scripts/TD5/serveurLocal/authentifie.php');
-            // header('Location: http://localhost/votreNomDeDossier/authentifie.php');
+            header('Location: authentifie.php'); // fonctionne pour IUT et Wamp
+            // Ou (Wamp) : header('Location: http://localhost/votreNomDeDossier/authentifie.php');
         }
         else
             echo "Mot de passe incorrect";
