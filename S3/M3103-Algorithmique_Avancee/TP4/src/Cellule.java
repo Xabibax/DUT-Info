@@ -4,7 +4,6 @@ public class Cellule
 		
 	public Cellule(double valeur)
 	{
-		super();
 		this.valeur = valeur;
 	}
 	
