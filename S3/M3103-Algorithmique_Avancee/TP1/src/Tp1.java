@@ -8,6 +8,7 @@ public class Tp1
 
 		int tab[] = {7, 2, 4, 0, 2, 0, 8, 1, -2, 10};
 		int choix = 3;
+		boolean estCroissant = false;
 
 		switch(choix)
 		{
@@ -19,7 +20,7 @@ public class Tp1
 			t.afficherSommeTableau(tab);
 			break;
 		case 3:
-			t.trierValeursTableau(tab);
+			t.trierValeursTableau(tab, estCroissant);
 			t.affichageDuTableau(tab);
 			break;
 		}
@@ -41,7 +42,7 @@ public class Tp1
 		return 0;
 	}
 
-	void trierValeursTableau(int tab[])
+	void trierValeursTableau(int tab[], boolean estCroissant)
 	{
 		int temp;
 
@@ -49,11 +50,23 @@ public class Tp1
 		{
 			for(int j=0; j<tab.length - 1; j++)
 			{
-				if(tab[j] > tab[j+1])
+				if(estCroissant)
 				{
-					temp = tab[j+1];
-					tab[j+1] = tab[j];
-					tab[j] = temp;
+					if(tab[j] > tab[j+1])
+					{
+						temp = tab[j+1];
+						tab[j+1] = tab[j];
+						tab[j] = temp;
+					}
+				}
+				else
+				{
+					if(tab[j] < tab[j+1])
+					{
+						temp = tab[j+1];
+						tab[j+1] = tab[j];
+						tab[j] = temp;
+					}
 				}
 			}
 		}

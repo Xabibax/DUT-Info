@@ -1,4 +1,4 @@
-public class TesteTanks
+public class TestTank
 {
 	public static void main(String[] args)
 	{

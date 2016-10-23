@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Valentin/Documents/Bureau/partage-linux/DUT-Info/S3/M3103-Algorithmique_Avancée/TP6/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Valentin/Documents/Bureau/partage-linux/DUT-Info/S3/M3103-Algorithmique_Avancee/TP6/jdom-2.0.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

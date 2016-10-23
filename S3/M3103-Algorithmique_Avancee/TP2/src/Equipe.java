@@ -5,8 +5,7 @@ public class Equipe
 	private String nom;
 	private int nombreJoueur;
 	private final int NOMBREMAXJOUEUR = 10;
-	private Joueur listeJoueur[] = new Joueur[10];
-	// TODO: try to fix final on listeJoueur[] (private Joueur listeJoueur = new Joueur[NOMBREMAXJOUEUR]; ?)
+	private Joueur listeJoueur[] = new Joueur[NOMBREMAXJOUEUR];	
 
 	// Constructeur
 	public Equipe(int id, String nom)
@@ -26,13 +25,13 @@ public class Equipe
 			nombreJoueur++;
 		}
 		else
-			System.out.println("Erreur : il y a d�j� bien assez de joueur dans cette �quipe !");
+			System.out.println("Erreur : nombre de joueur maximum atteint !");
 	}
 
 	// Afficher seulement les joueurs titulaires
 	public void afficherTitulaires()
 	{
-		System.out.println(nom + " - Titulaire(s) : ");
+		System.out.println(id + " - " + nom + " - Titulaire(s) : ");
 
 		for(int i=0; i<nombreJoueur; i++)
 		{
@@ -44,7 +43,7 @@ public class Equipe
 	// Afficher seulement les joueurs rempla�ants
 	public void afficherRemplacants()
 	{
-		System.out.println(nom + " - Rempla�ant(s) : ");
+		System.out.println(id + " - " + nom + " - Remplaçant(s) : ");
 
 		for(int i=0; i<nombreJoueur; i++)
 		{
@@ -59,7 +58,7 @@ public class Equipe
 		if(nombreJoueur > 0)
 			listeJoueur[caseASupprimer] = null;
 		else
-			System.out.println("Erreur : il n'y a aucun joueur � supprimer !");
+			System.out.println("Erreur : il n'y a aucun joueur à supprimer !");
 	}
 
 	// Supprimer un joueur du tableau en utilisant son ID

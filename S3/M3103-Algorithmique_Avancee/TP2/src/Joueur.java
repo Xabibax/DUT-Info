@@ -35,14 +35,14 @@ public class Joueur
 	public void setPoste(String poste) {this.poste = poste;}
 	public void setTitulaire(boolean estTitulaire) {this.estTitulaire = estTitulaire;}
 
-	// Affichage des "propri�t�s" du joueur
+	// Affichage des "propriétés" du joueur
 	public void afficherJoueur()
 	{
-		System.out.println("  Identifiant : " + getId());
-		System.out.println("  Nom : " + getNom());
-		System.out.println("  Pr�nom : " + getPrenom());
-		System.out.println("  Maillot : " + getNumero());
-		System.out.println("  Poste : " + getPoste());
-		System.out.println("  Titulaire : " + getTitulaire() + "\n");
+		System.out.println("    Identifiant : " + getId());
+		System.out.println("    Nom : " + getNom());
+		System.out.println("    Prénom : " + getPrenom());
+		System.out.println("    Maillot : " + getNumero());
+		System.out.println("    Poste : " + getPoste());
+		System.out.println("    Titulaire : " + getTitulaire() + "\n");
 	}
 }

@@ -1,14 +1,14 @@
-public class tp2
+public class Tp2
 {
 
 	public static void main(String args[])
 	{
-		Joueur j1 = new Joueur(1, "GRAGLIA", "Valentin", 12, "Gardien", true);
-		Joueur j2 = new Joueur(2, "PORTES NARRIEU", "Alex", 3, "Attaquant", false);
-		Joueur j3 = new Joueur(3, "IN�ABY", "Bastien", 4, "D�fenseur", true);
+		Joueur j1 = new Joueur(1, "CLARK", "Kent", 12, "Gardien", true);
+		Joueur j2 = new Joueur(2, "WAYNE", "Bruce", 3, "Attaquant", false);
+		Joueur j3 = new Joueur(3, "STARK", "Tony", 4, "Défenseur", true);
 
-		Equipe e1 = new Equipe(1, "�quipe IUT 1");
-		Equipe e2 = new Equipe(2, "�quipe IUT 2");
+		Equipe e1 = new Equipe(1, "Équipe IUT");
+		Equipe e2 = new Equipe(2, "Équipe IUT");
 
 		e1.ajouterJoueur(j1.getId(), j1.getNom(), j1.getPrenom(),j1.getNumero(), j1.getPoste(), j1.getTitulaire());
 		e1.ajouterJoueur(j2.getId(), j2.getNom(), j2.getPrenom(),j2.getNumero(), j2.getPoste(), j2.getTitulaire());

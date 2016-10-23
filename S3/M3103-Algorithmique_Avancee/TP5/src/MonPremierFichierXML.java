@@ -4,10 +4,10 @@ import org.jdom2.output.*;
 
 public class MonPremierFichierXML
 {
-	//Nous allons commencer notre arborescence en cr�ant la racine XML qui sera ici "personnes".
+	//Nous allons commencer notre arborescence en créant la racine XML qui sera ici "personnes".
 	static Element racine = new Element("personnes");
 
-	//On cr�e un nouveau Document JDOM bas� sur la racine que l'on vient de cr�er
+	//On crée un nouveau Document JDOM basé sur la racine que l'on vient de créer
 	static org.jdom2.Document document = new Document(racine);
 
 	static void affiche()
@@ -29,8 +29,8 @@ public class MonPremierFichierXML
 			// On utilise ici un affichage classique avec getPrettyFormat()
 			XMLOutputter sortie = new XMLOutputter(Format.getPrettyFormat());
 
-			// Remarquez qu'il suffit simplement de cr�er une instance de FileOutputStream avec en argument le
-			// nom du fichier pour effectuer la s�rialisation.
+			// Remarquez qu'il suffit simplement de créer une instance de FileOutputStream avec en argument le
+			// nom du fichier pour effectuer la sérialisation.
 			sortie.output(document, new FileOutputStream(fichier));
 		}
 
@@ -42,21 +42,21 @@ public class MonPremierFichierXML
 	 */
 	public static void main(String[] args)
     {
-		// On cr�e un nouvel Element etudiant et on l'ajoute en tant qu'Element de racine
+		// On crée un nouvel Element etudiant et on l'ajoute en tant qu'Element de racine
         Element etudiant = new Element("etudiant");
         racine.addContent(etudiant);
 
-        // On cr�e un nouvel Attribut classe et on l'ajoute �� etudiant gr�ce �� la m�thode setAttribute
+        // On crée un nouvel Attribut classe et on l'ajoute à etudiant grâce à la méthode setAttribute
         Attribute classe = new Attribute("classe", "P2");
         etudiant.setAttribute(classe);
 
-        // On cr�e un nouvel Element nom, on lui assigne du texte et on l'ajoute en tant
+        // On crée un nouvel Element nom, on lui assigne du texte et on l'ajoute en tant
         // qu'Element de etudiant
         Element nom = new Element("nom");
         nom.setText("CynO");
         etudiant.addContent(nom);
 
-        // 3 Cr�er un fichier XML
+        // 3 Créer un fichier XML
         Element prenoms = new Element("prenoms");
         etudiant.addContent(prenoms);
 
@@ -93,7 +93,7 @@ public class MonPremierFichierXML
         // On affiche le document XML
         affiche();
 
-        // On cr�e le fichier Exercice1.xml dans lequel on enregistre le document XML
+        // On crée le fichier Exercice1.xml dans lequel on enregistre le document XML
         enregistre("Exercice1.xml");
 	}
 }
