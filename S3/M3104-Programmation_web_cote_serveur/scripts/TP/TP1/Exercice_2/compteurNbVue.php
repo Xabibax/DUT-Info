@@ -1,14 +1,14 @@
 <?php
     session_start();
 
-    if(file_exists('compteur_visites.txt'))
+    if(file_exists('compteurNbVu.txt'))
     {
-        $compteur_f = fopen('compteur_visites.txt', 'r+');
+        $compteur_f = fopen('compteurNbVu.txt', 'r+');
         $compte = fgets($compteur_f);
     }
     else
     {
-        $compteur_f = fopen('compteur_visites.txt', 'a+');
+        $compteur_f = fopen('compteurNbVu.txt', 'a+');
         $compte = 0;
     }
 
