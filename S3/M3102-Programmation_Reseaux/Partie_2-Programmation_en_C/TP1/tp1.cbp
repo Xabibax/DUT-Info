@@ -19,7 +19,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="serveur.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
