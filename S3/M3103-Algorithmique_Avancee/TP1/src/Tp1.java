@@ -26,23 +26,22 @@ public class Tp1
 		}
 	}
 
-	void affichageDuTableau(int tab[])
+	public void affichageDuTableau(int tab[])
 	{
 		for(int i=0; i<tab.length; i++)
 			System.out.println(tab[i]);
 	}
 
-	int afficherSommeTableau(int tab[])
+	public void afficherSommeTableau(int tab[])
 	{
 		int somme = 0;
 		for(int i=0; i<tab.length; i++)
 			somme+=tab[i];
 
 		System.out.println(somme);
-		return 0;
 	}
 
-	void trierValeursTableau(int tab[], boolean estCroissant)
+	public void trierValeursTableau(int tab[], boolean estCroissant)
 	{
 		int temp;
 
