@@ -13,7 +13,7 @@ suivez la procédure suivante :
    puisque wamp est stocké ici dans C:\wamp64)
 - Tapez maintenant : mklink /J nouveauNomDeDossier\ cheminAPartirDIciVersAutreRepertoire\
   (dans mon cas, je dois taper mklink /J M3104 ..\..\Users\Valentin\Documents\Bureau\partage-linux\DUT-Info\S3\M3104-Programmation_web_cote_serveur)
-- Si tout fonctionne, le message "Jonction créér pour nouveauNomDeDossier <<===>> cheminAPartirDIciVersAutreRepertoire" s'affiche
+- Si tout fonctionne, le message "Jonction créé pour nouveauNomDeDossier <<===>> cheminAPartirDIciVersAutreRepertoire" s'affiche
   Sinon, recommencez en modifiant les chemins d'accès ;)
 
 Désormais, les scipts que vous modifierez dans le dossier www\ se mettront à jour dans l'autre dossier, et réciproquement !
