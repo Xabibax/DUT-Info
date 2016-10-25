@@ -6,7 +6,7 @@ Afin de vous aider dans votre démarche et de vous éviter de copier/coller tout l
 suivez la procédure suivante :
 
 - Ouvrez un invite de commande (cmd) EN ADMINISTRATEUR
-- Placez-vous dans le répretoire de wamp puis allez dans le dossier www\ de ce dernier.
+- Placez-vous dans le répertoire de wamp puis allez dans le dossier www\ de ce dernier.
   à l'aide de la commande cd nomDossier\
   (pour ma part, l'invite de commande se lance dans C:\Windows\system32\
    je dois donc taper cd ..\..\wamp64\www\
@@ -16,8 +16,8 @@ suivez la procédure suivante :
 - Si tout fonctionne, le message "Jonction créér pour nouveauNomDeDossier <<===>> cheminAPartirDIciVersAutreRepertoire" s'affiche
   Sinon, recommencez en modifiant les chemins d'accès ;)
 
-Désormais, les scipts que vous modifierai dans le dossier www\ se mettront à jour dans l'autre dossier, et réciproquement !
+Désormais, les scipts que vous modifierez dans le dossier www\ se mettront à jour dans l'autre dossier, et réciproquement !
 
-Bonne courage =)
+Bon courage =)
 
 Valentin
