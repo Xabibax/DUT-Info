@@ -1,3 +1,0 @@
-Clark KENT | 25 | superman@krypton.pow
-Bruce WAYNE | 100 | batman@alfred.bat
-Tony STARK | 42 | iamironman@industries.stark
